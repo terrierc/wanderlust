@@ -74,7 +74,8 @@ http.createServer(async (req, res) => {
     if (offlineServer && req.url.startsWith('/api/')) { res.writeHead(503, { 'Content-Type': 'application/json' }); res.end('{"error":"Simulated outage"}'); return; }
     const host = req.headers.host, url = 'http://' + host + req.url, parts = [];
     for await (const part of req) parts.push(part);
-    const response = await worker.fetch(new Request(url, { method: req.method, headers: req.headers, ...(parts.length ? { body: Buffer.concat(parts) } : {}) }), env);
+    const request = new Request(url, { method: req.method, headers: req.headers, ...(parts.length ? { body: Buffer.concat(parts) } : {}) });
+    const pth = new URL(url).pathname, response = /^\/(s|shares)(\/|$)/.test(pth) ? await (await import('./netlify/functions/share.mjs')).handle(request, env) : await worker.fetch(request, env); // read-only trip links, as on Netlify
     const headers = Object.fromEntries(response.headers);
     res.writeHead(response.status, headers);
     res.end(Buffer.from(await response.arrayBuffer()));

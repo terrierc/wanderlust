@@ -1,7 +1,7 @@
 // Wanderlust data model shared by the Worker and the browser client.
 // The Worker build concatenates this file after stripping `export`, so it must stay dependency-free.
 
-export const HUB_KINDS = ['preferences', 'legs', 'days', 'research', 'bookings', 'votes', 'journal', 'reminders', 'contacts', 'phrases', 'requests', 'segments', 'people', 'blackouts', 'savings', 'settlements', 'fares', 'fareTargets'];
+export const HUB_KINDS = ['preferences', 'legs', 'days', 'research', 'bookings', 'votes', 'journal', 'reminders', 'contacts', 'phrases', 'requests', 'segments', 'people', 'blackouts', 'savings', 'settlements', 'fares', 'fareTargets', 'expenses'];
 export const PLACE_STATUSES = ['Unconfirmed', 'Confirm visit', 'Want to go', 'Planning', 'Booked', 'Visited'];
 export const TRIP_STATUSES = ['Idea', 'Researching', 'Planning', 'Booked', 'Completed', 'On hold'];
 export const COUNTRY_STATUSES = ['Visited', 'Limited visit', 'Want to go'];

@@ -48,7 +48,8 @@ for (const f of await walk('assets/map/sprites')) files['sprites/' + path.basena
 for (const f of await walk('maps')) files['maps/' + path.basename(f)] = await fs.readFile(f);
 for (const f of await walk('assets/icons')) files['icons/' + path.basename(f)] = await fs.readFile(f);
 if (process.env.WANDERLUST_BUILD_SALT) files['data/build-salt.txt'] = Buffer.from(process.env.WANDERLUST_BUILD_SALT);
-files['data/seed.json'] = Buffer.from(JSON.stringify({ places, profile: profileSeed, forty, photos, scenes, plan }));
+const emergency = JSON.parse(await read('plan/emergency.json'));
+files['data/seed.json'] = Buffer.from(JSON.stringify({ places, profile: profileSeed, forty, photos, scenes, plan, emergency }));
 
 const BUILD = hash(Buffer.concat(Object.keys(files).sort().map(k => Buffer.concat([Buffer.from(k), files[k]])))).slice(0, 12);
 const A = '/app/' + BUILD + '/';
@@ -129,7 +130,7 @@ const json=(d,s=200)=>new Response(JSON.stringify(d),{status:s,headers:{'Content
 const PROFILE_SEED=${JSON.stringify(profileSeed)};const FORTY=${JSON.stringify(forty)};const PLACES_SEED=${JSON.stringify(places)};
 ${server}
 ${API_FETCH}
-export default {async fetch(req,env){const u=new URL(req.url);const m=await handleTravelMCP(req,env,u);if(m)return m;if(req.method==='GET'&&u.pathname==='/api/maps')return json({regions:STATIC_MAPS});if(u.pathname.startsWith('/feed/'))return (await handleFeed(req,env,u))||new Response('Not found',{status:404});return apiFetch(req,env,u)}};\nexport const internals={loadSyncDocs,keyDates,readJSON};`;
+export default {async fetch(req,env){const u=new URL(req.url);const m=await handleTravelMCP(req,env,u);if(m)return m;if(req.method==='GET'&&u.pathname==='/api/maps')return json({regions:STATIC_MAPS});if(u.pathname.startsWith('/feed/'))return (await handleFeed(req,env,u))||new Response('Not found',{status:404});return apiFetch(req,env,u)}};\nexport const internals={loadSyncDocs,keyDates,readJSON,pushOps};`;
   await fs.mkdir('dist/netlify-server', { recursive: true }); await fs.writeFile('dist/netlify-server/index.mjs', lite);
   console.log('Netlify target:', catalog.length, 'map regions,', (Buffer.byteLength(lite) / 1024).toFixed(0), 'KB API function');
 }

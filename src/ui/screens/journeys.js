@@ -1,4 +1,4 @@
-import { esc, icon, photo, pill, statusTone, field, formValues, compass, empty } from '../kit.js';
+import { esc, icon, photo, pill, statusTone, field, formValues, compass, empty, coverId } from '../kit.js';
 import { TRIP_STATUSES } from '../../core/model.js';
 import { newId } from '../../core/store.js';
 import { costTotals, money, nightsOf, budgetLabel, prettyDate, legDuration, todayISO } from '../../core/domain.js';
@@ -7,21 +7,21 @@ import { fortyModel } from '../../core/domain.js';
 
 const GROUPS = [['Under way', t => !t.planId && !t.foldedInto?.length && ['Planning', 'Booked', 'Researching'].includes(t.status)], ['Ideas', t => !t.planId && !t.foldedInto?.length && t.status === 'Idea'], ['Only when safe', t => t.status === 'On hold'], ['Completed', t => t.status === 'Completed']];
 
-export function vicBadges(ctx, t) {
+export function partnerBadges(ctx, t) {
   const legs = ctx.store.records('segments', t.id).filter(l => l.option.startsWith('Partner'));
   return legs.map(l => '<span class="pill ' + (l.partner === 'yes' ? 'visited' : l.partner === 'no' ? 'hold' : 'wish') + '">' + esc(l.option) + ': ' + esc(l.partner) + '</span>').join(' ');
 }
 function planTile(t, ctx) {
   const c = tripChecks(ctx.store, ctx.PLAN, ctx.FORTY, t);
-  return '<li><a class="trip-tile" href="/journeys/' + esc(t.id) + '">' + (ctx.PHOTOS[t.theme] ? photo(ctx.PHOTOS, t.theme, { cls: 'tile-photo' }) : '<div class="tile-photo drawn">' + compass + '</div>') +
+  return '<li><a class="trip-tile" href="/journeys/' + esc(t.id) + '">' + (coverId(ctx, t) ? photo(ctx.PHOTOS, coverId(ctx, t), { cls: 'tile-photo' }) : '<div class="tile-photo drawn">' + compass + '</div>') +
     '<div class="tile-body"><div class="row between">' + pill(t.status, statusTone(t.status)) + '<span class="muted small">' + esc(windowLabel(t.windowStart, t.windowEnd)) + (t.lengthNote ? ' · ' + esc(t.lengthNote) : '') + '</span></div><h3>' + esc(t.name) + '</h3><p>' + esc(t.scope || '') + '</p>' +
-    '<p class="badges">' + vicBadges(ctx, t) + '</p>' +
+    '<p class="badges">' + partnerBadges(ctx, t) + '</p>' +
     (c.seasonWarnings.length ? '<p class="flag-line">' + icon('alert') + ' Outside best months: ' + esc(c.seasonWarnings.map(s => s.entry.name).join(', ')) + '</p>' : '') +
     (c.afterDeadline ? '<p class="flag-line">' + icon('alert') + ' Ends after your forty date</p>' : '') + '</div></a></li>';
 }
 function tile(t, ctx) {
   const tot = costTotals(ctx.store.list('cost', t.id));
-  return '<li><a class="trip-tile" href="/journeys/' + esc(t.id) + '">' + (ctx.PHOTOS[t.theme] ? photo(ctx.PHOTOS, t.theme, { cls: 'tile-photo' }) : '<div class="tile-photo drawn">' + compass + '</div>') +
+  return '<li><a class="trip-tile" href="/journeys/' + esc(t.id) + '">' + (coverId(ctx, t) ? photo(ctx.PHOTOS, coverId(ctx, t), { cls: 'tile-photo' }) : '<div class="tile-photo drawn">' + compass + '</div>') +
     '<div class="tile-body"><div class="row between">' + pill(t.status, statusTone(t.status)) + (t.startDate ? '<span class="muted small">' + esc(prettyDate(t.startDate, { month: 'short', year: 'numeric' })) + '</span>' : '') + '</div><h3>' + esc(t.name) + '</h3><p>' + esc(t.scope || '') + '</p>' +
     '<p class="muted small">' + (t.stops?.length || 0) + ((t.stops?.length || 0) === 1 ? ' stop · ' : ' stops · ') + nightsOf(t) + ' nights · ' + esc(budgetLabel(t)) + (tot.length ? ' · ' + tot.map(x => money(x.known, x.currency) + ' known' + (x.unknown ? ', ' + x.unknown + ' unpriced' : '')).join('; ') : '') + '</p>' +
     (t.nextAction ? '<p class="next">' + icon('arrow') + ' ' + esc(t.nextAction) + '</p>' : '') + '</div></a></li>';

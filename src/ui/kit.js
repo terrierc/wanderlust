@@ -16,7 +16,7 @@ const P = {
   cloud: '<path d="M7 18h10a4 4 0 0 0 .5-8A6 6 0 0 0 6 11a3.5 3.5 0 0 0 1 7z"/>', offline: '<path d="M7 18h10a4 4 0 0 0 .5-8A6 6 0 0 0 6 11a3.5 3.5 0 0 0 1 7z"/><path d="M4 4l16 16"/>',
   sync: '<path d="M20 11a8 8 0 0 0-14.3-4.3L4 9M4 13a8 8 0 0 0 14.3 4.3L20 15"/><path d="M4 4v5h5M20 20v-5h-5"/>', alert: '<path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17v.5"/>',
   pin: '<path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.4"/>', file: '<path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/>',
-  camera: '<path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/>', download: '<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>', external: '<path d="M14 4h6v6M20 4l-9 9M18 14v5H5V6h5"/>',
+  camera: '<path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/>', download: '<path d="M12 4v11M7 10l5 5 5-5M5 20h14"/>', external: '<path d="M14 4h6v6M20 4l-9 9M18 14v5H5V6h5"/>', plane: '<path d="M10.5 21l2-7-6-3 1.5-1.5 6.5 1.5 4-4c.8-.8 2.2-.8 2.5 0 .3.8-.2 1.7-1 2.5l-4 4 1.5 6.5L16 22.5l-3-6-2.5 4.5z"/>', sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>', moon: '<path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/>', auto: '<circle cx="12" cy="12" r="8"/><path d="M12 4v16" /><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/>', menu: '<path d="M4 7h16M4 12h16M4 17h10"/>', tag: '<path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/>', bell: '<path d="M6 16V11a6 6 0 0 1 12 0v5l2 2H4zM10 20a2 2 0 0 0 4 0"/>',
   map: '<path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/>', list: '<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>', grid: '<rect x="4" y="4" width="7" height="7"/><rect x="13" y="4" width="7" height="7"/><rect x="4" y="13" width="7" height="7"/><rect x="13" y="13" width="7" height="7"/>',
   trash: '<path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/>', edit: '<path d="M4 20h4L19 9l-4-4L4 16z"/>', swap: '<path d="M7 7h12l-3-3M17 17H5l3 3"/>', lock: '<rect x="5" y="11" width="14" height="9" rx="1"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>',
   close: '<path d="M6 6l12 12M18 6 6 18"/>', up: '<path d="m6 15 6-6 6 6"/>', down: '<path d="m6 9 6 6 6-6"/>', spark: '<path d="M12 2l1.6 6.4L20 10l-6.4 1.6L12 18l-1.6-6.4L4 10l6.4-1.6z"/>',
@@ -87,3 +87,9 @@ export const ext = (href, label) => { const u = safeURL(href); return u ? '<a cl
 export function empty(title, body, action = '') { return '<div class="empty">' + compass + '<h3>' + esc(title) + '</h3><p>' + esc(body) + '</p>' + action + '</div>'; }
 export const fmtBytes = n => n == null ? '—' : n < 1024 ? n + ' B' : n < 1048576 ? (n / 1024).toFixed(0) + ' KB' : n < 1073741824 ? (n / 1048576).toFixed(1) + ' MB' : (n / 1073741824).toFixed(2) + ' GB';
 export function ago(iso) { if (!iso) return 'never'; const s = (Date.now() - new Date(iso)) / 1000; return s < 60 ? 'just now' : s < 3600 ? Math.round(s / 60) + ' min ago' : s < 86400 ? Math.round(s / 3600) + ' h ago' : new Date(iso).toLocaleDateString('en-AU', { day: 'numeric', month: 'short' }); }
+
+// A trip's cover photo: its chosen theme, else a photo of one of its forty places, else one of its stops.
+export function coverId(ctx, t) {
+  if (!t) return null; const has = id => id && ctx.PHOTOS[id] ? id : null;
+  return has(t.theme) || ctx.FORTY.entries.filter(e => ctx.store.get('fortyEntry', e.id)?.tripId === t.id).map(e => has(e.photoId) || has(e.id) || has(e.placeId)).find(Boolean) || (t.stops || []).map(x => has(x.id)).find(Boolean) || null;
+}

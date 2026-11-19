@@ -33,11 +33,13 @@ Plan journeys stop by stop and day by day. Track budgets with "blank = not decid
    | `WANDERLUST_PASSPHRASE_PARTNER` | no | A second passphrase for a travel partner (11 or more characters). |
    | `WANDERLUST_TIMEZONE` | no | For reminders, e.g. `Europe/London`. Default `Australia/Melbourne`. |
    | `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY` | no | For push reminders. Generate them with `npx web-push generate-vapid-keys`. |
+   | `SERPAPI_KEY` | no | Turns on **Search flight deals** (Google Flights prices through [SerpApi](https://serpapi.com)). Leave it out and the Deals board still works with your own price log and search links. |
+   | `FAREWATCH_MONTHLY_CAP` | no | Most flight searches a month. Default 150, maximum 240, so SerpApi's free plan (250 a month) is never exceeded. |
 
 4. **Deploy** again so the variables take effect, then open your site and sign in.
 5. **On your phone,** open the site once, sign in, then *Add to Home Screen*. On iPhone this also stops Safari clearing the data after a week without use.
 
-Netlify's free plan is usually enough for one or two people; check their current limits. Wanderlust uses no paid APIs.
+Netlify's free plan is usually enough for one or two people; check their current limits. Wanderlust uses no paid APIs. Flight-deal searching is opt-in, and capped so it stays inside SerpApi's free plan.
 
 ### Make it yours
 

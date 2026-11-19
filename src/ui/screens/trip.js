@@ -1,4 +1,7 @@
-import { esc, icon, photo, pill, statusTone, field, formValues, ext, confirmDialog, toast, empty, safeURL, compass } from '../kit.js';
+import { esc, icon, photo, pill, statusTone, field, formValues, ext, confirmDialog, toast, empty, safeURL, compass, coverId } from '../kit.js';
+import { fab, spendPanel } from '../expense.js';
+import { emergencyHTML } from '../emergency.js';
+import { sharePanel, mountShare } from '../share.js';
 import { TRIP_STATUSES } from '../../core/model.js';
 import { newId } from '../../core/store.js';
 import { costTotals, money, nightsOf, budgetLabel, prettyDate, legDuration, staleness, deadlines, todayISO, isBlank, validZone } from '../../core/domain.js';
@@ -13,7 +16,7 @@ import { SPLITS, perPerson, balances } from '../../core/shared.js';
 import { settleHTML } from './settle.js';
 import { legFlights, routeKey, routeStats } from '../../core/fares.js';
 
-const TABS = [['overview', 'Overview'], ['route', 'Route'], ['days', 'Days'], ['wallet', 'Wallet'], ['money', 'Money'], ['tasks', 'Tasks'], ['research', 'Research'], ['together', 'Together'], ['journal', 'Journal']];
+const TABS = [['overview', 'Overview'], ['route', 'Route'], ['days', 'Days'], ['wallet', 'Wallet'], ['money', 'Money'], ['emergency', 'Emergency'], ['tasks', 'Tasks'], ['research', 'Research'], ['together', 'Together'], ['journal', 'Journal']];
 const PACKING = {
   'Polar expedition': ['Waterproof shell jacket and trousers', 'Insulated mid-layers', 'Thermal base layers', 'Warm hat, neck gaiter and waterproof gloves', 'Polarised sunglasses and high-SPF sunscreen', 'Seasickness remedies (ask your doctor)', 'Dry bags for camera gear'],
   'Safari': ['Neutral-coloured clothing', 'Binoculars', 'Wide-brim hat and sunscreen', 'Insect repellent', 'Soft-sided bag (light-aircraft weight limits)', 'Warm layer for early game drives', 'Headlamp'],
@@ -120,6 +123,7 @@ function tabBody(ctx, t, tab) {
   }
   if (tab === 'days') return section(ctx, t, 'days');
   if (tab === 'wallet') return section(ctx, t, 'bookings');
+  if (tab === 'emergency') return emergencyHTML(ctx, t);
   if (tab === 'money') {
     const costs = store.list('cost', t.id), tot = costTotals(costs), bookings = store.records('bookings', t.id), edit = q.edit && costs.find(c => c.id === q.edit), adding = q.add === 'cost';
     const sameCur = tot.find(x => x.currency === (t.budgetCurrency || 'AUD'));
@@ -160,10 +164,11 @@ export const view = {
     if (!t) return { title: 'Journey not found', html: '<section class="page narrow"><h1>This journey is not on this device.</h1><p>It may have been deleted on another device.</p><a class="btn" href="/journeys">Journeys</a></section>' };
     return {
       title: t.name, screen: 'trip',
-      html: '<header class="trip-head">' + (ctx.PHOTOS[t.theme] ? photo(ctx.PHOTOS, t.theme, { eager: true }) : '<div class="photo none drawn">' + compass + '</div>') + '<div class="trip-title"><a class="back" href="/journeys">' + icon('back') + ' Journeys</a><p class="eyebrow">' + pill(t.status, statusTone(t.status)) + (t.startDate ? ' · ' + esc(prettyDate(t.startDate)) : '') + '</p><h1>' + esc(t.name) + '</h1><p class="lede">' + esc(t.scope || '') + '</p></div></header>' +
+      html: '<header class="trip-head">' + (coverId(ctx, t) ? photo(ctx.PHOTOS, coverId(ctx, t), { eager: true }) : '<div class="photo none drawn">' + compass + '</div>') + '<div class="trip-title"><a class="back" href="/journeys">' + icon('back') + ' Journeys</a><p class="eyebrow">' + pill(t.status, statusTone(t.status)) + (t.startDate ? ' · ' + esc(prettyDate(t.startDate)) : '') + '</p><h1>' + esc(t.name) + '</h1><p class="lede">' + esc(t.scope || '') + '</p></div></header>' +
         '<nav class="tabs" aria-label="Journey sections"><div class="tabs-in">' + TABS.map(([k, l]) => '<a href="/journeys/' + esc(t.id) + (k === 'overview' ? '' : '/' + k) + '"' + (tab === k ? ' aria-current="page"' : '') + '>' + l + '</a>').join('') + '</div></nav>' +
-        '<div class="page trip-body">' + tabBody(ctx, t, tab) + '</div>',
+        '<div class="page trip-body">' + (tab === 'money' ? spendPanel(ctx, t) : '') + tabBody(ctx, t, tab) + (tab === 'overview' && ctx.config.mode !== 'packaged' ? sharePanel(t) : '') + '</div>' + fab(t.id, todayISO()),
       async mount(root) {
+        if (tab === 'overview') mountShare(ctx, root);
         for (const img of root.querySelectorAll('img[data-file]')) fileURL(ctx.store, ctx.sync, img.dataset.file).then(u => { img.src = u; }).catch(() => img.replaceWith(Object.assign(document.createElement('p'), { className: 'muted small', textContent: 'Photo not downloaded to this device yet. Prepare this journey for offline while connected.' })));
         for (const a of root.querySelectorAll('a[data-file-link]')) fileURL(ctx.store, ctx.sync, a.dataset.fileLink).then(u => { a.href = u; }).catch(() => { a.removeAttribute('href'); a.classList.add('missing'); a.title = 'Not downloaded to this device yet'; });
         const target = ctx.route.query.open && root.querySelector('#r-' + CSS.escape(ctx.route.query.open)); if (target) target.scrollIntoView({ block: 'center' });

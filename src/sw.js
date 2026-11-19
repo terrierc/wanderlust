@@ -28,7 +28,7 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('message', e => { if (e.data?.type === 'skipWaiting') self.skipWaiting(); });
 
-const PASS = /^\/(api|mcp|feed)(\/|$)|^\/maps\/[^/]+\.pmtiles$|^\/sw\.js$/;
+const PASS = /^\/(api|mcp|feed|s|shares|fares)(\/|$)|^\/maps\/[^/]+\.pmtiles$|^\/sw\.js$/;
 const APP_ROUTES = /^\/($|explore|place|plan|journeys|wallet|settle|deals|documents|forty|story|today|search|more|prepare|index\.html)/;
 
 self.addEventListener('fetch', event => {

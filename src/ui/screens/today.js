@@ -1,4 +1,5 @@
 import { esc, icon, ext, empty } from '../kit.js';
+import { fab, spendPanel } from '../expense.js';
 import { todayISO, prettyDate, addDays, deadlines, legDuration, staleness } from '../../core/domain.js';
 
 // Which journey is "today"? The one whose saved dates include today's local date.
@@ -36,7 +37,7 @@ export const view = {
           safety.map(r => '<p><strong>' + esc(r.title) + ':</strong> ' + esc(r.notes || '') + ' <span class="muted small">checked ' + esc(r.checked || 'not recorded') + '</span>' + (staleness(r) ? ' <span class="flag">' + esc(staleness(r)) + '</span>' : '') + '</p>').join(''), 'keep') +
         (due.length ? card('Coming up this week', '<ul class="deadlines">' + due.map(d => '<li><span class="date">' + esc(prettyDate(d.date, { weekday: 'short', day: 'numeric', month: 'short' })) + '</span><span>' + esc(d.kind) + ' · ' + esc(d.title) + '</span></li>').join('') + '</ul>') : '') +
         '<nav class="day-step" aria-label="Change day"><a class="btn" href="/today?trip=' + esc(t.id) + '&date=' + addDays(date, -1) + '" aria-label="Previous day">' + icon('back') + '<span>Previous</span></a><a class="btn primary" href="/today?trip=' + esc(t.id) + '">Today</a><a class="btn" href="/today?trip=' + esc(t.id) + '&date=' + addDays(date, 1) + '" aria-label="Next day"><span>Next</span> ' + icon('arrow') + '</a></nav>' +
-        '<p class="row"><a class="btn ghost" href="/wallet">' + icon('file') + ' Wallet: all bookings</a><a class="btn ghost" href="/journeys/' + esc(t.id) + '">Open journey</a></p><p class="muted small">Everything above is stored on this device. Links marked “Needs a connection” open websites.</p></section>',
+        '<p class="row"><a class="btn ghost" href="/wallet">' + icon('file') + ' Wallet: all bookings</a><a class="btn ghost" href="/journeys/' + esc(t.id) + '">Open journey</a><a class="btn ghost" href="/journeys/' + esc(t.id) + '/emergency">' + icon('alert') + ' Emergency card</a></p>' + spendPanel(ctx, t, { date, compact: true }) + '<p class="muted small">Everything above is stored on this device. Links marked “Needs a connection” open websites.</p></section>' + fab(t.id, date),
       async mount(root) {
         const { fileURL } = await import('../../core/files.js');
         for (const a of root.querySelectorAll('a[data-file-link]')) fileURL(store, ctx.sync, a.dataset.fileLink).then(u => { a.href = u; }).catch(() => { a.removeAttribute('href'); a.textContent += ' (not on this device yet)'; });

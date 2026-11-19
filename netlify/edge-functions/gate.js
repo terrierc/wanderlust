@@ -7,7 +7,7 @@ async function sign(secret, msg) { const k = await crypto.subtle.importKey('raw'
 function same(a, b) { if (a.length !== b.length) return false; let d = 0; for (let i = 0; i < a.length; i++) d |= a.charCodeAt(i) ^ b.charCodeAt(i); return d === 0; }
 // Two people, two passphrases: WANDERLUST_PASSPHRASE (You) and WANDERLUST_PASSPHRASE_PARTNER (Partner).
 // Each can be changed or removed on its own, which signs only that person out.
-const people = () => [['me', Netlify.env.get('WANDERLUST_PASSPHRASE')], ['partner', Netlify.env.get('WANDERLUST_PASSPHRASE_PARTNER') || Netlify.env.get('WANDERLUST_PASSPHRASE_PARTNERTORIA')]].filter(([, s]) => s && s.length >= 10);
+const people = () => [['me', Netlify.env.get('WANDERLUST_PASSPHRASE')], ['partner', Netlify.env.get('WANDERLUST_PASSPHRASE_PARTNER')]].filter(([, s]) => s && s.length >= 10);
 async function who(token) {
   const parts = (token || '').split('.'); if (!parts[0] || +parts[0] < Date.now() / 1000) return null;
   for (const [id, secret] of people()) {
@@ -25,6 +25,7 @@ export default async (req, context) => {
   if (!people().length) return new Response('Wanderlust is locked until WANDERLUST_PASSPHRASE (10+ characters) is set in the Netlify site settings.', { status: 503, headers: { 'Content-Type': 'text/plain' } });
   const url = new URL(req.url);
   if (/^\/feed\/[a-f0-9]{48}\.ics$/.test(url.pathname)) return context.next(); // calendar apps: the long random token in the URL is the key
+  if (url.pathname === '/s/sw.js' || /^\/s\/[A-Za-z0-9_-]{43}(\/data\.json)?\/?$/.test(url.pathname)) { const h = new Headers(req.headers); h.delete('x-elsewhere-person'); return context.next(new Request(req, { headers: h })); } // read-only trip links: the 256-bit token in the URL is the key
   if (url.pathname === '/__unlock' && req.method === 'POST') {
     const form = await req.formData().catch(() => null), given = String(form?.get('passphrase') || '');
     await new Promise(r => setTimeout(r, 700)); // slows guessing

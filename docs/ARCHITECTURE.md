@@ -22,6 +22,10 @@ A vanilla-JS single-page app (ES modules, no framework) with a small server. The
 - `core/store.js`: the local source of truth. An in-memory entity map backed by IndexedDB. Every edit is one transaction: entity plus outbox operation.
 - `core/sync.js`: uploads files, pushes the outbox (`/api/sync/push`), pulls (`/api/sync/pull`), replays unsent operations, and records conflicts ("Decisions waiting"). Retries with backoff and detects expired sign-in.
 - `core/plan.js`: the six-year plan. Validation, season and deadline checks, and idempotent migration operations.
+- `core/shared.js` and `core/spend.js`: planned-cost splits, spending on the road (hub kind `expenses`, split equally between the people each expense `covers`), trip parties (`partyOf`) and guests (`people` with `guest: 'yes'`). `ui/expense.js` is the quick-add sheet and the spending panel.
+- `core/share.js`, `ui/share.js` and `netlify/functions/share.mjs`: read-only trip links. The server stores only a SHA-256 fingerprint of each token (`shares/index.json`); `/s/<token>` is let through the gate because the token is the key.
+- `ui/emergency.js` with `plan/emergency.json`: the offline emergency card.
+- `netlify/functions/fare-watch.mjs`: **Search flight deals** (`POST /fares/search`), opt-in through `SERPAPI_KEY`, capped by `FAREWATCH_MONTHLY_CAP`.
 - `core/backup.js`, `core/exports.js`, `core/search.js`, `core/files.js`, `core/domain.js`, `offline.js` (download manager).
 - `sw.js`: versioned shell cache. Navigations are served cache-first from the shell; `/api`, `/mcp` and map archives are never cached. A new version waits for "Restart to update".
 

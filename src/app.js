@@ -15,6 +15,9 @@ import * as more from './ui/screens/more.js';
 import * as planScreen from './ui/screens/plan.js';
 import * as settle from './ui/screens/settle.js';
 import * as deals from './ui/screens/deals.js';
+import * as expense from './ui/expense.js';
+import * as emergency from './ui/emergency.js';
+import * as share from './ui/share.js';
 import * as documents from './ui/screens/documents.js';
 import { ZONES } from './core/domain.js';
 import { enhance, transition } from './ui/motion.js';
@@ -45,7 +48,7 @@ function match(path) {
 }
 
 const ctx = { config: CONFIG, A, actions: {}, forms: {}, cleanups: [] };
-for (const m of [explore, place, journeys, trip, forty, story, today, searchScreen, more, planScreen, settle, deals, documents]) { Object.assign(ctx.actions, m.actions || {}); Object.assign(ctx.forms, m.forms || {}); }
+for (const m of [explore, place, journeys, trip, forty, story, today, searchScreen, more, planScreen, settle, deals, documents, expense, emergency, share]) { Object.assign(ctx.actions, m.actions || {}); Object.assign(ctx.forms, m.forms || {}); }
 
 ctx.nav = (url, { replace = false } = {}) => {
   history.replaceState({ ...(history.state || {}), scroll: scrollY }, '');
@@ -90,11 +93,30 @@ function shell() {
     '<header class="top"><a class="brand" href="/" aria-label="Wanderlust, Explore">wanderlust<svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 1L23.2 15.5L34.1 5.9L24.5 16.8L39 20L24.5 23.2L34.1 34.1L23.2 24.5L20 39L16.8 24.5L5.9 34.1L15.5 23.2L1 20L15.5 16.8L5.9 5.9L16.8 15.5Z" fill="currentColor"/></svg></a>' +
     '<nav class="primary" aria-label="Main">' + NAV.map(([h, l, i]) => '<a href="' + h + '" data-navlink>' + icon(i) + '<span>' + l + '</span></a>').join('') + '</nav>' +
     '<div class="top-tools"><form class="gsearch" role="search" data-form="globalSearch"><label class="sr" for="gq">Search everything</label>' + icon('search') + '<input id="gq" name="q" type="search" placeholder="Search places, trips, bookings…" autocomplete="off"></form>' +
-    '<a class="syncchip" id="syncchip" href="/more/sync" aria-live="polite"></a><button class="iconbtn" data-act="openPalette" aria-label="Quick jump (Command K)" title="Quick jump (⌘K)" data-mobile-only>' + icon('search') + '</button><a class="iconbtn" href="/more" aria-label="More: sync, downloads, backup" data-navlink>' + icon('more') + '</a></div></header>' +
+    '<a class="syncchip" id="syncchip" href="/more/sync" aria-live="polite"></a><a class="dealbtn" href="/deals?search=1" title="Search flight deals now">' + icon('plane') + '<span>Flight deals</span></a><button class="iconbtn" data-act="openPalette" aria-label="Quick jump (Command K)" title="Quick jump (⌘K)" data-mobile-only>' + icon('search') + '</button><button class="menubtn" id="menubtn" aria-label="Menu" aria-haspopup="true" aria-expanded="false" aria-controls="moremenu" data-act="toggleMenu">' + icon('menu') + '<span>Menu</span></button></div></header>' + moreMenu() +
     '<div id="banner" role="status"></div><main id="main" tabindex="-1"></main>' +
     '<nav class="bottom" aria-label="Main">' + NAV.map(([h, l, i]) => '<a href="' + h + '" data-navlink>' + icon(i) + '<span>' + (l === 'The forty' ? 'The forty' : l === 'Travel story' ? 'Story' : l) + '</span></a>').join('') + '</nav>' +
     '<div id="toast" class="toast" role="status" aria-live="polite"></div><datalist id="zones">' + ZONES.map(z => '<option value="' + z + '">').join('') + '</datalist>';
 }
+// The labelled menu behind the header's Menu button: appearance, trips and money, your data, app.
+const MENU = [['Trips & money', [['/deals', 'Flight deals', 'Watch fares and search for deals', 'tag'], ['/wallet', 'Wallet', 'Every booking in one place', 'file'], ['/settle', 'Settle up', 'Who owes whom, across trips', 'swap'], ['/documents', 'Documents', 'Passports and tickets, this device only', 'lock']]],
+  ['Your data', [['/more/sync', 'Sync & account', 'Status, who is signed in', 'sync'], ['/more/conflicts', 'Decisions waiting', 'Edits that need your choice', 'alert'], ['/more/offline', 'Offline & downloads', 'Maps and trips for no signal', 'download'], ['/more/backup', 'Backup & restore', 'Save or restore everything', 'lock'], ['/more/import', 'Import & export', 'Spreadsheets, calendar, files', 'file']]],
+  ['App', [['/more/settings', 'Settings', 'Reminders, target date, preferences', 'edit'], ['/more/device', 'Data on this device', 'Storage and clearing', 'lock'], ['/more/about', 'How offline works', 'What needs a connection', 'cloud'], ['/more/credits', 'Photo & map credits', 'Photographers and licences', 'camera']]]];
+function moreMenu() {
+  return '<div class="moremenu" id="moremenu" hidden><h3>Appearance</h3><div class="themeseg" role="group" aria-label="Theme">' + [['auto', 'Auto', 'auto'], ['light', 'Light', 'sun'], ['dark', 'Dark', 'moon']].map(([v, l, i]) => '<button type="button" data-act="setTheme" data-theme-choice="' + v + '" aria-pressed="false">' + icon(i) + l + '</button>').join('') + '</div>' +
+    MENU.map(([h, items]) => '<h3>' + h + '</h3><ul>' + items.map(([href, l, d, i]) => '<li><a href="' + href + '">' + icon(i) + '<span><b>' + l + '</b><small>' + d + '</small></span></a></li>').join('') + '</ul>').join('') + '</div>';
+}
+function themeNow() { try { return localStorage.getItem('wl-theme') || 'auto'; } catch { return 'auto'; } }
+function applyTheme(t) {
+  if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme;
+  try { if (t === 'auto') localStorage.removeItem('wl-theme'); else localStorage.setItem('wl-theme', t); } catch {}
+  document.querySelectorAll('[data-theme-choice]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.themeChoice === t)));
+}
+function closeMenu(focus) { const m = document.getElementById('moremenu'), b = document.getElementById('menubtn'); if (!m || m.hidden) return; m.hidden = true; b?.setAttribute('aria-expanded', 'false'); if (focus) b?.focus(); }
+ctx.actions.toggleMenu = () => { const m = document.getElementById('moremenu'), b = document.getElementById('menubtn'); if (!m.hidden) return closeMenu(); applyTheme(themeNow()); m.hidden = false; b.setAttribute('aria-expanded', 'true'); m.querySelector('a,button')?.focus(); };
+ctx.actions.setTheme = el => { applyTheme(el.dataset.themeChoice); };
+document.addEventListener('click', e => { const m = document.getElementById('moremenu'); if (m && !m.hidden && !e.target.closest('#moremenu,#menubtn')) closeMenu(); if (e.target.closest('#moremenu a')) closeMenu(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeMenu(true); });
 const LABEL = { local: ['On this device', 'cloud'], idle: ['Saved here', 'cloud'], syncing: ['Syncing…', 'sync'], synced: ['Synced', 'check'], pending: ['Waiting to sync', 'sync'], offline: ['Offline · saved here', 'offline'], 'signed-out': ['Sign in to sync', 'alert'], error: ['Sync paused · will retry', 'alert'], conflict: ['Needs your decision', 'alert'], account: ['Different account', 'alert'] };
 function paintSync() {
   const s = ctx.sync.status, chip = document.getElementById('syncchip'); if (!chip) return;
@@ -146,7 +168,7 @@ async function boot() {
   const main = document.getElementById('main');
   main.innerHTML = '<section class="loading" aria-busy="true"><div class="loader">' + icon('spark') + '</div><p>Opening your atlas…</p></section>';
   const seed = await (await fetch(A + 'data/seed.json')).json();
-  Object.assign(ctx, { SEED: seed.places, PROFILE_SEED: seed.profile, FORTY: seed.forty, PHOTOS: seed.photos, SCENES: seed.scenes, PLAN: seed.plan });
+  Object.assign(ctx, { SEED: seed.places, PROFILE_SEED: seed.profile, FORTY: seed.forty, PHOTOS: seed.photos, SCENES: seed.scenes, PLAN: seed.plan, EMERGENCY: seed.emergency });
   const packaged = CONFIG.mode === 'packaged';
   let space = packaged ? 'local-device' : null, who = null;
   const last = await deviceGet('lastSpace');

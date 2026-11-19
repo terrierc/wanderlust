@@ -88,6 +88,9 @@ export const windowDates = t => t.windowStart ? [t.windowStart + '-01', lastDay(
 const daysBetween = (a, b) => Math.round((new Date(b) - new Date(a)) / 864e5) + 1;
 // "5 to 6 weeks" → 42 (the upper figure, so allowance warnings err on the cautious side). Blank → null.
 export function lengthDays(text) {
+  // Read the number(s) attached to "days" or "weeks", so dates elsewhere in the note ("17 days (22 Jan – 8 Feb 2027)") are ignored.
+  const m = String(text || '').match(/(\d+(?:\.\d+)?)(?:\s*(?:to|–|-)\s*(\d+(?:\.\d+)?))?\s*(day|week)/i);
+  if (m) return Math.round(Math.max(+m[1], +(m[2] || 0)) * (/day/i.test(m[3]) ? 1 : 7));
   const n = String(text || '').match(/(\d+(?:\.\d+)?)/g); if (!n) return null;
   return Math.round(Math.max(...n.map(Number)) * (/day/i.test(text) ? 1 : 7));
 }

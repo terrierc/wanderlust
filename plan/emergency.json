@@ -1,0 +1,31 @@
+{
+ "version": 1,
+ "note": "Official sources only. Each fact keeps its source and the date it was checked. Recheck before travel.",
+ "consularEmergency": { "label": "Australian 24-hour Consular Emergency Centre", "overseas": "+61 2 6261 3305", "inAustralia": "1300 555 135", "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye", "checked": "2026-11-19" },
+ "countries": {
+  "Türkiye": {
+   "aliases": ["Turkey", "Türkiye", "Turkiye"],
+   "smartraveller": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+   "adviceLevel": "Exercise a high degree of caution (overall; higher levels apply in some areas)",
+   "emergency": [["Medical emergencies", "112"], ["Fire and rescue", "110"], ["Police (major cities)", "155"], ["Jandarma (rural areas)", "156"], ["Istanbul Tourist Police", "+90 212 527 4503"]],
+   "missions": [
+    { "name": "Australian Embassy, Ankara", "address": "88 Uğur Mumcu Caddesi, Gaziosmanpaşa, 06700 Ankara", "phone": "+90 312 459 9500", "email": "consular.ankara@dfat.gov.au", "web": "https://turkey.embassy.gov.au/" },
+    { "name": "Australian Consulate-General, İstanbul", "address": "Süzer Plaza (Ritz Carlton Hotel), Askerocağı Caddesi No. 15, Elmadağ, 34367 İstanbul", "phone": "+90 212 393 3300", "email": "consular.istanbul@dfat.gov.au", "web": "https://turkey.embassy.gov.au/" },
+    { "name": "Australian Consulate, Çanakkale", "address": "Kolin Hotel, Kepez, 17100 Çanakkale", "phone": "+90 286 218 1721", "email": "canakkale.consulate@dfat.gov.au", "web": "https://turkey.embassy.gov.au/" }
+   ],
+   "source": "https://www.smartraveller.gov.au/destinations/europe/turkiye",
+   "checked": "2026-11-19"
+  },
+  "Egypt": {
+   "aliases": ["Egypt"],
+   "smartraveller": "https://www.smartraveller.gov.au/destinations/africa/egypt",
+   "adviceLevel": "Exercise a high degree of caution (overall; higher levels apply in some areas)",
+   "emergency": [["Medical emergencies", "123"], ["Fire and rescue", "180 or 123"], ["Police", "122 or 123"], ["Tourist Police", "126"]],
+   "missions": [
+    { "name": "Australian Embassy, Cairo", "address": "11th floor, World Trade Centre, 1191 Corniche el Nil, Boulaq, Cairo", "phone": "+20 2 2770 6600", "email": "cairo.austremb@dfat.gov.au", "web": "https://egypt.embassy.gov.au/", "hours": "Operates Sunday to Thursday" }
+   ],
+   "source": "https://www.smartraveller.gov.au/destinations/africa/egypt",
+   "checked": "2026-11-19"
+  }
+ }
+}

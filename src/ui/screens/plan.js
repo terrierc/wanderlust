@@ -53,7 +53,7 @@ export const view = {
   render(ctx) {
     const q = ctx.route.query, trips = ctx.store.list('trip').filter(t => t.planId && t.windowStart).sort((a, b) => a.windowStart.localeCompare(b.windowStart));
     const zoom = q.zoom || 'all', y = q.y || todayISO().slice(0, 4), m = q.m || todayISO().slice(0, 7);
-    const r = range(ctx, q), people = ctx.store.list('people'), leave = leaveByYear(ctx.store);
+    const r = range(ctx, q), people = ctx.store.list('people').filter(p => p.guest !== 'yes'), leave = leaveByYear(ctx.store);
     const flags = trips.map(t => [t, tripFlags(ctx.store, ctx.PLAN, ctx.FORTY, t)]).filter(([, f]) => f.length);
     const years = [...new Set(trips.map(t => t.windowStart.slice(0, 4)))].sort();
     const nav = '<div class="seg" role="group" aria-label="Zoom"><a href="/plan"' + (zoom === 'all' ? ' aria-current="true"' : '') + '>All</a><a href="/plan' + qs({ zoom: 'year', y }) + '"' + (zoom === 'year' ? ' aria-current="true"' : '') + '>Year</a><a href="/plan' + qs({ zoom: 'month', m }) + '"' + (zoom === 'month' ? ' aria-current="true"' : '') + '>Month</a></div>' +

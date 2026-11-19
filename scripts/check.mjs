@@ -263,4 +263,95 @@ const catalogue = JSON.parse(await fs.readFile('destinations.json', 'utf8')), FO
   const rs = F.routeStats(st, 'MEL-KEF'); assert.equal(rs.good, true); assert.equal(rs.lowest.price, '1750');
   ok('Phase 5: prefilled fare searches, verified official links (blanks become tasks), fare and permit key dates, targets turn green');
 }
+// ---------- flight deals (SerpApi, opt-in) ----------
+{
+  const F = await import('../src/core/fares.js'), { checkFare } = await import('../netlify/functions/fare-watch.mjs');
+  const t = { id: 'w1', route: 'MEL-LIS', price: '1900', currency: 'AUD', auto: 'yes', outDate: '2027-05-10', backDate: '', adults: '2' };
+  assert(F.isWatch(t) && !F.isWatch({ ...t, outDate: '' }) && !F.isWatch({ ...t, auto: '' }));
+  assert.deepEqual(F.fareAlerts(t, null, { price: '2100', currency: 'AUD', level: 'typical' }), [], 'first check above target: no alert');
+  assert.deepEqual(F.fareAlerts(t, { price: '2100', seenOn: '2027-01-20' }, { price: '1880', currency: 'AUD' }).map(a => a.kind), ['target', 'drop']);
+  assert.deepEqual(F.fareAlerts(t, { price: '1880', seenOn: '2027-01-21' }, { price: '1870', currency: 'AUD' }).map(a => a.kind), [], 'already under target, tiny move: quiet');
+  assert.deepEqual(F.fareAlerts(t, { price: '2000', seenOn: '2027-01-21' }, { price: '2250', currency: 'AUD' }).map(a => a.kind), ['rise']);
+  assert.deepEqual(F.fareAlerts(t, { price: '2000', level: 'typical', seenOn: 'x' }, { price: '1990', currency: 'AUD', level: 'low' }).map(a => a.kind), ['low']);
+  assert(F.fareLinks('MEL', 'LIS', '2027-05-10', '', 2).some(l => l.url === 'https://iwantthatflight.com.au/cheap-flights/MEL/LIS/flights-to/LIS/cheap-flights'), 'I Want That Flight link');
+  let asked = '';
+  const fake = async url => { asked = url; return { ok: true, json: async () => ({ best_flights: [{ price: 2150, flights: [{ airline: 'Example Air' }, { airline: 'Example Air' }] }], other_flights: [{ price: 1990, flights: [{ airline: 'Sample Airways' }] }], price_insights: { lowest_price: 1990, price_level: 'low', typical_price_range: [2100, 2900] }, search_metadata: { google_flights_url: 'https://www.google.com/travel/flights?x' } }) }; };
+  const got = await checkFare({ ...t, trip: 'example-trip', name: 'Alex' }, 'test-key', fake);
+  assert.deepEqual(got, { price: '1990', currency: 'AUD', level: 'low', typical: 'AUD 2,100–2,900', airline: 'Sample Airways', url: 'https://www.google.com/travel/flights?x' });
+  const q = new URL(asked).searchParams; assert.equal(q.get('type'), '2'); assert.equal(q.get('adults'), '2'); assert.equal(q.get('departure_id'), 'MEL'); assert(!/alex|example-trip|name|trip/i.test(asked), 'only codes, dates and party size are sent');
+  // Without SERPAPI_KEY the endpoint explains itself and searches nothing.
+  const fw = (await import('../netlify/functions/fare-watch.mjs')).default, saved = process.env.SERPAPI_KEY; delete process.env.SERPAPI_KEY;
+  const off = await fw(new Request('https://w.test/fares/search', { method: 'POST', headers: { Origin: 'https://w.test' } })); assert.equal(off.status, 503); assert.match((await off.json()).error, /SERPAPI_KEY/);
+  if (saved !== undefined) process.env.SERPAPI_KEY = saved;
+  ok('Flight deals: alerts for target, drops, rises and Google "low"; SerpApi parsing; only route, dates and party size sent; off without SERPAPI_KEY');
+}
+// ---------- road expenses with guests, spending, lengthDays, emergency data ----------
+{
+  const Sh = await import('../src/core/shared.js'), Sp = await import('../src/core/spend.js'), P = await import('../src/core/plan.js');
+  const fakeDb = { all: async () => [], tx: async (s, m, fn) => fn({ entities: { clear() {}, put() {}, del() {} }, meta: { put() {} }, outbox: { add() {} } }), put: async () => {} };
+  const st = new Store(fakeDb, { space: 'road', localOnly: true });
+  const trip = { id: 'example-coast', name: 'Example: the coast', status: 'Researching', party: 'me,sam', lengthNote: '10 days (about 3 May – 12 May 2027)', stops: [], costs: [{ id: 'c-fl', item: 'Flights', currency: 'AUD', state: 'estimate', low: 1500, total: 2000, high: 2600, paid: 0 }], tasks: [] };
+  const hub = { version: 1, records: { people: [{ id: 'me', name: 'You' }, { id: 'partner', name: 'Partner' }, { id: 'sam', name: 'Sam', guest: 'yes' }], segments: [{ id: 'leg-a', trip: 'other', option: 'Partner A', partner: 'maybe', start: '2027-07-01', end: '2027-07-20' }] } };
+  await st.replaceFrom({ places: catalogue, profile: { schemaVersion: 1, countries: [], trips: [trip, { id: 'other', name: 'Example: other', status: 'Idea', stops: [], costs: [], tasks: [] }] }, hub, forty: { version: 1, selection: FORTY.entries.filter(e => e.group === 'core').map(e => e.id) }, settings: { version: 1, values: {} } }, { seeded: true });
+  assert.deepEqual(Sh.partyOf(st, st.get('trip', 'example-coast')), ['me', 'sam']); assert.deepEqual(Sh.partyOf(st, st.get('trip', 'other')), ['me', 'partner'], 'guests are not added to other trips');
+  assert.deepEqual(Sh.legPartyOn(st, st.get('trip', 'other'), '2027-07-05'), ['me'], 'a partner on a "maybe" leg is never assumed');
+  assert.equal(Sh.nameOf(st, 'sam'), 'Sam');
+  await st.create('expenses', { id: 'e1', trip: 'example-coast', date: '2027-05-04', amount: '300', currency: 'EUR', category: 'Food and drink', paidBy: 'me', covers: 'me,sam', note: '' });
+  await st.create('expenses', { id: 'e2', trip: 'example-coast', date: '2027-05-05', amount: '100', currency: 'EUR', category: 'Transport', paidBy: 'sam', covers: 'me,sam', note: '' });
+  await st.create('expenses', { id: 'e3', trip: 'example-coast', date: '2027-05-05', amount: '', currency: 'EUR', category: 'Other', paidBy: 'sam', covers: 'sam', note: 'forgot amount' });
+  const bal = Sh.balances(st, [st.get('trip', 'example-coast')]);
+  assert.deepEqual(bal.by.EUR, { me: 100, partner: 0, sam: -100 }); assert.deepEqual(Sh.transfers(bal.by), [{ from: 'sam', to: 'me', amount: 100, currency: 'EUR' }]);
+  assert.equal(bal.undecided.length, 1, 'an expense with no amount is not counted');
+  const sum = Sp.spendSummary(st, st.get('trip', 'example-coast'));
+  assert.deepEqual(sum.rows.map(r => [r.date, r.totals.EUR, r.running.EUR]), [['2027-05-04', 300, 300], ['2027-05-05', 100, 400]]);
+  assert.deepEqual(sum.perPerson.EUR, { me: 200, sam: 200 }); assert.equal(sum.unknown.length, 1);
+  const al = Sp.dailyAllowance(st, st.get('trip', 'example-coast')); assert.equal(Math.round(al.amount), 200); assert.match(al.basis, /likely estimate over 10 days/);
+  assert.equal(Sh.expenseShares({ amount: '', covers: 'me' }), null); assert.equal(Sh.expenseShares({ amount: '5', covers: '' }), null); assert.deepEqual(Sh.expenseShares({ amount: '0', covers: 'me' }), { me: 0 }, 'zero is a known zero');
+  assert.equal(P.lengthDays('10 days (about 3 May – 12 May 2027)'), 10); assert.equal(P.lengthDays('5 to 6 weeks'), 42); assert.equal(P.lengthDays('about 2 weeks'), 14); assert.equal(P.lengthDays(''), null);
+  assert(M.HUB_KINDS.includes('expenses')); assert.equal(M.validateHub(M.normaliseHub({ version: 1, records: { people: [] } })), null, 'older workspaces without expenses still load');
+  assert.equal(M.validateHub({ version: 1, records: { ...M.normaliseHub({}).records, expenses: [{ id: 'e1', trip: 't', amount: '3' }] } }), null);
+  const E = JSON.parse(await fs.readFile('plan/emergency.json', 'utf8'));
+  assert.match(E.consularEmergency.overseas, /^\+61 2 6261 3305$/);
+  for (const [n, c] of Object.entries(E.countries)) { assert.match(c.source, /^https:\/\/www\.smartraveller\.gov\.au\//, n); assert.match(c.smartraveller, /^https:\/\/www\.smartraveller\.gov\.au\//); assert.match(c.checked, /^\d{4}-\d{2}-\d{2}$/); assert(c.emergency.length && c.missions.length, n); for (const m of c.missions) assert.match(m.web, /^https:\/\/[a-z]+\.embassy\.gov\.au\/$/); }
+  ok('Road expenses: guests on one trip only, settle up names everyone, spend by day, allowance, unknown ≠ 0, lengthDays fix, emergency facts sourced');
+}
+// ---------- read-only trip links ----------
+{
+  const { handle } = await import('../netlify/functions/share.mjs'), Sh = await import('../src/core/share.js');
+  const B = bucket(), E = { BUCKET: B }, O = 'https://w.test';
+  await B.put('profile/travel-v1.json', JSON.stringify({ schemaVersion: 1, countries: [{ code: 'IS', name: 'Iceland', status: 'Visited', lat: 1, lon: 1, notes: 'private note' }], trips: [
+    { id: 'example-coast', name: 'Example: the coast', status: 'Researching', party: 'me,sam', countryQueries: ['Egypt', 'Atlantis'], insurer: 'Example Insurance', policyNumber: 'P-000', insurerPhone: '+61 0', stops: [{ id: 'd019', name: 'Example Town', nights: 6 }], costs: [{ id: 'c1', item: 'Flights', total: 2000, currency: 'AUD' }], tasks: [] },
+    { id: 'hidden-trip', name: 'Hidden trip', status: 'Idea', stops: [], costs: [], tasks: [] }] }));
+  await B.put('workspace/hub-v1.json', JSON.stringify({ version: 1, records: { people: [{ id: 'me', name: 'You' }, { id: 'sam', name: 'Sam', guest: 'yes' }], bookings: [{ id: 'b1', trip: 'example-coast', type: 'Accommodation', title: 'Example Hotel', date: '2027-05-03', end: '2027-05-09', reference: 'REF000', file: 'file-x' }, { id: 'b2', trip: 'hidden-trip', type: 'Accommodation', title: 'Hidden hotel' }], expenses: [{ id: 'e1', trip: 'example-coast', amount: '450', currency: 'EUR', paidBy: 'me', covers: 'me,sam' }], days: [{ id: 'd1', trip: 'example-coast', title: 'Day 1 · Fly' }] } }));
+  const call = (path, method = 'GET', body) => handle(new Request(O + path, { method, headers: { 'Content-Type': 'application/json', Origin: O }, ...(body ? { body: JSON.stringify(body) } : {}) }), E, '2027-04-10');
+  assert.equal((await call('/shares', 'POST', { trip: 'example-coast', label: '' })).status, 400, 'a link needs a label');
+  assert.equal((await call('/shares', 'POST', { trip: 'not-synced', label: 'Family' })).status, 409);
+  const made = await (await call('/shares', 'POST', { trip: 'example-coast', label: 'Family' })).json();
+  const token = made.url.split('/s/')[1]; assert.match(token, Sh.TOKEN_RE);
+  const stored = await (await B.get('shares/index.json')).text(); assert(!stored.includes(token), 'the token itself is never stored'); assert(stored.includes(await Sh.fingerprint(token)));
+  assert.equal(made.link.expires, '', 'never expires by default'); assert.deepEqual(made.link.include, { money: false, refs: false, policy: true });
+  const page = await call('/s/' + token); assert.equal(page.status, 200); assert.match(page.headers.get('Content-Security-Policy'), /default-src 'none'/); assert.equal(page.headers.get('X-Robots-Tag'), 'noindex, nofollow');
+  const snap = await (await call('/s/' + token + '/data.json')).json(), txt = JSON.stringify(snap);
+  assert.equal(snap.trip.name, 'Example: the coast'); assert.deepEqual(snap.travellers, ['You', 'Sam']); assert.equal(snap.stays[0].title, 'Example Hotel');
+  for (const leak of ['Hidden trip', 'Hidden hotel', 'REF000', 'file-x', 'Iceland', 'private note', '"total"', '"amount"', 'covers']) assert(!txt.includes(leak), 'snapshot must not include ' + leak);
+  assert.equal(snap.emergency.insurance.policyNumber, 'P-000'); assert.equal(snap.money, null);
+  assert.deepEqual(snap.emergency.countries.map(c => [c.name, !!c.missing]), [['Egypt', false], ['Atlantis', true]], 'unknown countries say so instead of guessing');
+  const list = await (await call('/shares')).json(); assert.equal(list.links[0].lastOpened, '2027-04-10', 'last opened: date only'); assert(!JSON.stringify(list).includes(token));
+  const rep = await (await call('/shares/' + list.links[0].fp + '/replace', 'POST')).json(); const token2 = rep.url.split('/s/')[1];
+  assert.equal((await call('/s/' + token + '/data.json')).status, 404, 'old link stops after replace'); assert.equal((await call('/s/' + token2 + '/data.json')).status, 200);
+  const extra = await (await call('/shares', 'POST', { trip: 'example-coast', label: 'Friend', include: { refs: true, money: true, policy: false } })).json();
+  const snap2 = await (await call('/s/' + extra.url.split('/s/')[1] + '/data.json')).json();
+  assert.equal(snap2.stays[0].reference, 'REF000'); assert.equal(snap2.money.spent[0].paidBy, 'You'); assert.equal(snap2.emergency.insurance.policyNumber, undefined, 'policy number left out when unticked');
+  const old = await (await call('/shares', 'POST', { trip: 'example-coast', label: 'Neighbour', expires: '2027-01-01' })).json();
+  assert.equal((await call('/s/' + old.url.split('/s/')[1] + '/data.json')).status, 410, 'expired link refused');
+  const fp2 = (await (await call('/shares')).json()).links.find(l => l.label === 'Friend').fp;
+  assert.equal((await call('/shares/' + fp2, 'DELETE')).status, 200); assert.equal((await (await call('/shares')).json()).links.length, 2, 'revoked');
+  assert.equal((await handle(new Request(O + '/shares', { method: 'POST', headers: { Origin: 'https://evil.test' }, body: '{}' }), E)).status, 403, 'other sites cannot make links');
+  assert.equal((await call('/s/short/data.json')).status, 404);
+  assert.equal((await call('/s/sw.js')).headers.get('Service-Worker-Allowed'), '/s/');
+  // The gate lets only share links (and their offline worker) through without a passphrase.
+  const gate = await fs.readFile('netlify/edge-functions/gate.js', 'utf8'), re = new RegExp(gate.match(/\/\^\\\/s\\\/(.+?)\$\/\.test\(url\.pathname\)/)[0].slice(1, -'/.test(url.pathname)'.length));
+  assert(re.test('/s/' + token) && re.test('/s/' + token + '/data.json') && !re.test('/shares') && !re.test('/s/short') && !re.test('/s/' + token + '/other'));
+  ok('Share links: fingerprint only stored, one trip only, no refs/money/documents by default, opt-in extras, replace, expire, revoke, gate exception is narrow');
+}
 console.log('All checks passed.');

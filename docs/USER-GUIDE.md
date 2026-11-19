@@ -38,11 +38,32 @@
   - Whole-trip costs ask who they cover.
 - **Settle up** shows the fewest transfers needed. Each one stays in the history.
 
+## Spending on the road
+- Tap the orange **Expense** button on any trip page or on Today. It works with no connection and syncs later.
+- Enter the amount, currency, category, who paid and who it covers. "Who it covers" starts with everyone travelling that day; the cost splits equally between the people ticked. A receipt photo is optional.
+- The trip's **Money** tab shows what you spent each day, a running total, each person's share and a daily allowance (from your budget, or the likely estimate). Expenses also flow into **Settle up**.
+- **Guests:** on the Money tab, open **Travellers on this trip** to choose who is on the trip or add a guest (a first name is enough). A guest appears only on the trips you add them to.
+
 ## Fares
-Use **Flights to watch** on a trip's Route tab to search. Log what you find on the **Deals board** (More) and set a target; a route turns green at or below your target.
+- Use **Flights to watch** on a trip's Route tab to search Google Flights, Skyscanner or I Want That Flight. Log what you find on the **Deals board** and set a target; a route turns green at or below your target.
+- **Search flight deals (optional):** on the Deals board, set a target and tick **Check it automatically**, with the date you fly out, a return date if it's a return trip, and the number of travellers. Press **Search flight deals** on the board, or **Flight deals** in the header. Wanderlust checks Google Flights, logs the cheapest price, and flags a price at or under your target, a drop, a sharp rise or a fare Google rates as low.
+- Setup, once: create a free SerpApi account, copy its API key, and add it in Netlify as `SERPAPI_KEY`. Searches stop at 150 a month, so it stays free. Each route is searched at most once an hour. Only airport codes, dates and the number of travellers are sent.
+- **Stop watching** keeps the target and price history and only stops the checks.
+
+## Emergency card
+- Every trip has an **Emergency** tab: the Australian 24-hour Consular Emergency Centre, local emergency numbers and Australian embassies for each country on the trip, your insurance details and where you sleep each night. It works offline and prints.
+- Country details come from `plan/emergency.json`, each with its source and the date it was checked. Add your own countries there before you deploy. A country with no stored details says so instead of guessing.
+
+## Sharing a trip
+- On a trip's **Overview**, **Share with family** makes a private, read-only link for one person. It shows that trip only: route, flights and connections, where you sleep, day plans and the emergency card. You choose whether to add the insurance policy number, booking references or money.
+- Copy the link when it's made: only a fingerprint of it is stored, so it can't be shown again (you can make a replacement). Set an expiry if you want one. **Revoke** stops a link at once.
+- The link opens on a phone without signing in and saves itself there, so it keeps working without a signal.
 
 ## Documents
 More → **Documents** holds passports, visas, insurance and vaccination records, encrypted on that device only. They are never synced, and each device keeps its own. They're included in a backup only if you protect it with a passphrase.
+
+## Appearance
+Menu → **Appearance**: Auto (follows your device), Light (Desert Dawn) or Dark (Desert Midnight). Each device remembers its choice.
 
 ## Staying in the loop
 - **Calendar:** Plan → "Show my calendar link" gives one private link for Google or Apple Calendar. "Replace the link" turns the old one off.

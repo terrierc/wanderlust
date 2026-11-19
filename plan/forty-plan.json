@@ -1,0 +1,711 @@
+{
+ "version": 1,
+ "id": "forty-plan",
+ "deadline": "",
+ "deadlineNote": "Set your own target date in More → Settings.",
+ "travellers": [
+  {
+   "id": "me",
+   "name": "You",
+   "born": "",
+   "homeAirport": "",
+   "allowance": ""
+  },
+  {
+   "id": "partner",
+   "name": "Partner",
+   "born": "",
+   "homeAirport": "",
+   "allowance": ""
+  }
+ ],
+ "bestMonths": {
+  "forty-01": {
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "note": "Nov to Mar",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-02": {
+   "months": [
+    11,
+    12,
+    1,
+    2
+   ],
+   "note": "Nov to Feb",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-03": {
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "note": "Nov to Mar",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-04": {
+   "months": [
+    6,
+    7,
+    8
+   ],
+   "note": "Jun to Aug",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-05": {
+   "months": [
+    6,
+    7,
+    8
+   ],
+   "note": "Jun to Aug",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-06": {
+   "months": [
+    7,
+    8,
+    9
+   ],
+   "note": "Jul to early Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-07": {
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "late Jun to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-08": {
+   "months": [
+    10,
+    11,
+    3,
+    4
+   ],
+   "note": "Oct to Nov, Mar to Apr",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-09": {
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "Jun to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-10": {
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "Jun to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-11": {
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "note": "Jun to Oct",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-12": {
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    1,
+    2
+   ],
+   "note": "Jun to Oct, Jan to Feb",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-13": {
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    12,
+    1,
+    2
+   ],
+   "note": "Jun to Sep, Dec to Feb",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-14": {
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "note": "Year-round",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-15": {
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "note": "May to Oct",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-16": {
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "note": "Oct to Apr",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-17": {
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "note": "May to Oct",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-18": {
+   "months": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "note": "Apr to Nov",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-19": {
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "Jun to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-20": {
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "May to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-21": {
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "May to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-22": {
+   "months": [
+    11,
+    12,
+    1,
+    2
+   ],
+   "note": "Nov to Feb",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-23": {
+   "months": [
+    3,
+    4,
+    5,
+    9,
+    10,
+    11
+   ],
+   "note": "Mar to May, Sep to Nov",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-24": {
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "note": "Oct to Apr",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-25": {
+   "months": [
+    4,
+    5,
+    9,
+    10
+   ],
+   "note": "Apr to May, Sep to Oct",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-26": {
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    1,
+    2,
+    3
+   ],
+   "note": "May to Oct (dry), Jan to Mar (mirror)",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-27": {
+   "months": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "note": "Mar to Nov",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-28": {
+   "months": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "May to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-29": {
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "Jun to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-30": {
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "note": "Year-round",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-31": {
+   "months": [
+    4,
+    5,
+    9,
+    10
+   ],
+   "note": "Apr to May, Sep to Oct",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-32": {
+   "months": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "note": "Oct to Mar",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-33": {
+   "months": [
+    10,
+    11,
+    3,
+    4
+   ],
+   "note": "Oct to Nov, Mar to Apr",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-34": {
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+   ],
+   "note": "Nov to Apr",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-35": {
+   "months": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "note": "Year-round",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-36": {
+   "months": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "note": "Jun to Nov",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-37": {
+   "months": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "note": "Apr to Jul (whale sharks)",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-38": {
+   "months": [
+    7,
+    8,
+    9
+   ],
+   "note": "Jul to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-39": {
+   "months": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "note": "Jun to Sep",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  },
+  "forty-40": {
+   "months": [
+    3,
+    4,
+    5,
+    9,
+    10,
+    11
+   ],
+   "note": "Mar to May, Sep to Nov",
+   "source": "Template starting point — not yet checked against a published source",
+   "checked": ""
+  }
+ },
+ "trips": [],
+ "officialLinks": {
+  "forty-13": [
+   {
+    "title": "Gorilla tracking permits",
+    "url": "https://visitrwanda.com/interests/gorilla-tracking/",
+    "authority": "Rwanda Development Board (Visit Rwanda)",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-21": [
+   {
+    "title": "Machu Picchu tickets",
+    "url": "https://www.machupicchu.gob.pe/",
+    "authority": "Ministry of Culture, Peru",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-14": [
+   {
+    "title": "Galápagos entry and visitor rules",
+    "url": "https://www.galapagos.gob.ec/",
+    "authority": "Galápagos Government Council",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-23": [
+   {
+    "title": "Jordan Pass (Petra entry and visa)",
+    "url": "https://www.jordanpass.jo/",
+    "authority": "Jordan Tourism Board",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-40": [
+   {
+    "title": "Jordan Pass (Wadi Rum entry and visa)",
+    "url": "https://www.jordanpass.jo/",
+    "authority": "Jordan Tourism Board",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-24": [
+   {
+    "title": "Antiquities sites and tickets",
+    "url": "https://egymonuments.gov.eg/",
+    "authority": "Egyptian Ministry of Tourism and Antiquities",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-22": [
+   {
+    "title": "Angkor passes",
+    "url": "https://www.angkorenterprise.gov.kh/",
+    "authority": "Angkor Enterprise",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-01": [
+   {
+    "title": "Antarctic expedition operators (members)",
+    "url": "https://iaato.org/",
+    "authority": "IAATO",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-02": [
+   {
+    "title": "Expedition operators (members)",
+    "url": "https://iaato.org/",
+    "authority": "IAATO",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-03": [
+   {
+    "title": "Torres del Paine park entry",
+    "url": "https://www.pasesparques.cl/",
+    "authority": "CONAF, Chile",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-04": [
+   {
+    "title": "Flights to Ilulissat",
+    "url": "https://www.airgreenland.com/",
+    "authority": "Air Greenland",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-06": [
+   {
+    "title": "Road conditions (F-roads)",
+    "url": "https://umferdin.is/en",
+    "authority": "Icelandic Road and Coastal Administration",
+    "checked": "2026-11-19"
+   },
+   {
+    "title": "Safety and travel alerts",
+    "url": "https://safetravel.is/",
+    "authority": "Safetravel (ICE-SAR)",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-19": [
+   {
+    "title": "Park fees and passes",
+    "url": "https://www.nps.gov/yell/planyourvisit/fees.htm",
+    "authority": "US National Park Service",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-38": [
+   {
+    "title": "Banff fees and passes",
+    "url": "https://parks.canada.ca/pn-np/ab/banff/visit/tarifs-fees",
+    "authority": "Parks Canada",
+    "checked": "2026-11-19"
+   },
+   {
+    "title": "Yoho fees and passes",
+    "url": "https://parks.canada.ca/pn-np/bc/yoho/visit/tarifs-fees",
+    "authority": "Parks Canada",
+    "checked": "2026-11-19"
+   }
+  ],
+  "forty-20": [
+   {
+    "title": "Kalalau camping permits",
+    "url": "https://camping.ehawaii.gov/camping/",
+    "authority": "Hawaiʻi Division of State Parks",
+    "checked": "2026-11-19"
+   },
+   {
+    "title": "Hāʻena State Park entry reservations",
+    "url": "https://gohaena.com/",
+    "authority": "Hawaiʻi Division of State Parks",
+    "checked": "2026-11-19"
+   }
+  ]
+ },
+ "linkTasks": [
+  {
+   "entry": "forty-33",
+   "text": "Bhutan visa and Sustainable Development Fee: find and save the Department of Tourism link (its site blocked automated checking)."
+  },
+  {
+   "entry": "forty-18",
+   "text": "Komodo National Park fees: find and save the official park authority link."
+  },
+  {
+   "entry": "forty-16",
+   "text": "Raja Ampat marine park fee: find and save the official regency or park link."
+  },
+  {
+   "entry": "forty-03",
+   "text": "Torres del Paine refugio and campsite bookings: save the operators’ official booking links."
+  },
+  {
+   "entry": "forty-21",
+   "text": "Inca Trail permits: sold only through licensed operators; note the operator you choose."
+  }
+ ],
+ "permitWatch": [
+  {
+   "entry": "forty-21",
+   "title": "Check when Machu Picchu and Inca Trail permits open"
+  },
+  {
+   "entry": "forty-33",
+   "title": "Check when Bhutan bookings and visas can be arranged"
+  },
+  {
+   "entry": "forty-20",
+   "title": "Check when Kalalau and Hāʻena permits open"
+  },
+  {
+   "entry": "forty-14",
+   "title": "Check Galápagos boat availability"
+  }
+ ]
+}

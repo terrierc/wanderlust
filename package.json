@@ -1,0 +1,28 @@
+{
+  "name": "wanderlust",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node preview.mjs",
+    "build": "node compile.mjs",
+    "check": "node compile.mjs && node scripts/check.mjs",
+    "e2e": "node scripts/e2e.mjs",
+    "icons": "node scripts/make-icons.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "11.1.9",
+    "maplibre-gl": "4.7.1",
+    "pmtiles": "3.2.1",
+    "web-push": "3.6.7"
+  },
+  "devDependencies": {
+    "@fontsource-variable/fraunces": "5.2.8",
+    "@fontsource-variable/inter": "5.2.8",
+    "@protomaps/basemaps": "5.7.0",
+    "axe-core": "4.10.2",
+    "mapshaper": "0.6.113",
+    "netlify-cli": "27.20.0",
+    "playwright": "1.56.1"
+  },
+  "license": "MIT"
+}

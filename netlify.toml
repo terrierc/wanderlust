@@ -1,0 +1,34 @@
+# Wanderlust on Netlify. Everything is behind netlify/edge-functions/gate.js (set WANDERLUST_PASSPHRASE).
+[build]
+  command = "node compile.mjs"
+  publish = "dist/netlify"
+  functions = "netlify/functions"
+  edge_functions = "netlify/edge-functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; font-src 'self'; connect-src 'self'; worker-src 'self' blob:; child-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    X-Robots-Tag = "noindex, nofollow"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Cache-Control = "private, no-cache"
+[[headers]]
+  for = "/app/*"
+  [headers.values]
+    Cache-Control = "private, max-age=31536000, immutable"
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "private, max-age=31536000, immutable"
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Service-Worker-Allowed = "/"
+    Cache-Control = "no-cache"

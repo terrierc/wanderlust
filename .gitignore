@@ -1,0 +1,16 @@
+node_modules/
+dist/
+worker/
+.sites-local/
+*.tar.gz
+assets/*-original.jpg
+assets/hero-test.jpg
+assets/hero.webp
+commons-test.json
+/tmp/
+test-results/
+
+# Local Netlify folder
+.netlify
+.env
+node_modules

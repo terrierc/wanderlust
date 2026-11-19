@@ -1,0 +1,4730 @@
+[
+ {
+  "name": "Lofoten Islands",
+  "country": "Norway",
+  "region": "Europe",
+  "lat": 68.21,
+  "lon": 13.61,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 6,
+  "base": "Reine and Svolvær",
+  "arrival": "Fly to Evenes or a regional airport, then drive",
+  "transport": "Rental car; allow generous ferry and weather buffers",
+  "route": [
+   [
+    "Reine harbour",
+    "Hamnøy viewpoints"
+   ],
+   [
+    "Reinebringen if conditions suit",
+    "Sakrisøy"
+   ],
+   [
+    "Ramberg beach",
+    "Flakstad"
+   ],
+   [
+    "Haukland beach",
+    "Uttakleiv"
+   ],
+   [
+    "Henningsvær",
+    "Svolvær"
+   ]
+  ],
+  "why": "Arctic mountains rise straight from the sea.",
+  "source": "https://visitlofoten.com/en/",
+  "id": "d001",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Norwegian Fjords",
+  "country": "Norway",
+  "region": "Europe",
+  "lat": 60.96,
+  "lon": 7.09,
+  "category": "Nature",
+  "season": "May–Sep",
+  "nights": 6,
+  "base": "Bergen, Flåm and Aurland",
+  "arrival": "Arrive Bergen by air or rail",
+  "transport": "Train, fjord ferry and bus; avoid a rushed return day trip",
+  "route": [
+   [
+    "Bergen Bryggen",
+    "Fløyen"
+   ],
+   [
+    "Bergen–Myrdal railway",
+    "Flåm Railway"
+   ],
+   [
+    "Nærøyfjord cruise",
+    "Gudvangen"
+   ],
+   [
+    "Aurland village",
+    "Stegastein"
+   ],
+   [
+    "Aurlandsfjord shores",
+    "weather buffer"
+   ]
+  ],
+  "why": "Water, cliffs and small villages at a human pace.",
+  "source": "https://www.visitnorway.com/",
+  "id": "d002",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Oslo",
+  "country": "Norway",
+  "region": "Europe",
+  "lat": 59.91,
+  "lon": 10.75,
+  "category": "Culture",
+  "season": "May–Sep",
+  "nights": 4,
+  "base": "Central Oslo",
+  "arrival": "Fly Oslo then airport train",
+  "transport": "Metro, tram, ferry and walking",
+  "route": [
+   [
+    "Opera House waterfront",
+    "MUNCH"
+   ],
+   [
+    "National Museum",
+    "Aker Brygge"
+   ],
+   [
+    "Bygdøy museums",
+    "fjord ferry"
+   ]
+  ],
+  "why": "Modern art and architecture beside the fjord.",
+  "source": "https://www.visitoslo.com/en/",
+  "id": "d003",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Bergen",
+  "country": "Norway",
+  "region": "Europe",
+  "lat": 60.39,
+  "lon": 5.32,
+  "category": "Culture",
+  "season": "May–Sep",
+  "nights": 4,
+  "base": "Central Bergen",
+  "arrival": "Fly Bergen or take the Oslo–Bergen railway",
+  "transport": "Walking, light rail and mountain funicular",
+  "route": [
+   [
+    "Bryggen",
+    "harbour"
+   ],
+   [
+    "Fløyen",
+    "Sandviken"
+   ],
+   [
+    "KODE art museums",
+    "Nordnes"
+   ]
+  ],
+  "why": "A colourful harbour with mountain trails above it.",
+  "source": "https://en.visitbergen.com/",
+  "id": "d004",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Iceland South Coast",
+  "country": "Iceland",
+  "region": "Europe",
+  "lat": 63.53,
+  "lon": -19.51,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 8,
+  "base": "Reykjavík, Vík and southeast coast",
+  "arrival": "Fly Keflavík and collect rental car",
+  "transport": "Self-drive; check weather and road conditions daily",
+  "route": [
+   [
+    "Reykjavík waterfront",
+    "local pool"
+   ],
+   [
+    "Þingvellir",
+    "Geysir and Gullfoss"
+   ],
+   [
+    "Seljalandsfoss",
+    "Skógafoss"
+   ],
+   [
+    "Vík",
+    "Reynisfjara from safe marked areas"
+   ],
+   [
+    "Skaftafell trails",
+    "Jökulsárlón"
+   ],
+   [
+    "Glacier lagoon shore",
+    "return west with overnight buffer"
+   ]
+  ],
+  "why": "Black sand, ice and waterfalls on a single epic coast.",
+  "source": "https://www.visiticeland.com/",
+  "id": "d005",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Copenhagen",
+  "country": "Denmark",
+  "region": "Europe",
+  "lat": 55.68,
+  "lon": 12.57,
+  "category": "Culture",
+  "season": "May–Sep",
+  "nights": 5,
+  "base": "Indre By or Vesterbro",
+  "arrival": "Fly Copenhagen and take metro",
+  "transport": "Metro, walking and cycle lanes where confident",
+  "route": [
+   [
+    "Nyhavn",
+    "canal cruise"
+   ],
+   [
+    "Rosenborg",
+    "Designmuseum"
+   ],
+   [
+    "Louisiana Museum day trip",
+    "coast"
+   ],
+   [
+    "Nørrebro",
+    "food markets"
+   ]
+  ],
+  "why": "Design, food and waterside living.",
+  "source": "https://www.visitcopenhagen.com/",
+  "id": "d006",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Stockholm",
+  "country": "Sweden",
+  "region": "Europe",
+  "lat": 59.33,
+  "lon": 18.07,
+  "category": "Culture",
+  "season": "May–Sep",
+  "nights": 5,
+  "base": "Norrmalm or Södermalm",
+  "arrival": "Fly Arlanda then train or coach",
+  "transport": "Metro, walking and archipelago ferries",
+  "route": [
+   [
+    "Gamla Stan",
+    "waterfront"
+   ],
+   [
+    "Vasa Museum",
+    "Djurgården"
+   ],
+   [
+    "Archipelago island excursion",
+    "ferry"
+   ],
+   [
+    "Södermalm viewpoints",
+    "Fotografiska"
+   ]
+  ],
+  "why": "A city scattered across light and water.",
+  "source": "https://www.visitstockholm.com/",
+  "id": "d007",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Sardinia",
+  "country": "Italy",
+  "region": "Europe",
+  "lat": 40.12,
+  "lon": 9.01,
+  "category": "Islands",
+  "season": "Jun–Sep",
+  "nights": 7,
+  "base": "Two bases: northeast and Cala Gonone",
+  "arrival": "Fly Olbia or Cagliari",
+  "transport": "Rental car; boat trips subject to sea conditions",
+  "route": [
+   [
+    "Olbia old town",
+    "coastal settling in"
+   ],
+   [
+    "La Maddalena boat excursion",
+    "island beaches"
+   ],
+   [
+    "Capo Testa",
+    "Santa Teresa"
+   ],
+   [
+    "Transfer to Cala Gonone",
+    "harbour"
+   ],
+   [
+    "Gulf of Orosei boat day",
+    "beach"
+   ],
+   [
+    "Su Gorropu guided walk or rest",
+    "village dinner"
+   ]
+  ],
+  "why": "Granite coves and luminous Mediterranean water.",
+  "source": "https://www.sardegnaturismo.it/en",
+  "id": "d008",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Andalusia",
+  "country": "Spain",
+  "region": "Europe",
+  "lat": 37.18,
+  "lon": -3.6,
+  "category": "Culture",
+  "season": "Mar–May, Sep–Oct",
+  "nights": 8,
+  "base": "Seville, Córdoba and Granada",
+  "arrival": "Fly Seville or Málaga",
+  "transport": "Rail between cities; walk within historic centres",
+  "route": [
+   [
+    "Seville Alcázar",
+    "Santa Cruz"
+   ],
+   [
+    "Seville cathedral",
+    "Triana"
+   ],
+   [
+    "Córdoba Mezquita",
+    "old town"
+   ],
+   [
+    "Rail to Granada",
+    "Albaicín"
+   ],
+   [
+    "Alhambra",
+    "Generalife"
+   ],
+   [
+    "Sacromonte",
+    "slow tapas evening"
+   ]
+  ],
+  "why": "Courtyards, flamenco and layers of history.",
+  "source": "https://www.andalucia.org/en/",
+  "id": "d009",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Mallorca",
+  "country": "Spain",
+  "region": "Europe",
+  "lat": 39.7,
+  "lon": 2.62,
+  "category": "Islands",
+  "season": "May–Jun, Sep",
+  "nights": 6,
+  "base": "Palma and Sóller",
+  "arrival": "Fly Palma",
+  "transport": "Car for villages; train and bus for selected routes",
+  "route": [
+   [
+    "Palma cathedral",
+    "old town"
+   ],
+   [
+    "Sóller train",
+    "Port de Sóller"
+   ],
+   [
+    "Deià",
+    "Valldemossa"
+   ],
+   [
+    "Tramuntana walking",
+    "mountain villages"
+   ],
+   [
+    "East-coast coves",
+    "relaxed beach day"
+   ]
+  ],
+  "why": "Limestone mountains, stone villages and coves.",
+  "source": "https://www.mallorca.es/en/",
+  "id": "d010",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Malta and Gozo",
+  "country": "Malta",
+  "region": "Europe",
+  "lat": 35.9,
+  "lon": 14.51,
+  "category": "Islands",
+  "season": "Apr–Jun, Sep–Oct",
+  "nights": 6,
+  "base": "Valletta and Gozo",
+  "arrival": "Fly Malta",
+  "transport": "Ferries, buses and taxi transfers",
+  "route": [
+   [
+    "Valletta",
+    "Grand Harbour"
+   ],
+   [
+    "Three Cities",
+    "waterfront"
+   ],
+   [
+    "Mdina",
+    "Rabat"
+   ],
+   [
+    "Ferry to Gozo",
+    "Victoria"
+   ],
+   [
+    "Gozo coast",
+    "Ġgantija"
+   ]
+  ],
+  "why": "Honey-coloured cities and ancient island stories.",
+  "source": "https://www.visitmalta.com/",
+  "id": "d011",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Dolomites",
+  "country": "Italy",
+  "region": "Europe",
+  "lat": 46.5,
+  "lon": 11.85,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 7,
+  "base": "Val Gardena and Cortina",
+  "arrival": "Arrive Venice or Innsbruck then transfer",
+  "transport": "Rental car and cableways; seasonal operation checks",
+  "route": [
+   [
+    "Ortisei",
+    "village acclimatisation"
+   ],
+   [
+    "Seceda",
+    "alpine meadow walks"
+   ],
+   [
+    "Alpe di Siusi",
+    "hut lunch"
+   ],
+   [
+    "Transfer via mountain passes",
+    "Cortina"
+   ],
+   [
+    "Tre Cime circuit if suitable",
+    "rest"
+   ],
+   [
+    "Lago di Braies",
+    "quieter nearby trails"
+   ]
+  ],
+  "why": "Pale peaks and long lunches in alpine huts.",
+  "source": "https://www.dolomiti.org/en/",
+  "id": "d012",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Swiss Alps",
+  "country": "Switzerland",
+  "region": "Europe",
+  "lat": 46.6,
+  "lon": 7.92,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 7,
+  "base": "Lauterbrunnen and Zermatt",
+  "arrival": "Fly Zürich or Geneva then rail",
+  "transport": "Rail, mountain lifts and walking",
+  "route": [
+   [
+    "Lauterbrunnen valley",
+    "waterfalls"
+   ],
+   [
+    "Wengen",
+    "mountain walks"
+   ],
+   [
+    "Mürren",
+    "village day"
+   ],
+   [
+    "Train to Zermatt",
+    "old town"
+   ],
+   [
+    "Gornergrat",
+    "Matterhorn views"
+   ],
+   [
+    "Weather buffer",
+    "easy valley walk"
+   ]
+  ],
+  "why": "Mountain villages and extraordinary rail journeys.",
+  "source": "https://www.myswitzerland.com/en/",
+  "id": "d013",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Scottish Highlands and Skye",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "lat": 57.27,
+  "lon": -6.22,
+  "category": "Nature",
+  "season": "May–Sep",
+  "nights": 7,
+  "base": "Fort William and Skye",
+  "arrival": "Arrive Inverness or Glasgow",
+  "transport": "Rental car with slow single-track-road days",
+  "route": [
+   [
+    "Glencoe viewpoints",
+    "short walks"
+   ],
+   [
+    "Fort William",
+    "Glenfinnan"
+   ],
+   [
+    "Transfer to Skye",
+    "Portree"
+   ],
+   [
+    "Quiraing",
+    "Trotternish"
+   ],
+   [
+    "Fairy Pools",
+    "Glen Brittle"
+   ],
+   [
+    "Dunvegan",
+    "coastal walk"
+   ]
+  ],
+  "why": "Moody landscapes with space to disappear into.",
+  "source": "https://www.visitscotland.com/",
+  "id": "d014",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Faroe Islands",
+  "country": "Faroe Islands",
+  "region": "Europe",
+  "lat": 62.07,
+  "lon": -6.98,
+  "category": "Nature",
+  "season": "May–Sep",
+  "nights": 6,
+  "base": "Tórshavn",
+  "arrival": "Fly Vágar",
+  "transport": "Rental car; book guides where access requires them",
+  "route": [
+   [
+    "Tórshavn old town",
+    "harbour"
+   ],
+   [
+    "Gásadalur",
+    "Bøur"
+   ],
+   [
+    "Saksun",
+    "Tjørnuvík"
+   ],
+   [
+    "Gjógv",
+    "northern villages"
+   ],
+   [
+    "Mykines guided visit if operating",
+    "weather alternative"
+   ]
+  ],
+  "why": "Sea cliffs, turf roofs and Atlantic drama.",
+  "source": "https://visitfaroeislands.com/en",
+  "id": "d015",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Plitvice Lakes",
+  "country": "Croatia",
+  "region": "Europe",
+  "lat": 44.88,
+  "lon": 15.62,
+  "category": "Nature",
+  "season": "May–Jun, Sep",
+  "nights": 4,
+  "base": "Near park entrances",
+  "arrival": "Arrive Zagreb or Zadar then transfer",
+  "transport": "Car or bus; marked park trails and boats",
+  "route": [
+   [
+    "Arrive park village",
+    "local walk"
+   ],
+   [
+    "Lower Lakes",
+    "boardwalks"
+   ],
+   [
+    "Upper Lakes",
+    "quiet viewpoints"
+   ]
+  ],
+  "why": "Waterfalls threaded through turquoise lakes.",
+  "source": "https://np-plitvicka-jezera.hr/en/",
+  "id": "d016",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Santorini",
+  "country": "Greece",
+  "region": "Europe",
+  "lat": 36.46,
+  "lon": 25.38,
+  "category": "Islands",
+  "season": "May–Jun, Sep–Oct",
+  "nights": 5,
+  "base": "Fira or quieter village base",
+  "arrival": "Fly or ferry to Santorini",
+  "transport": "Buses, walking and pre-arranged transfers",
+  "route": [
+   [
+    "Fira",
+    "caldera path"
+   ],
+   [
+    "Fira–Oia walk if suitable",
+    "village evening"
+   ],
+   [
+    "Akrotiri",
+    "south coast"
+   ],
+   [
+    "Boat trip if seas allow",
+    "rest"
+   ]
+  ],
+  "why": "A volcanic caldera with villages suspended above it.",
+  "source": "https://www.visitgreece.gr/",
+  "id": "d017",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Cappadocia",
+  "country": "Türkiye",
+  "region": "Asia",
+  "lat": 38.64,
+  "lon": 34.83,
+  "category": "Nature",
+  "season": "Apr–Jun, Sep–Oct",
+  "nights": 5,
+  "base": "Göreme",
+  "arrival": "Fly Kayseri or Nevşehir then transfer",
+  "transport": "Local guide, transfers and valley walks",
+  "route": [
+   [
+    "Göreme village",
+    "sunset viewpoint"
+   ],
+   [
+    "Balloon flight if operating",
+    "open-air museum"
+   ],
+   [
+    "Rose Valley",
+    "Red Valley"
+   ],
+   [
+    "Underground city",
+    "Uçhisar"
+   ]
+  ],
+  "why": "Rock-cut history and otherworldly valleys.",
+  "source": "https://goturkiye.com/",
+  "id": "d018",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Istanbul",
+  "country": "Türkiye",
+  "region": "Europe",
+  "lat": 41.01,
+  "lon": 28.98,
+  "category": "Culture",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 5,
+  "base": "Sultanahmet or Karaköy",
+  "arrival": "Fly Istanbul then transit or transfer",
+  "transport": "Trams, ferries and walking",
+  "route": [
+   [
+    "Sultanahmet",
+    "Basilica Cistern"
+   ],
+   [
+    "Hagia Sophia visit under current rules",
+    "Blue Mosque"
+   ],
+   [
+    "Topkapı",
+    "archaeology museums"
+   ],
+   [
+    "Bosphorus ferry",
+    "Kadıköy"
+   ]
+  ],
+  "why": "A crossroads of empires, faiths and everyday life.",
+  "source": "https://goturkiye.com/",
+  "id": "d019",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Colosseum and Rome",
+  "country": "Italy",
+  "region": "Europe",
+  "lat": 41.89,
+  "lon": 12.49,
+  "category": "New7Wonders",
+  "season": "Apr–Jun, Sep–Oct",
+  "nights": 5,
+  "base": "Central Rome",
+  "arrival": "Fly Rome then rail",
+  "transport": "Walking, metro and timed-entry visits",
+  "route": [
+   [
+    "Historic centre",
+    "Pantheon"
+   ],
+   [
+    "Colosseum",
+    "Roman Forum"
+   ],
+   [
+    "Vatican Museums",
+    "St Peter’s"
+   ],
+   [
+    "Trastevere",
+    "Borghese Gallery"
+   ]
+  ],
+  "why": "Roman scale and art at almost every turn.",
+  "source": "https://colosseo.it/en/",
+  "id": "d020",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Petra",
+  "country": "Jordan",
+  "region": "Asia",
+  "lat": 30.33,
+  "lon": 35.44,
+  "category": "New7Wonders",
+  "season": "Mar–May, Sep–Nov",
+  "nights": 4,
+  "base": "Wadi Musa",
+  "arrival": "Arrive Amman and transfer south",
+  "transport": "Driver or rental car; extensive walking in the site",
+  "route": [
+   [
+    "Wadi Musa",
+    "orientation"
+   ],
+   [
+    "Siq and Treasury",
+    "Royal Tombs"
+   ],
+   [
+    "Monastery route if suitable",
+    "lower city"
+   ]
+  ],
+  "why": "A stone city revealed slowly through a canyon.",
+  "source": "https://international.visitjordan.com/",
+  "id": "d021",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Great Wall of China",
+  "country": "China",
+  "region": "Asia",
+  "lat": 40.43,
+  "lon": 116.57,
+  "category": "New7Wonders",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 4,
+  "base": "Beijing",
+  "arrival": "Fly Beijing",
+  "transport": "Metro in Beijing; arranged transfer to authorised Wall section",
+  "route": [
+   [
+    "Beijing hutongs",
+    "lakes"
+   ],
+   [
+    "Mutianyu Great Wall",
+    "return Beijing"
+   ],
+   [
+    "Forbidden City",
+    "Jingshan"
+   ]
+  ],
+  "why": "A line of stone crossing immense mountain ridges.",
+  "source": "https://www.travelchina.org.cn/",
+  "id": "d022",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Taj Mahal",
+  "country": "India",
+  "region": "Asia",
+  "lat": 27.18,
+  "lon": 78.04,
+  "category": "New7Wonders",
+  "season": "Oct–Mar",
+  "nights": 4,
+  "base": "Agra",
+  "arrival": "Rail from Delhi or arranged transfer",
+  "transport": "Train between cities; licensed local driver in Agra",
+  "route": [
+   [
+    "Arrive Agra",
+    "river viewpoint"
+   ],
+   [
+    "Taj Mahal at permitted opening",
+    "Agra Fort"
+   ],
+   [
+    "Fatehpur Sikri excursion",
+    "onward rail"
+   ]
+  ],
+  "why": "Marble, symmetry and a monument to grief.",
+  "source": "https://www.tajmahal.gov.in/",
+  "id": "d023",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Machu Picchu",
+  "country": "Peru",
+  "region": "South America",
+  "lat": -13.16,
+  "lon": -72.55,
+  "category": "New7Wonders",
+  "season": "May–Sep",
+  "nights": 7,
+  "base": "Cusco, Sacred Valley and Aguas Calientes",
+  "arrival": "Fly Cusco via Lima; acclimatise before exertion",
+  "transport": "Driver, rail and authorised site shuttle",
+  "route": [
+   [
+    "Cusco gentle orientation",
+    "rest"
+   ],
+   [
+    "Sacred Valley villages",
+    "Ollantaytambo"
+   ],
+   [
+    "Pisac",
+    "acclimatisation"
+   ],
+   [
+    "Train to Aguas Calientes",
+    "easy evening"
+   ],
+   [
+    "Machu Picchu booked circuit",
+    "return"
+   ],
+   [
+    "Cusco museums",
+    "buffer day"
+   ]
+  ],
+  "why": "An Inca city poised between mountains and cloud.",
+  "source": "https://www.machupicchu.gob.pe/",
+  "id": "d024",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Chichén Itzá",
+  "country": "Mexico",
+  "region": "North America",
+  "lat": 20.68,
+  "lon": -88.57,
+  "category": "New7Wonders",
+  "season": "Nov–Apr",
+  "nights": 4,
+  "base": "Valladolid",
+  "arrival": "Arrive Cancún then transfer inland",
+  "transport": "Rental car or guided transfers",
+  "route": [
+   [
+    "Valladolid",
+    "cenote"
+   ],
+   [
+    "Chichén Itzá early visit",
+    "local lunch"
+   ],
+   [
+    "Ek Balam",
+    "another cenote"
+   ]
+  ],
+  "why": "Maya architecture in the Yucatán landscape.",
+  "source": "https://www.inah.gob.mx/",
+  "id": "d025",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Christ the Redeemer and Rio",
+  "country": "Brazil",
+  "region": "South America",
+  "lat": -22.95,
+  "lon": -43.21,
+  "category": "New7Wonders",
+  "season": "Apr–Jun, Sep–Oct",
+  "nights": 5,
+  "base": "Ipanema or Copacabana",
+  "arrival": "Fly Rio",
+  "transport": "Licensed taxis, metro and authorised attraction transport",
+  "route": [
+   [
+    "Beachfront orientation",
+    "sunset"
+   ],
+   [
+    "Christ the Redeemer",
+    "Santa Teresa"
+   ],
+   [
+    "Sugarloaf",
+    "Urca"
+   ],
+   [
+    "Botanical Garden",
+    "Tijuca guided nature visit"
+   ]
+  ],
+  "why": "Mountains and ocean surrounding a vivid city.",
+  "source": "https://visitbrasil.com/en/",
+  "id": "d026",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Pyramids of Giza",
+  "country": "Egypt",
+  "region": "Africa",
+  "lat": 29.98,
+  "lon": 31.13,
+  "category": "Ancient wonder",
+  "season": "Oct–Apr",
+  "nights": 4,
+  "base": "Cairo or Giza",
+  "arrival": "Fly Cairo",
+  "transport": "Licensed driver and qualified guide",
+  "route": [
+   [
+    "Cairo orientation",
+    "Nile"
+   ],
+   [
+    "Giza pyramids",
+    "Sphinx"
+   ],
+   [
+    "Egyptian collections",
+    "historic Cairo"
+   ]
+  ],
+  "why": "The surviving monumental wonder of the ancient seven.",
+  "source": "https://egymonuments.gov.eg/",
+  "id": "d027",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Angkor",
+  "country": "Cambodia",
+  "region": "Asia",
+  "lat": 13.41,
+  "lon": 103.87,
+  "category": "Human-made",
+  "season": "Nov–Feb",
+  "nights": 5,
+  "base": "Siem Reap",
+  "arrival": "Fly Siem Reap then transfer",
+  "transport": "Tuk-tuk or licensed driver; cycle selected areas",
+  "route": [
+   [
+    "Siem Reap",
+    "museum"
+   ],
+   [
+    "Angkor Wat",
+    "Angkor Thom"
+   ],
+   [
+    "Ta Prohm",
+    "smaller temples"
+   ],
+   [
+    "Banteay Srei",
+    "countryside"
+   ]
+  ],
+  "why": "Stone faces and temples embraced by forest.",
+  "source": "https://www.angkorenterprise.gov.kh/",
+  "id": "d028",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Kyoto",
+  "country": "Japan",
+  "region": "Asia",
+  "lat": 35.01,
+  "lon": 135.77,
+  "category": "Culture",
+  "season": "Mar–May, Oct–Nov",
+  "nights": 6,
+  "base": "Central Kyoto",
+  "arrival": "Train from Kansai airport via Osaka or Kyoto",
+  "transport": "Rail, buses and walking; group sights by district",
+  "route": [
+   [
+    "Higashiyama lanes",
+    "Kiyomizu-dera"
+   ],
+   [
+    "Fushimi Inari",
+    "Tōfuku-ji"
+   ],
+   [
+    "Arashiyama",
+    "quiet temple gardens"
+   ],
+   [
+    "Northern temples",
+    "tea experience"
+   ],
+   [
+    "Nara day trip",
+    "return"
+   ]
+  ],
+  "why": "Gardens, ritual and beauty in small details.",
+  "source": "https://kyoto.travel/en/",
+  "id": "d029",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Samarkand and Bukhara",
+  "country": "Uzbekistan",
+  "region": "Asia",
+  "lat": 39.65,
+  "lon": 66.96,
+  "category": "Human-made",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 7,
+  "base": "Samarkand and Bukhara",
+  "arrival": "Fly Tashkent or Samarkand",
+  "transport": "Intercity rail and local taxis",
+  "route": [
+   [
+    "Registan",
+    "old town"
+   ],
+   [
+    "Shah-i-Zinda",
+    "Bibi-Khanym"
+   ],
+   [
+    "Ulugh Beg observatory",
+    "craft workshops"
+   ],
+   [
+    "Train to Bukhara",
+    "Lyabi-Hauz"
+   ],
+   [
+    "Poi Kalyan",
+    "Ark"
+   ],
+   [
+    "Trading domes",
+    "quiet courtyard evening"
+   ]
+  ],
+  "why": "Silk Road cities with astonishing blue-tiled architecture.",
+  "source": "https://uzbekistan.travel/en/",
+  "id": "d030",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Kyrgyzstan Mountains",
+  "country": "Kyrgyzstan",
+  "region": "Asia",
+  "lat": 42.47,
+  "lon": 78.4,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 8,
+  "base": "Bishkek, Issyk-Kul and Karakol",
+  "arrival": "Fly Bishkek",
+  "transport": "Driver for long transfers; local mountain guide",
+  "route": [
+   [
+    "Bishkek",
+    "Ala Archa"
+   ],
+   [
+    "Transfer Issyk-Kul",
+    "lakeshore"
+   ],
+   [
+    "Karakol",
+    "food and culture"
+   ],
+   [
+    "Jeti-Ögüz",
+    "gentle hiking"
+   ],
+   [
+    "Guided mountain day",
+    "weather buffer"
+   ],
+   [
+    "Return toward Bishkek",
+    "spare day"
+   ]
+  ],
+  "why": "High pastures, yurts and vast mountain horizons.",
+  "source": "https://visitkyrgyzstan.org/",
+  "id": "d031",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Tajikistan Pamir Highway",
+  "country": "Tajikistan",
+  "region": "Asia",
+  "lat": 38.56,
+  "lon": 68.79,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 12,
+  "base": "Dushanbe, Khorog and Pamir villages",
+  "arrival": "Fly Dushanbe",
+  "transport": "Experienced local driver; staged altitude acclimatisation",
+  "route": [
+   [
+    "Dushanbe",
+    "supplies and permits"
+   ],
+   [
+    "Road toward Darvoz",
+    "overnight"
+   ],
+   [
+    "Continue Khorog",
+    "recovery"
+   ],
+   [
+    "Wakhan Valley villages",
+    "local guide"
+   ],
+   [
+    "High-altitude stages only after acclimatisation",
+    "buffer"
+   ],
+   [
+    "Return or onward route agreed with operator"
+   ]
+  ],
+  "why": "A remote journey through immense mountain country.",
+  "source": "https://traveltajikistan.tj/",
+  "id": "d032",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Ha Long Bay",
+  "country": "Vietnam",
+  "region": "Asia",
+  "lat": 20.91,
+  "lon": 107.18,
+  "category": "New7Wonders Nature",
+  "season": "Mar–Apr, Oct–Nov",
+  "nights": 4,
+  "base": "Onboard cruise and Hanoi",
+  "arrival": "Road transfer from Hanoi",
+  "transport": "Licensed overnight cruise and arranged transfer",
+  "route": [
+   [
+    "Transfer to port",
+    "embark"
+   ],
+   [
+    "Karst cruising",
+    "authorised kayak outing"
+   ],
+   [
+    "Morning bay views",
+    "return Hanoi"
+   ]
+  ],
+  "why": "Limestone towers emerging from quiet water.",
+  "source": "https://vietnam.travel/",
+  "id": "d033",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Sa Pa",
+  "country": "Vietnam",
+  "region": "Asia",
+  "lat": 22.34,
+  "lon": 103.84,
+  "category": "Nature",
+  "season": "Mar–May, Sep–Nov",
+  "nights": 4,
+  "base": "Lao Chai or Sa Pa",
+  "arrival": "Road or overnight rail plus transfer from Hanoi",
+  "transport": "Local guide and transfers",
+  "route": [
+   [
+    "Valley settling in",
+    "village walk"
+   ],
+   [
+    "Guided Lao Chai trek",
+    "local lunch"
+   ],
+   [
+    "Fansipan if clear",
+    "weather buffer"
+   ]
+  ],
+  "why": "Terraced hills and village paths beneath high peaks.",
+  "source": "https://vietnam.travel/",
+  "id": "d034",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Ninh Binh",
+  "country": "Vietnam",
+  "region": "Asia",
+  "lat": 20.25,
+  "lon": 105.97,
+  "category": "Nature",
+  "season": "Mar–May, Sep–Nov",
+  "nights": 4,
+  "base": "Tam Coc or Trang An",
+  "arrival": "Rail or road from Hanoi",
+  "transport": "Bicycle, driver and authorised rowboat",
+  "route": [
+   [
+    "Tam Coc countryside",
+    "cycling"
+   ],
+   [
+    "Trang An boat route",
+    "temples"
+   ],
+   [
+    "Hang Múa viewpoint",
+    "Hoa Lu"
+   ]
+  ],
+  "why": "Limestone mountains rising from rice fields.",
+  "source": "https://vietnam.travel/",
+  "id": "d035",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Hanoi",
+  "country": "Vietnam",
+  "region": "Asia",
+  "lat": 21.03,
+  "lon": 105.85,
+  "category": "Culture",
+  "season": "Oct–Apr",
+  "nights": 4,
+  "base": "Old Quarter",
+  "arrival": "Fly Hanoi",
+  "transport": "Walking and licensed taxis",
+  "route": [
+   [
+    "Hoàn Kiếm",
+    "Old Quarter"
+   ],
+   [
+    "Temple of Literature",
+    "museums"
+   ],
+   [
+    "Food walk",
+    "live music"
+   ]
+  ],
+  "why": "Street life, layered history and excellent food.",
+  "source": "https://vietnam.travel/",
+  "id": "d036",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Komodo National Park",
+  "country": "Indonesia",
+  "region": "Asia",
+  "lat": -8.55,
+  "lon": 119.49,
+  "category": "New7Wonders Nature",
+  "season": "Apr–Nov",
+  "nights": 5,
+  "base": "Labuan Bajo and licensed boat",
+  "arrival": "Fly Labuan Bajo",
+  "transport": "Licensed boat and ranger-led island walks",
+  "route": [
+   [
+    "Labuan Bajo",
+    "harbour"
+   ],
+   [
+    "Boat to Padar",
+    "designated beach"
+   ],
+   [
+    "Ranger-led dragon walk",
+    "snorkel where permitted"
+   ],
+   [
+    "Boat return",
+    "rest and weather buffer"
+   ]
+  ],
+  "why": "Wild islands, reefs and prehistoric animals.",
+  "source": "https://www.indonesia.travel/",
+  "id": "d037",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Puerto Princesa Underground River",
+  "country": "Philippines",
+  "region": "Asia",
+  "lat": 10.17,
+  "lon": 118.93,
+  "category": "New7Wonders Nature",
+  "season": "Dec–Apr",
+  "nights": 4,
+  "base": "Puerto Princesa or Sabang",
+  "arrival": "Fly Puerto Princesa",
+  "transport": "Road transfer and authorised river boat",
+  "route": [
+   [
+    "Puerto Princesa",
+    "orientation"
+   ],
+   [
+    "Transfer Sabang",
+    "beach"
+   ],
+   [
+    "Underground river permitted tour",
+    "mangroves"
+   ]
+  ],
+  "why": "A river journey into a vast limestone cave.",
+  "source": "https://philippines.travel/",
+  "id": "d038",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Jeju Island",
+  "country": "South Korea",
+  "region": "Asia",
+  "lat": 33.36,
+  "lon": 126.53,
+  "category": "New7Wonders Nature",
+  "season": "Apr–Jun, Sep–Oct",
+  "nights": 5,
+  "base": "Jeju City and Seogwipo",
+  "arrival": "Fly Jeju",
+  "transport": "Rental car or driver; buses for slower trips",
+  "route": [
+   [
+    "Jeju City",
+    "coast"
+   ],
+   [
+    "Seongsan Ilchulbong",
+    "eastern coast"
+   ],
+   [
+    "Hallasan hike if conditions permit",
+    "rest"
+   ],
+   [
+    "Seogwipo waterfalls",
+    "south coast"
+   ]
+  ],
+  "why": "Volcanic landscapes, sea cliffs and island culture.",
+  "source": "https://www.visitjeju.net/en",
+  "id": "d039",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Table Mountain and Cape Town",
+  "country": "South Africa",
+  "region": "Africa",
+  "lat": -33.96,
+  "lon": 18.41,
+  "category": "New7Wonders Nature",
+  "season": "Oct–Apr",
+  "nights": 6,
+  "base": "Cape Town",
+  "arrival": "Fly Cape Town",
+  "transport": "Trusted transfers; guided mountain routes",
+  "route": [
+   [
+    "Waterfront",
+    "city orientation"
+   ],
+   [
+    "Table Mountain in good weather",
+    "gardens"
+   ],
+   [
+    "Cape Peninsula",
+    "coastal stops"
+   ],
+   [
+    "Robben Island if operating",
+    "museum"
+   ],
+   [
+    "Kirstenbosch",
+    "beach sunset"
+   ]
+  ],
+  "why": "An immense mountain setting above the Atlantic.",
+  "source": "https://www.capetown.travel/",
+  "id": "d040",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Iguazú Falls",
+  "country": "Argentina and Brazil",
+  "region": "South America",
+  "lat": -25.69,
+  "lon": -54.44,
+  "category": "New7Wonders Nature",
+  "season": "Apr–Jun, Aug–Oct",
+  "nights": 4,
+  "base": "Puerto Iguazú or Foz do Iguaçu",
+  "arrival": "Fly either gateway",
+  "transport": "Park buses and arranged cross-border transfers",
+  "route": [
+   [
+    "Arrive",
+    "local forest walk"
+   ],
+   [
+    "Argentina-side trails",
+    "viewpoints"
+   ],
+   [
+    "Brazil-side panorama",
+    "buffer"
+   ]
+  ],
+  "why": "The force and sound of water on an overwhelming scale.",
+  "source": "https://whc.unesco.org/en/list/303/",
+  "id": "d041",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Amazon Rainforest",
+  "country": "Brazil and Peru",
+  "region": "South America",
+  "lat": -3.12,
+  "lon": -60.02,
+  "category": "New7Wonders Nature",
+  "season": "Season varies by river region",
+  "nights": 6,
+  "base": "Manaus and a licensed forest lodge",
+  "arrival": "Fly Manaus; boat to selected lodge",
+  "transport": "Lodge-operated boats and qualified naturalist guides",
+  "route": [
+   [
+    "Manaus",
+    "riverfront"
+   ],
+   [
+    "Boat to lodge",
+    "orientation"
+   ],
+   [
+    "Guided forest walk",
+    "river canoe"
+   ],
+   [
+    "Wildlife observation",
+    "community visit by invitation"
+   ],
+   [
+    "River excursion",
+    "lodge rest"
+   ]
+  ],
+  "why": "A living world of astonishing complexity.",
+  "source": "https://visitbrasil.com/en/",
+  "id": "d042",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Grand Canyon",
+  "country": "United States",
+  "region": "North America",
+  "lat": 36.06,
+  "lon": -112.14,
+  "category": "Nature",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 4,
+  "base": "South Rim",
+  "arrival": "Fly Phoenix or Las Vegas then drive",
+  "transport": "Rental car and park shuttles",
+  "route": [
+   [
+    "Arrive South Rim",
+    "sunset"
+   ],
+   [
+    "Rim Trail",
+    "viewpoints"
+   ],
+   [
+    "Short below-rim walk if suitable",
+    "geology visit"
+   ]
+  ],
+  "why": "Deep time made visible in layers of stone.",
+  "source": "https://www.nps.gov/grca/",
+  "id": "d043",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Great Barrier Reef",
+  "country": "Australia",
+  "region": "Oceania",
+  "lat": -16.5,
+  "lon": 145.8,
+  "category": "Nature",
+  "season": "May–Oct",
+  "nights": 5,
+  "base": "Cairns or Port Douglas",
+  "arrival": "Fly Cairns",
+  "transport": "Accredited reef operator and transfers",
+  "route": [
+   [
+    "Port Douglas",
+    "Four Mile Beach"
+   ],
+   [
+    "Outer reef snorkel or dive",
+    "rest"
+   ],
+   [
+    "Daintree guided visit",
+    "river"
+   ],
+   [
+    "Second reef day or weather buffer",
+    "town"
+   ]
+  ],
+  "why": "A vast living reef seen best with patient exploration.",
+  "source": "https://www2.gbrmpa.gov.au/",
+  "id": "d044",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Uluru and Kata Tjuta",
+  "country": "Australia",
+  "region": "Oceania",
+  "lat": -25.34,
+  "lon": 131.04,
+  "category": "Nature",
+  "season": "May–Sep",
+  "nights": 4,
+  "base": "Yulara",
+  "arrival": "Fly Ayers Rock airport",
+  "transport": "Shuttle, car and Anangu-led cultural tours",
+  "route": [
+   [
+    "Arrival",
+    "sunset from designated viewpoint"
+   ],
+   [
+    "Uluru base walk",
+    "cultural centre"
+   ],
+   [
+    "Kata Tjuta permitted trails",
+    "sunrise"
+   ]
+  ],
+  "why": "A place of profound cultural and geological presence.",
+  "source": "https://parksaustralia.gov.au/uluru/",
+  "id": "d045",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Victoria Falls",
+  "country": "Zambia and Zimbabwe",
+  "region": "Africa",
+  "lat": -17.92,
+  "lon": 25.86,
+  "category": "Nature",
+  "season": "Feb–May high flow; other months differ",
+  "nights": 4,
+  "base": "Livingstone or Victoria Falls town",
+  "arrival": "Fly either gateway",
+  "transport": "Local transfers and authorised guides",
+  "route": [
+   [
+    "Arrive",
+    "Zambezi sunset"
+   ],
+   [
+    "Falls viewpoints",
+    "rainforest paths"
+   ],
+   [
+    "Cultural visit",
+    "water-level-dependent excursion"
+   ]
+  ],
+  "why": "The river vanishes into a thunderous chasm.",
+  "source": "https://whc.unesco.org/en/list/509/",
+  "id": "d046",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Serengeti and Ngorongoro",
+  "country": "Tanzania",
+  "region": "Africa",
+  "lat": -2.33,
+  "lon": 34.83,
+  "category": "Wildlife",
+  "season": "Jun–Oct; migration locations vary",
+  "nights": 8,
+  "base": "Arusha and safari camps",
+  "arrival": "Fly Kilimanjaro then operator transfer",
+  "transport": "Licensed safari operator and 4WD",
+  "route": [
+   [
+    "Arusha",
+    "safari briefing"
+   ],
+   [
+    "Transfer toward Ngorongoro",
+    "highlands"
+   ],
+   [
+    "Crater game drive",
+    "overnight"
+   ],
+   [
+    "Transfer Serengeti",
+    "game drive"
+   ],
+   [
+    "Full safari day",
+    "camp"
+   ],
+   [
+    "Second safari day",
+    "return buffer"
+   ]
+  ],
+  "why": "Wildlife on an astonishing scale across open plains.",
+  "source": "https://www.tanzaniaparks.go.tz/",
+  "id": "d047",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Okavango Delta",
+  "country": "Botswana",
+  "region": "Africa",
+  "lat": -19.2,
+  "lon": 22.9,
+  "category": "Wildlife",
+  "season": "Jun–Oct",
+  "nights": 6,
+  "base": "Maun and delta camp",
+  "arrival": "Fly Maun then light-aircraft transfer",
+  "transport": "Camp-led boats, mokoro and game drives as conditions allow",
+  "route": [
+   [
+    "Maun",
+    "camp transfer"
+   ],
+   [
+    "Water-based excursion",
+    "camp rest"
+   ],
+   [
+    "Guided game drive",
+    "wildlife watching"
+   ],
+   [
+    "Walking safari if offered",
+    "quiet afternoon"
+   ],
+   [
+    "Second habitat excursion",
+    "flight buffer"
+   ]
+  ],
+  "why": "Water creates a moving oasis in the desert.",
+  "source": "https://www.botswanatourism.co.bw/",
+  "id": "d048",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Sossusvlei and Namib Desert",
+  "country": "Namibia",
+  "region": "Africa",
+  "lat": -24.73,
+  "lon": 15.3,
+  "category": "Nature",
+  "season": "May–Oct",
+  "nights": 5,
+  "base": "Sesriem and Namib lodge",
+  "arrival": "Fly Windhoek then road transfer",
+  "transport": "Rental vehicle or guide; check park-road requirements",
+  "route": [
+   [
+    "Windhoek",
+    "supplies"
+   ],
+   [
+    "Drive to Sesriem",
+    "rest"
+   ],
+   [
+    "Dune 45",
+    "Deadvlei"
+   ],
+   [
+    "Sesriem Canyon",
+    "desert sunset"
+   ]
+  ],
+  "why": "Red dunes and ghostly trees under an enormous sky.",
+  "source": "https://namibiatourism.com.na/",
+  "id": "d049",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Mountain Gorillas",
+  "country": "Rwanda and Uganda",
+  "region": "Africa",
+  "lat": -1.48,
+  "lon": 29.5,
+  "category": "Wildlife",
+  "season": "Jun–Sep, Dec–Feb",
+  "nights": 5,
+  "base": "Kigali and Volcanoes area",
+  "arrival": "Fly Kigali then operator transfer",
+  "transport": "Licensed operator; permit-dependent guided trek",
+  "route": [
+   [
+    "Kigali",
+    "memorial visit"
+   ],
+   [
+    "Transfer mountain lodge",
+    "briefing"
+   ],
+   [
+    "Gorilla trek with authorised guides",
+    "recovery"
+   ],
+   [
+    "Community-led visit",
+    "buffer"
+   ]
+  ],
+  "why": "A quiet encounter with our close relatives.",
+  "source": "https://visitrwanda.com/",
+  "id": "d050",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Sahara at Erg Chebbi",
+  "country": "Morocco",
+  "region": "Africa",
+  "lat": 31.15,
+  "lon": -3.97,
+  "category": "Nature",
+  "season": "Oct–Apr",
+  "nights": 5,
+  "base": "Merzouga and desert camp",
+  "arrival": "Arrive Marrakech or Fès with staged road journey",
+  "transport": "Licensed driver; long distances need overnight stops",
+  "route": [
+   [
+    "Atlas or Middle Atlas road stage",
+    "village stop"
+   ],
+   [
+    "Continue Merzouga",
+    "rest"
+   ],
+   [
+    "Dune walk with guide",
+    "camp night"
+   ],
+   [
+    "Desert dawn",
+    "return road stage"
+   ]
+  ],
+  "why": "Dunes, silence and a sky full of stars.",
+  "source": "https://www.visitmorocco.com/en",
+  "id": "d051",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Lalibela",
+  "country": "Ethiopia",
+  "region": "Africa",
+  "lat": 12.03,
+  "lon": 39.05,
+  "category": "Human-made",
+  "season": "Oct–Mar; review travel advice first",
+  "nights": 4,
+  "base": "Lalibela",
+  "arrival": "Arrive Addis Ababa; confirm viable onward route",
+  "transport": "Local guide and arranged transport after advice review",
+  "route": [
+   [
+    "Arrive",
+    "rest"
+   ],
+   [
+    "Northern rock-hewn churches",
+    "local history"
+   ],
+   [
+    "Southern churches",
+    "Bet Giyorgis"
+   ]
+  ],
+  "why": "Living places of worship carved from rock.",
+  "source": "https://whc.unesco.org/en/list/18/",
+  "id": "d052",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Torres del Paine",
+  "country": "Chile",
+  "region": "South America",
+  "lat": -50.94,
+  "lon": -73.41,
+  "category": "Nature",
+  "season": "Nov–Mar",
+  "nights": 7,
+  "base": "Puerto Natales and park lodge",
+  "arrival": "Fly Puerto Natales or Punta Arenas",
+  "transport": "Bus, lodge transfers and guided hikes",
+  "route": [
+   [
+    "Puerto Natales",
+    "supplies"
+   ],
+   [
+    "Transfer park",
+    "viewpoints"
+   ],
+   [
+    "Base Torres hike if fit and weather suitable",
+    "rest"
+   ],
+   [
+    "Grey Lake",
+    "authorised boat"
+   ],
+   [
+    "Lakes and wildlife",
+    "easy trails"
+   ],
+   [
+    "Weather buffer",
+    "return"
+   ]
+  ],
+  "why": "Granite towers above blue lakes and immense skies.",
+  "source": "https://chile.travel/en/",
+  "id": "d053",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Perito Moreno Glacier",
+  "country": "Argentina",
+  "region": "South America",
+  "lat": -50.5,
+  "lon": -73.14,
+  "category": "Nature",
+  "season": "Nov–Mar",
+  "nights": 4,
+  "base": "El Calafate",
+  "arrival": "Fly El Calafate",
+  "transport": "Park bus, driver and licensed boat operators",
+  "route": [
+   [
+    "El Calafate",
+    "lakeshore"
+   ],
+   [
+    "Glacier boardwalks",
+    "viewpoints"
+   ],
+   [
+    "Boat excursion if available",
+    "buffer"
+   ]
+  ],
+  "why": "A wall of blue ice that feels alive.",
+  "source": "https://www.argentina.travel/en",
+  "id": "d054",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Salar de Uyuni",
+  "country": "Bolivia",
+  "region": "South America",
+  "lat": -20.13,
+  "lon": -67.49,
+  "category": "Nature",
+  "season": "May–Oct dry; Jan–Mar mirror possible",
+  "nights": 5,
+  "base": "Uyuni and altitude-appropriate lodges",
+  "arrival": "Arrive via La Paz with acclimatisation",
+  "transport": "Experienced 4WD operator; altitude planning essential",
+  "route": [
+   [
+    "Acclimatisation",
+    "Uyuni orientation"
+   ],
+   [
+    "Salt flats",
+    "Isla Incahuasi if accessible"
+   ],
+   [
+    "Southern lagoons route only if acclimatised",
+    "lodge"
+   ],
+   [
+    "Desert landscapes",
+    "return buffer"
+   ]
+  ],
+  "why": "A horizon that seems to dissolve into the sky.",
+  "source": "https://bolivia.travel/",
+  "id": "d055",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Atacama Desert",
+  "country": "Chile",
+  "region": "South America",
+  "lat": -22.91,
+  "lon": -68.2,
+  "category": "Nature",
+  "season": "Mar–May, Sep–Nov",
+  "nights": 5,
+  "base": "San Pedro de Atacama",
+  "arrival": "Fly Calama and transfer",
+  "transport": "Guided trips; stage high-altitude outings gradually",
+  "route": [
+   [
+    "San Pedro",
+    "easy village walk"
+   ],
+   [
+    "Valle de la Luna",
+    "sunset"
+   ],
+   [
+    "Lower-altitude lagoons",
+    "stargazing"
+   ],
+   [
+    "High-altitude tour only if acclimatised",
+    "rest"
+   ]
+  ],
+  "why": "Salt, volcanoes and exceptionally clear night skies.",
+  "source": "https://chile.travel/en/",
+  "id": "d056",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Galápagos Islands",
+  "country": "Ecuador",
+  "region": "South America",
+  "lat": -0.74,
+  "lon": -90.31,
+  "category": "Wildlife",
+  "season": "Year-round; wildlife varies",
+  "nights": 8,
+  "base": "Santa Cruz and Isabela or licensed cruise",
+  "arrival": "Fly Baltra or San Cristóbal via mainland Ecuador",
+  "transport": "Licensed naturalist operator; inter-island boats or cruise",
+  "route": [
+   [
+    "Island arrival",
+    "orientation"
+   ],
+   [
+    "Giant tortoise reserve",
+    "highlands"
+   ],
+   [
+    "Licensed marine excursion",
+    "rest"
+   ],
+   [
+    "Transfer Isabela",
+    "village"
+   ],
+   [
+    "Volcanic landscape excursion",
+    "wildlife"
+   ],
+   [
+    "Snorkel with authorised operator",
+    "buffer"
+   ]
+  ],
+  "why": "Wildlife encountered at astonishingly close quarters.",
+  "source": "https://www.galapagos.gob.ec/",
+  "id": "d057",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Rapa Nui",
+  "country": "Chile",
+  "region": "South America",
+  "lat": -27.12,
+  "lon": -109.35,
+  "category": "Human-made",
+  "season": "Oct–Apr",
+  "nights": 5,
+  "base": "Hanga Roa",
+  "arrival": "Fly from Santiago; confirm entry requirements",
+  "transport": "Authorised local guide and vehicle",
+  "route": [
+   [
+    "Hanga Roa",
+    "island museum"
+   ],
+   [
+    "Rano Raraku",
+    "Ahu Tongariki"
+   ],
+   [
+    "Anakena",
+    "northern coast"
+   ],
+   [
+    "Rano Kau",
+    "Orongo"
+   ]
+  ],
+  "why": "Monumental ancestors in a remote Pacific landscape.",
+  "source": "https://chile.travel/en/",
+  "id": "d058",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Antarctic Peninsula",
+  "country": "Antarctica",
+  "region": "Antarctica",
+  "lat": -64.7,
+  "lon": -62.6,
+  "category": "Expedition",
+  "season": "Nov–Mar",
+  "nights": 12,
+  "base": "Expedition vessel from Ushuaia",
+  "arrival": "Fly Ushuaia with pre-departure buffer",
+  "transport": "Licensed expedition ship; landings entirely weather-dependent",
+  "route": [
+   [
+    "Ushuaia",
+    "embarkation"
+   ],
+   [
+    "Drake Passage",
+    "onboard talks"
+   ],
+   [
+    "Drake Passage",
+    "wildlife watching"
+   ],
+   [
+    "Peninsula landing opportunities",
+    "zodiac cruise"
+   ],
+   [
+    "Further expedition days",
+    "flexible landings"
+   ],
+   [
+    "Return crossing",
+    "disembarkation buffer"
+   ]
+  ],
+  "why": "Ice, wildlife and a profound sense of planetary scale.",
+  "source": "https://iaato.org/",
+  "id": "d059",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Yellowstone",
+  "country": "United States",
+  "region": "North America",
+  "lat": 44.6,
+  "lon": -110.5,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 6,
+  "base": "Gardiner and West Yellowstone",
+  "arrival": "Fly Bozeman or nearby gateway",
+  "transport": "Rental car; check seasonal park roads",
+  "route": [
+   [
+    "Gardiner",
+    "Mammoth"
+   ],
+   [
+    "Lamar Valley wildlife from safe distances",
+    "viewpoints"
+   ],
+   [
+    "Grand Canyon of Yellowstone",
+    "waterfalls"
+   ],
+   [
+    "Old Faithful",
+    "geyser boardwalks"
+   ],
+   [
+    "Grand Prismatic area",
+    "buffer"
+   ]
+  ],
+  "why": "An active volcanic landscape filled with wildlife.",
+  "source": "https://www.nps.gov/yell/",
+  "id": "d060",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Yosemite",
+  "country": "United States",
+  "region": "North America",
+  "lat": 37.75,
+  "lon": -119.59,
+  "category": "Nature",
+  "season": "May–Jun waterfalls; summer high country",
+  "nights": 5,
+  "base": "Yosemite Valley or nearby",
+  "arrival": "Fly San Francisco or Fresno then transfer",
+  "transport": "Car, seasonal shuttles and marked trails",
+  "route": [
+   [
+    "Valley arrival",
+    "Tunnel View"
+   ],
+   [
+    "Valley floor",
+    "waterfall trails"
+   ],
+   [
+    "Glacier Point if road open",
+    "short walks"
+   ],
+   [
+    "Mariposa Grove",
+    "weather buffer"
+   ]
+  ],
+  "why": "Granite walls, giant trees and light worth waiting for.",
+  "source": "https://www.nps.gov/yose/",
+  "id": "d061",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Zion and Bryce Canyon",
+  "country": "United States",
+  "region": "North America",
+  "lat": 37.3,
+  "lon": -113.03,
+  "category": "Nature",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 6,
+  "base": "Springdale and Bryce area",
+  "arrival": "Fly Las Vegas then drive",
+  "transport": "Rental car and park shuttles",
+  "route": [
+   [
+    "Springdale",
+    "Pa’rus Trail"
+   ],
+   [
+    "Zion Canyon",
+    "Riverside Walk"
+   ],
+   [
+    "Zion scenic trails appropriate to permits",
+    "rest"
+   ],
+   [
+    "Transfer Bryce",
+    "rim viewpoints"
+   ],
+   [
+    "Bryce amphitheatre trails",
+    "sunset"
+   ]
+  ],
+  "why": "Two utterly different worlds of red rock.",
+  "source": "https://www.nps.gov/zion/",
+  "id": "d062",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Banff and Jasper",
+  "country": "Canada",
+  "region": "North America",
+  "lat": 51.18,
+  "lon": -115.57,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 8,
+  "base": "Banff, Lake Louise and Jasper",
+  "arrival": "Fly Calgary then drive",
+  "transport": "Rental car; prebook lake shuttles and verify road access",
+  "route": [
+   [
+    "Banff town",
+    "Bow River"
+   ],
+   [
+    "Lake Louise",
+    "marked lakeside trails"
+   ],
+   [
+    "Moraine Lake via authorised shuttle",
+    "rest"
+   ],
+   [
+    "Icefields Parkway with stops",
+    "overnight"
+   ],
+   [
+    "Jasper accessible trails",
+    "wildlife"
+   ],
+   [
+    "Weather buffer",
+    "return stage"
+   ]
+  ],
+  "why": "Glacial lakes and a road journey through the Rockies.",
+  "source": "https://parks.canada.ca/pn-np/ab/banff",
+  "id": "d063",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Alaska",
+  "country": "United States",
+  "region": "North America",
+  "lat": 61.22,
+  "lon": -149.9,
+  "category": "Nature",
+  "season": "Jun–Aug",
+  "nights": 9,
+  "base": "Anchorage, Seward and Denali area",
+  "arrival": "Fly Anchorage",
+  "transport": "Rental car or rail; long transfers need full days",
+  "route": [
+   [
+    "Anchorage",
+    "coastal trail"
+   ],
+   [
+    "Transfer Seward",
+    "harbour"
+   ],
+   [
+    "Kenai Fjords licensed boat",
+    "weather buffer"
+   ],
+   [
+    "Rail or road north",
+    "overnight"
+   ],
+   [
+    "Denali accessible bus route",
+    "wildlife"
+   ],
+   [
+    "Easy walks",
+    "return transfer"
+   ]
+  ],
+  "why": "Glaciers, fjords and a scale that changes perspective.",
+  "source": "https://www.travelalaska.com/",
+  "id": "d064",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Kauaʻi",
+  "country": "United States",
+  "region": "North America",
+  "lat": 22.1,
+  "lon": -159.5,
+  "category": "Islands",
+  "season": "Apr–Jun, Sep–Oct",
+  "nights": 7,
+  "base": "South and north shore bases",
+  "arrival": "Fly Līhuʻe",
+  "transport": "Rental car; permitted trail and boat access",
+  "route": [
+   [
+    "South shore",
+    "Poʻipū"
+   ],
+   [
+    "Waimea Canyon",
+    "viewpoints"
+   ],
+   [
+    "Kōkeʻe trails suited to conditions",
+    "rest"
+   ],
+   [
+    "Transfer north",
+    "Hanalei"
+   ],
+   [
+    "Hāʻena with reservations",
+    "coast"
+   ],
+   [
+    "Nā Pali boat if seas allow",
+    "buffer"
+   ]
+  ],
+  "why": "Green cliffs and valleys shaped by rain and ocean.",
+  "source": "https://www.gohawaii.com/islands/kauai",
+  "id": "d065",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Milford Sound and Fiordland",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "lat": -44.67,
+  "lon": 167.93,
+  "category": "Nature",
+  "season": "Nov–Apr",
+  "nights": 5,
+  "base": "Te Anau and Milford area",
+  "arrival": "Arrive Queenstown then transfer",
+  "transport": "Coach or careful self-drive; allow road and weather buffers",
+  "route": [
+   [
+    "Te Anau",
+    "lakefront"
+   ],
+   [
+    "Milford Road scenic stops",
+    "overnight"
+   ],
+   [
+    "Milford cruise",
+    "short forest walks"
+   ],
+   [
+    "Fiordland guided excursion",
+    "buffer"
+   ]
+  ],
+  "why": "Rainforest and waterfalls beneath vast fjord walls.",
+  "source": "https://www.fiordland.org.nz/",
+  "id": "d066",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Aoraki and Lake Tekapo",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "lat": -43.73,
+  "lon": 170.1,
+  "category": "Nature",
+  "season": "Nov–Apr",
+  "nights": 5,
+  "base": "Tekapo and Aoraki village",
+  "arrival": "Arrive Christchurch or Queenstown",
+  "transport": "Rental car and marked walking tracks",
+  "route": [
+   [
+    "Tekapo lakeshore",
+    "stargazing if clear"
+   ],
+   [
+    "Transfer Aoraki",
+    "visitor centre"
+   ],
+   [
+    "Open valley tracks suitable to conditions",
+    "viewpoints"
+   ],
+   [
+    "Tasman Valley",
+    "weather buffer"
+   ]
+  ],
+  "why": "Alpine light, ice and dark night skies.",
+  "source": "https://www.newzealand.com/",
+  "id": "d067",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Abel Tasman",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "lat": -40.99,
+  "lon": 173.01,
+  "category": "Nature",
+  "season": "Dec–Mar",
+  "nights": 4,
+  "base": "Mārahau",
+  "arrival": "Arrive Nelson then transfer",
+  "transport": "Water taxi, guided kayak and walking",
+  "route": [
+   [
+    "Mārahau",
+    "beach"
+   ],
+   [
+    "Water taxi and coastal walking segment",
+    "swim"
+   ],
+   [
+    "Guided kayak if conditions allow",
+    "rest"
+   ]
+  ],
+  "why": "Golden beaches connected by forest paths.",
+  "source": "https://www.doc.govt.nz/",
+  "id": "d068",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Golden Bay",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "lat": -40.83,
+  "lon": 172.8,
+  "category": "Nature",
+  "season": "Dec–Mar",
+  "nights": 4,
+  "base": "Tākaka or Pōhara",
+  "arrival": "Drive from Nelson over Tākaka Hill",
+  "transport": "Rental car; check tides and access",
+  "route": [
+   [
+    "Tākaka",
+    "Pōhara beach"
+   ],
+   [
+    "Wharariki Beach under safe conditions",
+    "Cape Farewell"
+   ],
+   [
+    "Te Waikoropupū Springs viewing paths",
+    "slow day"
+   ]
+  ],
+  "why": "A quiet end-of-the-road landscape of beaches and space.",
+  "source": "https://www.nelsontasman.nz/",
+  "id": "d069",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Kaikōura",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "lat": -42.4,
+  "lon": 173.68,
+  "category": "Wildlife",
+  "season": "Nov–Apr",
+  "nights": 4,
+  "base": "Kaikōura",
+  "arrival": "Road or rail from Christchurch",
+  "transport": "Walking, road transfers and licensed marine operators",
+  "route": [
+   [
+    "Town",
+    "peninsula walk"
+   ],
+   [
+    "Whale watching if operating",
+    "weather buffer"
+   ],
+   [
+    "Coastal morning",
+    "onward travel"
+   ]
+  ],
+  "why": "Marine wildlife with mountains immediately behind.",
+  "source": "https://www.kaikoura.co.nz/",
+  "id": "d070",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Marlborough Sounds",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "lat": -41.2,
+  "lon": 174.05,
+  "category": "Nature",
+  "season": "Nov–Apr",
+  "nights": 4,
+  "base": "Picton or sound-side lodge",
+  "arrival": "Arrive Picton by road, rail or ferry",
+  "transport": "Water taxi and lodge transfers",
+  "route": [
+   [
+    "Picton",
+    "harbour"
+   ],
+   [
+    "Queen Charlotte Track day segment",
+    "water taxi"
+   ],
+   [
+    "Sound-side rest",
+    "onward transfer"
+   ]
+  ],
+  "why": "Sheltered waterways and forested ridgelines.",
+  "source": "https://marlboroughnz.com/",
+  "id": "d071",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Bora Bora",
+  "country": "French Polynesia",
+  "region": "Oceania",
+  "lat": -16.5,
+  "lon": -151.74,
+  "category": "Islands",
+  "season": "May–Oct",
+  "nights": 6,
+  "base": "Bora Bora lagoon",
+  "arrival": "Fly via Tahiti",
+  "transport": "Resort boat and licensed lagoon operators",
+  "route": [
+   [
+    "Arrive",
+    "lagoon rest"
+   ],
+   [
+    "Lagoon snorkel",
+    "beach"
+   ],
+   [
+    "Island cultural tour",
+    "quiet afternoon"
+   ],
+   [
+    "Guided lagoon excursion",
+    "rest"
+   ],
+   [
+    "Unscheduled island day",
+    "sunset"
+   ]
+  ],
+  "why": "A luminous lagoon around a volcanic peak.",
+  "source": "https://www.tahititourisme.com/",
+  "id": "d072",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Palau",
+  "country": "Palau",
+  "region": "Oceania",
+  "lat": 7.5,
+  "lon": 134.5,
+  "category": "Islands",
+  "season": "Dec–Apr",
+  "nights": 7,
+  "base": "Koror",
+  "arrival": "Fly Koror via available gateway",
+  "transport": "Licensed dive and boat operators",
+  "route": [
+   [
+    "Koror",
+    "orientation"
+   ],
+   [
+    "Rock Islands boat excursion",
+    "beaches"
+   ],
+   [
+    "Reef dive or snorkel",
+    "rest"
+   ],
+   [
+    "Babeldaob cultural visit",
+    "waterfalls"
+   ],
+   [
+    "Second marine day",
+    "weather buffer"
+   ]
+  ],
+  "why": "Rock islands and an extraordinary marine world.",
+  "source": "https://pristineparadisepalau.com/",
+  "id": "d073",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Raja Ampat",
+  "country": "Indonesia",
+  "region": "Asia",
+  "lat": -0.23,
+  "lon": 130.52,
+  "category": "Islands",
+  "season": "Oct–Apr",
+  "nights": 8,
+  "base": "Waisai and island lodge",
+  "arrival": "Fly Sorong then ferry or lodge boat",
+  "transport": "Lodge-operated boats; licensed dive guides",
+  "route": [
+   [
+    "Sorong",
+    "overnight buffer"
+   ],
+   [
+    "Transfer island lodge",
+    "orientation"
+   ],
+   [
+    "Reef snorkel or dive",
+    "rest"
+   ],
+   [
+    "Island viewpoint with local guide",
+    "lagoon"
+   ],
+   [
+    "Second reef day",
+    "village visit by arrangement"
+   ],
+   [
+    "Weather buffer",
+    "return transfer"
+   ]
+  ],
+  "why": "Reef life and small islands at an astonishing richness.",
+  "source": "https://www.indonesia.travel/",
+  "id": "d074",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Bhutan",
+  "country": "Bhutan",
+  "region": "Asia",
+  "lat": 27.43,
+  "lon": 89.42,
+  "category": "Culture",
+  "season": "Mar–May, Sep–Nov",
+  "nights": 8,
+  "base": "Paro, Thimphu and Punakha",
+  "arrival": "Fly Paro; book through current authorised arrangements",
+  "transport": "Local driver and guide; stage altitude gradually",
+  "route": [
+   [
+    "Paro",
+    "easy orientation"
+   ],
+   [
+    "Thimphu museums",
+    "local crafts"
+   ],
+   [
+    "Dochula transfer",
+    "Punakha"
+   ],
+   [
+    "Punakha Dzong",
+    "valley walking"
+   ],
+   [
+    "Return Paro",
+    "recovery"
+   ],
+   [
+    "Tiger’s Nest hike if suitable",
+    "buffer"
+   ]
+  ],
+  "why": "Mountain monasteries and a different rhythm of life.",
+  "source": "https://bhutan.travel/",
+  "id": "d075",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Nepal Annapurna Foothills",
+  "country": "Nepal",
+  "region": "Asia",
+  "lat": 28.21,
+  "lon": 83.99,
+  "category": "Nature",
+  "season": "Mar–Apr, Oct–Nov",
+  "nights": 10,
+  "base": "Kathmandu, Pokhara and trekking lodges",
+  "arrival": "Fly Kathmandu then staged transfer to Pokhara",
+  "transport": "Licensed trekking guide; road and flight buffers",
+  "route": [
+   [
+    "Kathmandu",
+    "cultural orientation"
+   ],
+   [
+    "Transfer Pokhara",
+    "lakeshore"
+   ],
+   [
+    "Trailhead transfer",
+    "first gentle trek"
+   ],
+   [
+    "Guided village trekking stage",
+    "lodge"
+   ],
+   [
+    "Continue acclimatised route",
+    "mountain views"
+   ],
+   [
+    "Return stages",
+    "Pokhara recovery"
+   ]
+  ],
+  "why": "Village paths with the Himalaya rising above them.",
+  "source": "https://ntb.gov.np/",
+  "id": "d076",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Zhangjiajie",
+  "country": "China",
+  "region": "Asia",
+  "lat": 29.32,
+  "lon": 110.43,
+  "category": "Nature",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 5,
+  "base": "Wulingyuan",
+  "arrival": "Fly or rail Zhangjiajie then transfer",
+  "transport": "Park buses, lifts and designated walking routes",
+  "route": [
+   [
+    "Wulingyuan",
+    "orientation"
+   ],
+   [
+    "Yuanjiajie",
+    "pillar viewpoints"
+   ],
+   [
+    "Tianzi Mountain",
+    "forest paths"
+   ],
+   [
+    "Tianmen Mountain separate excursion",
+    "buffer"
+   ]
+  ],
+  "why": "Sandstone pillars appearing to float in cloud.",
+  "source": "https://www.travelchina.org.cn/",
+  "id": "d077",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Huangshan",
+  "country": "China",
+  "region": "Asia",
+  "lat": 30.13,
+  "lon": 118.17,
+  "category": "Nature",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 5,
+  "base": "Tunxi and mountain hotel",
+  "arrival": "Rail Huangshan North then transfer",
+  "transport": "Official park shuttles, cableways and steps",
+  "route": [
+   [
+    "Tunxi old street",
+    "rest"
+   ],
+   [
+    "Cableway ascent",
+    "mountain trails"
+   ],
+   [
+    "Sunrise if clear",
+    "descent"
+   ],
+   [
+    "Hongcun village",
+    "onward rail"
+   ]
+  ],
+  "why": "Granite, pines and seas of cloud.",
+  "source": "https://www.travelchina.org.cn/",
+  "id": "d078",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Bagan",
+  "country": "Myanmar",
+  "region": "Asia",
+  "lat": 21.17,
+  "lon": 94.86,
+  "category": "Human-made",
+  "season": "Nov–Feb; review travel advice first",
+  "nights": 4,
+  "base": "Bagan, only if advice permits",
+  "arrival": "Confirm safe and legal access before route planning",
+  "transport": "Qualified local operator after travel-advice review",
+  "route": [
+   [
+    "Arrival only after advice review",
+    "rest"
+   ],
+   [
+    "Permitted temple circuit",
+    "museum"
+   ],
+   [
+    "Village crafts",
+    "river viewpoint"
+   ]
+  ],
+  "why": "A plain of temples with deep historical resonance.",
+  "source": "https://whc.unesco.org/en/list/1588/",
+  "id": "d079",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Sigiriya and Sri Lanka",
+  "country": "Sri Lanka",
+  "region": "Asia",
+  "lat": 7.96,
+  "lon": 80.76,
+  "category": "Human-made",
+  "season": "Jan–Mar; regional seasons vary",
+  "nights": 7,
+  "base": "Sigiriya and Kandy",
+  "arrival": "Fly Colombo then road transfer",
+  "transport": "Driver and rail where suitable",
+  "route": [
+   [
+    "Transfer cultural triangle",
+    "rest"
+   ],
+   [
+    "Sigiriya early climb if suitable",
+    "village"
+   ],
+   [
+    "Dambulla",
+    "Polonnaruwa"
+   ],
+   [
+    "Transfer Kandy",
+    "lake"
+   ],
+   [
+    "Temple of the Tooth",
+    "botanical gardens"
+   ],
+   [
+    "Rail excursion",
+    "return buffer"
+   ]
+  ],
+  "why": "Rock citadels, sacred cities and green hill country.",
+  "source": "https://www.srilanka.travel/",
+  "id": "d080",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Wadi Rum",
+  "country": "Jordan",
+  "region": "Asia",
+  "lat": 29.58,
+  "lon": 35.42,
+  "category": "Nature",
+  "season": "Mar–May, Oct–Nov",
+  "nights": 4,
+  "base": "Protected-area desert camp",
+  "arrival": "Arrive Aqaba or transfer from Petra",
+  "transport": "Licensed Bedouin guide and 4WD",
+  "route": [
+   [
+    "Visitor centre",
+    "camp arrival"
+   ],
+   [
+    "Desert 4WD route",
+    "rock formations"
+   ],
+   [
+    "Guided desert walk",
+    "stargazing"
+   ]
+  ],
+  "why": "Sandstone, silence and desert hospitality.",
+  "source": "https://international.visitjordan.com/",
+  "id": "d081",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "AlUla",
+  "country": "Saudi Arabia",
+  "region": "Asia",
+  "lat": 26.61,
+  "lon": 37.92,
+  "category": "Human-made",
+  "season": "Oct–Mar",
+  "nights": 4,
+  "base": "AlUla",
+  "arrival": "Fly AlUla or transfer from Medina",
+  "transport": "Booked tours and licensed transfers",
+  "route": [
+   [
+    "Old Town",
+    "oasis"
+   ],
+   [
+    "Hegra authorised tour",
+    "viewpoints"
+   ],
+   [
+    "Dadan and Jabal Ikmah",
+    "desert evening"
+   ]
+  ],
+  "why": "Ancient inscriptions and tombs in sandstone country.",
+  "source": "https://www.experiencealula.com/",
+  "id": "d082",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Socotra",
+  "country": "Yemen",
+  "region": "Asia",
+  "lat": 12.5,
+  "lon": 53.9,
+  "category": "Nature",
+  "season": "Oct–Apr; review travel advice first",
+  "nights": 7,
+  "base": "Operator-arranged island camps",
+  "arrival": "Do not book until advice, insurance and access are reviewed",
+  "transport": "Specialist operator; no assumed safe route",
+  "route": [
+   [
+    "Pre-trip advice and access review",
+    "operator briefing"
+   ],
+   [
+    "Dragon-blood-tree landscape with guide",
+    "camp"
+   ],
+   [
+    "Coastal landscape under operator advice",
+    "rest"
+   ],
+   [
+    "Island route conditional on safety",
+    "buffer"
+   ]
+  ],
+  "why": "An island landscape found nowhere else.",
+  "source": "https://whc.unesco.org/en/list/1263/",
+  "id": "d083",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Seychelles",
+  "country": "Seychelles",
+  "region": "Africa",
+  "lat": -4.32,
+  "lon": 55.75,
+  "category": "Islands",
+  "season": "Apr–May, Oct–Nov",
+  "nights": 8,
+  "base": "Mahé, Praslin and La Digue",
+  "arrival": "Fly Mahé",
+  "transport": "Ferries, island transfers and bicycles on La Digue",
+  "route": [
+   [
+    "Mahé",
+    "beach"
+   ],
+   [
+    "Transfer Praslin",
+    "rest"
+   ],
+   [
+    "Vallée de Mai",
+    "coastal afternoon"
+   ],
+   [
+    "Transfer La Digue",
+    "bicycle orientation"
+   ],
+   [
+    "Anse Source d’Argent",
+    "village"
+   ],
+   [
+    "Quiet beach day",
+    "return buffer"
+   ]
+  ],
+  "why": "Granite boulders and intensely coloured sea.",
+  "source": "https://seychelles.com/",
+  "id": "d084",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Madagascar",
+  "country": "Madagascar",
+  "region": "Africa",
+  "lat": -18.93,
+  "lon": 47.52,
+  "category": "Wildlife",
+  "season": "Apr–Nov; regional seasons vary",
+  "nights": 12,
+  "base": "Antananarivo, Andasibe and one further region",
+  "arrival": "Fly Antananarivo",
+  "transport": "Experienced driver and local park guides; long-road buffers",
+  "route": [
+   [
+    "Antananarivo",
+    "rest"
+   ],
+   [
+    "Transfer Andasibe",
+    "forest lodge"
+   ],
+   [
+    "Guided rainforest walk",
+    "wildlife"
+   ],
+   [
+    "Second forest morning",
+    "return stage"
+   ],
+   [
+    "Onward regional flight if confirmed",
+    "buffer"
+   ],
+   [
+    "Selected second region with guide",
+    "slow exploration"
+   ]
+  ],
+  "why": "Wildlife and landscapes evolved in isolation.",
+  "source": "https://madagascar-tourisme.com/en/",
+  "id": "d085",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Lençóis Maranhenses",
+  "country": "Brazil",
+  "region": "South America",
+  "lat": -2.48,
+  "lon": -43.13,
+  "category": "Nature",
+  "season": "Jun–Sep lagoon season varies",
+  "nights": 5,
+  "base": "Barreirinhas or Atins",
+  "arrival": "Fly São Luís then road transfer",
+  "transport": "Authorised 4WD and local walking guides",
+  "route": [
+   [
+    "Transfer to Barreirinhas",
+    "rest"
+   ],
+   [
+    "Dune and lagoon excursion",
+    "sunset"
+   ],
+   [
+    "River trip",
+    "village"
+   ],
+   [
+    "Atins guided dune visit",
+    "buffer"
+   ]
+  ],
+  "why": "Rainwater lagoons between enormous white dunes.",
+  "source": "https://visitbrasil.com/en/",
+  "id": "d086",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Antelope Canyon and Monument Valley",
+  "country": "United States",
+  "region": "North America",
+  "lat": 36.86,
+  "lon": -111.37,
+  "category": "Nature",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 5,
+  "base": "Page and Monument Valley",
+  "arrival": "Fly Las Vegas or Phoenix then drive",
+  "transport": "Rental car and Navajo-authorised guides",
+  "route": [
+   [
+    "Page",
+    "lakeside viewpoint"
+   ],
+   [
+    "Antelope Canyon booked guided tour",
+    "Horseshoe Bend"
+   ],
+   [
+    "Drive Monument Valley",
+    "sunset"
+   ],
+   [
+    "Navajo-guided valley excursion",
+    "return stage"
+   ]
+  ],
+  "why": "Slot-canyon light and a profoundly storied landscape.",
+  "source": "https://navajonationparks.org/",
+  "id": "d087",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Svalbard",
+  "country": "Norway",
+  "region": "Europe",
+  "lat": 78.22,
+  "lon": 15.65,
+  "category": "Expedition",
+  "season": "May–Sep for boat-based visits",
+  "nights": 6,
+  "base": "Longyearbyen",
+  "arrival": "Fly via mainland Norway",
+  "transport": "Authorised guides outside settlement; expedition boats",
+  "route": [
+   [
+    "Longyearbyen",
+    "museum"
+   ],
+   [
+    "Guided fjord excursion",
+    "wildlife"
+   ],
+   [
+    "Guided tundra activity",
+    "rest"
+   ],
+   [
+    "Second boat day if operating",
+    "buffer"
+   ],
+   [
+    "Settlement exploration",
+    "departure margin"
+   ]
+  ],
+  "why": "A high-Arctic world of ice, light and wildlife.",
+  "source": "https://en.visitsvalbard.com/",
+  "id": "d088",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Madeira",
+  "country": "Portugal",
+  "region": "Europe",
+  "lat": 32.76,
+  "lon": -16.96,
+  "category": "Nature",
+  "season": "Apr–Oct",
+  "nights": 7,
+  "base": "Funchal and north-coast base",
+  "arrival": "Fly Funchal",
+  "transport": "Car or transfers; verify trail closures",
+  "route": [
+   [
+    "Funchal old town",
+    "gardens"
+   ],
+   [
+    "Open levada trail with suitable guide",
+    "rest"
+   ],
+   [
+    "North-coast villages",
+    "Porto Moniz"
+   ],
+   [
+    "Mountain viewpoints if roads open",
+    "short walk"
+   ],
+   [
+    "Ponta de São Lourenço if suitable",
+    "coast"
+   ],
+   [
+    "Weather buffer",
+    "food evening"
+   ]
+  ],
+  "why": "Ocean cliffs, cloud forest and mountain light.",
+  "source": "https://visitmadeira.com/en/",
+  "id": "d089",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Azores",
+  "country": "Portugal",
+  "region": "Europe",
+  "lat": 37.78,
+  "lon": -25.5,
+  "category": "Nature",
+  "season": "May–Sep",
+  "nights": 7,
+  "base": "São Miguel",
+  "arrival": "Fly Ponta Delgada",
+  "transport": "Rental car; licensed marine operators",
+  "route": [
+   [
+    "Ponta Delgada",
+    "waterfront"
+   ],
+   [
+    "Sete Cidades",
+    "viewpoints"
+   ],
+   [
+    "Furnas",
+    "thermal visit"
+   ],
+   [
+    "Lagoa do Fogo if accessible",
+    "coast"
+   ],
+   [
+    "Whale watching if operating",
+    "rest"
+   ],
+   [
+    "Weather buffer",
+    "east-coast drive"
+   ]
+  ],
+  "why": "Volcanic lakes and green islands in the Atlantic.",
+  "source": "https://www.visitazores.com/en",
+  "id": "d090",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Paris",
+  "country": "France",
+  "region": "Europe",
+  "lat": 48.86,
+  "lon": 2.35,
+  "category": "Culture",
+  "season": "Apr–Jun, Sep–Oct",
+  "nights": 6,
+  "base": "Central Paris",
+  "arrival": "Fly Paris or arrive by rail",
+  "transport": "Metro and walking",
+  "route": [
+   [
+    "Seine",
+    "Île de la Cité"
+   ],
+   [
+    "Louvre",
+    "Tuileries"
+   ],
+   [
+    "Musée d’Orsay",
+    "Saint-Germain"
+   ],
+   [
+    "Montmartre",
+    "neighbourhood wandering"
+   ],
+   [
+    "Versailles or quiet Paris day",
+    "evening theatre"
+   ]
+  ],
+  "why": "Art, architecture and the pleasure of wandering.",
+  "source": "https://parisjetaime.com/eng/",
+  "id": "d091",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Venice",
+  "country": "Italy",
+  "region": "Europe",
+  "lat": 45.44,
+  "lon": 12.34,
+  "category": "Human-made",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 4,
+  "base": "Venice historic islands",
+  "arrival": "Fly Venice or arrive by rail",
+  "transport": "Walking and vaporetto",
+  "route": [
+   [
+    "Dorsoduro",
+    "canals"
+   ],
+   [
+    "St Mark’s",
+    "Doge’s Palace"
+   ],
+   [
+    "Burano or Torcello",
+    "quieter lanes"
+   ]
+  ],
+  "why": "A city whose streets are made of water.",
+  "source": "https://www.veneziaunica.it/en",
+  "id": "d092",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Florence and Tuscany",
+  "country": "Italy",
+  "region": "Europe",
+  "lat": 43.77,
+  "lon": 11.25,
+  "category": "Culture",
+  "season": "Apr–Jun, Sep–Oct",
+  "nights": 7,
+  "base": "Florence and rural Tuscany",
+  "arrival": "Fly Florence or Pisa; rail connection",
+  "transport": "Walk in Florence; rental car for countryside",
+  "route": [
+   [
+    "Florence historic centre",
+    "Arno"
+   ],
+   [
+    "Uffizi",
+    "Oltrarno"
+   ],
+   [
+    "Accademia",
+    "gardens"
+   ],
+   [
+    "Transfer Siena",
+    "old town"
+   ],
+   [
+    "Val d’Orcia villages",
+    "countryside"
+   ],
+   [
+    "Slow rural day",
+    "return"
+   ]
+  ],
+  "why": "Renaissance art and landscapes shaped by centuries.",
+  "source": "https://www.visittuscany.com/en/",
+  "id": "d093",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Alhambra and Granada",
+  "country": "Spain",
+  "region": "Europe",
+  "lat": 37.18,
+  "lon": -3.59,
+  "category": "Human-made",
+  "season": "Mar–May, Sep–Oct",
+  "nights": 4,
+  "base": "Granada",
+  "arrival": "Rail or fly via Málaga",
+  "transport": "Walking and local buses",
+  "route": [
+   [
+    "Albaicín",
+    "miradores"
+   ],
+   [
+    "Alhambra timed entry",
+    "Generalife"
+   ],
+   [
+    "Sacromonte",
+    "tapas evening"
+   ]
+  ],
+  "why": "Gardens and intricate rooms against a mountain backdrop.",
+  "source": "https://www.alhambra-patronato.es/en",
+  "id": "d094",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Acropolis and Athens",
+  "country": "Greece",
+  "region": "Europe",
+  "lat": 37.97,
+  "lon": 23.73,
+  "category": "Human-made",
+  "season": "Apr–May, Sep–Oct",
+  "nights": 4,
+  "base": "Central Athens",
+  "arrival": "Fly Athens then metro",
+  "transport": "Walking and metro",
+  "route": [
+   [
+    "Plaka",
+    "old streets"
+   ],
+   [
+    "Acropolis",
+    "Acropolis Museum"
+   ],
+   [
+    "Ancient Agora",
+    "neighbourhood food"
+   ]
+  ],
+  "why": "An ancient skyline above a living modern city.",
+  "source": "https://www.thisisathens.org/",
+  "id": "d095",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Stonehenge and Bath",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "lat": 51.18,
+  "lon": -1.83,
+  "category": "Human-made",
+  "season": "May–Sep",
+  "nights": 4,
+  "base": "Bath or Salisbury",
+  "arrival": "Rail from London",
+  "transport": "Rail, authorised tours and walking",
+  "route": [
+   [
+    "Bath historic centre",
+    "river"
+   ],
+   [
+    "Roman Baths",
+    "Georgian streets"
+   ],
+   [
+    "Stonehenge booked visit",
+    "Salisbury"
+   ]
+  ],
+  "why": "Prehistoric mystery and an elegant historic city.",
+  "source": "https://www.english-heritage.org.uk/visit/places/stonehenge/",
+  "id": "d096",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Tikal",
+  "country": "Guatemala",
+  "region": "North America",
+  "lat": 17.22,
+  "lon": -89.62,
+  "category": "Human-made",
+  "season": "Nov–Apr",
+  "nights": 4,
+  "base": "Flores and Tikal lodge",
+  "arrival": "Fly Flores then transfer",
+  "transport": "Licensed guide and park transfers",
+  "route": [
+   [
+    "Flores",
+    "lakeshore"
+   ],
+   [
+    "Tikal main temples",
+    "forest paths"
+   ],
+   [
+    "Second permitted forest visit",
+    "return"
+   ]
+  ],
+  "why": "Maya temples rising above a living forest canopy.",
+  "source": "https://whc.unesco.org/en/list/64/",
+  "id": "d097",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Borobudur and Yogyakarta",
+  "country": "Indonesia",
+  "region": "Asia",
+  "lat": -7.61,
+  "lon": 110.2,
+  "category": "Human-made",
+  "season": "May–Sep",
+  "nights": 5,
+  "base": "Yogyakarta and Borobudur area",
+  "arrival": "Fly Yogyakarta",
+  "transport": "Driver, rail and local guides",
+  "route": [
+   [
+    "Yogyakarta palace",
+    "batik workshops"
+   ],
+   [
+    "Borobudur under current access rules",
+    "village"
+   ],
+   [
+    "Prambanan",
+    "nearby temples"
+   ],
+   [
+    "Merapi-region cultural outing",
+    "buffer"
+   ]
+  ],
+  "why": "Sacred architecture and Javanese creative life.",
+  "source": "https://www.indonesia.travel/",
+  "id": "d098",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Hampi",
+  "country": "India",
+  "region": "Asia",
+  "lat": 15.34,
+  "lon": 76.46,
+  "category": "Human-made",
+  "season": "Nov–Feb",
+  "nights": 4,
+  "base": "Hampi area",
+  "arrival": "Rail or road via Hosapete",
+  "transport": "Local driver, guide and walking",
+  "route": [
+   [
+    "Hampi village",
+    "river"
+   ],
+   [
+    "Sacred centre",
+    "temple architecture"
+   ],
+   [
+    "Royal enclosure",
+    "boulder viewpoints"
+   ]
+  ],
+  "why": "A ruined empire in a surreal boulder landscape.",
+  "source": "https://www.incredibleindia.gov.in/",
+  "id": "d099",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Luang Prabang",
+  "country": "Laos",
+  "region": "Asia",
+  "lat": 19.89,
+  "lon": 102.14,
+  "category": "Culture",
+  "season": "Nov–Feb",
+  "nights": 5,
+  "base": "Old town",
+  "arrival": "Fly or rail Luang Prabang",
+  "transport": "Walking, bicycles and licensed drivers",
+  "route": [
+   [
+    "Old town",
+    "Mekong sunset"
+   ],
+   [
+    "Temples",
+    "traditional arts"
+   ],
+   [
+    "Kuang Si Falls",
+    "countryside"
+   ],
+   [
+    "River excursion",
+    "quiet café day"
+   ]
+  ],
+  "why": "A gentle riverside city with space to slow down.",
+  "source": "https://www.tourismlaos.org/",
+  "id": "d100",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Komani Lake and Albanian Alps",
+  "country": "Albania",
+  "region": "Europe",
+  "lat": 42.4,
+  "lon": 19.77,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 7,
+  "base": "Shkodër, Valbona and Theth",
+  "arrival": "Arrive Tirana then transfer",
+  "transport": "Ferry and local transfers; guided mountain crossing if suitable",
+  "route": [
+   [
+    "Shkodër",
+    "supplies"
+   ],
+   [
+    "Komani ferry",
+    "Valbona"
+   ],
+   [
+    "Valbona valley",
+    "acclimatisation"
+   ],
+   [
+    "Guided Valbona–Theth crossing if conditions suit",
+    "lodge"
+   ],
+   [
+    "Theth village",
+    "easy trails"
+   ],
+   [
+    "Return Shkodër",
+    "buffer"
+   ]
+  ],
+  "why": "Fjords of mountain water and remote stone villages.",
+  "source": "https://albania.al/",
+  "id": "d101",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Cliffs of Moher and West Ireland",
+  "country": "Ireland",
+  "region": "Europe",
+  "lat": 52.97,
+  "lon": -9.43,
+  "category": "Nature",
+  "season": "May–Sep",
+  "nights": 5,
+  "base": "Doolin and Galway",
+  "arrival": "Arrive Shannon or Dublin then transfer",
+  "transport": "Rental car or guided regional tours",
+  "route": [
+   [
+    "Galway",
+    "music evening"
+   ],
+   [
+    "Burren landscapes",
+    "Doolin"
+   ],
+   [
+    "Cliffs visitor paths if weather safe",
+    "village"
+   ],
+   [
+    "Aran Islands ferry if operating",
+    "buffer"
+   ]
+  ],
+  "why": "Atlantic cliffs and a landscape full of stories.",
+  "source": "https://www.ireland.com/",
+  "id": "d102",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Lake Baikal",
+  "country": "Russia",
+  "region": "Asia",
+  "lat": 53.56,
+  "lon": 108.17,
+  "category": "Nature",
+  "season": "Jun–Sep; review travel advice first",
+  "nights": 7,
+  "base": "Irkutsk and selected lake base",
+  "arrival": "Confirm advice, insurance and viable transport first",
+  "transport": "Qualified local operator after advice review",
+  "route": [
+   [
+    "Advice review",
+    "arrival planning"
+   ],
+   [
+    "Irkutsk heritage",
+    "rest"
+   ],
+   [
+    "Transfer selected lake base",
+    "shore"
+   ],
+   [
+    "Guided lake landscape visit",
+    "buffer"
+   ],
+   [
+    "Return stage",
+    "onward contingency"
+   ]
+  ],
+  "why": "An immense ancient lake in Siberian wilderness.",
+  "source": "https://whc.unesco.org/en/list/754/",
+  "id": "d103",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Greenland Ilulissat",
+  "country": "Greenland",
+  "region": "North America",
+  "lat": 69.22,
+  "lon": -51.1,
+  "category": "Nature",
+  "season": "Jun–Sep",
+  "nights": 6,
+  "base": "Ilulissat",
+  "arrival": "Fly via available Greenland or Copenhagen connection",
+  "transport": "Local walking routes and licensed boat operators",
+  "route": [
+   [
+    "Ilulissat",
+    "harbour"
+   ],
+   [
+    "Icefjord marked trails",
+    "museum"
+   ],
+   [
+    "Licensed iceberg boat excursion",
+    "rest"
+   ],
+   [
+    "Local cultural visit",
+    "coast"
+   ],
+   [
+    "Weather buffer",
+    "spare flight day"
+   ]
+  ],
+  "why": "Icebergs drifting from one of the great icefjords.",
+  "source": "https://visitgreenland.com/",
+  "id": "d104",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Parícutin Volcano",
+  "country": "Mexico",
+  "region": "North America",
+  "lat": 19.49,
+  "lon": -102.25,
+  "category": "Nature",
+  "season": "Nov–Apr",
+  "nights": 4,
+  "base": "Uruapan and Angahuan",
+  "arrival": "Arrive Morelia or Uruapan then transfer",
+  "transport": "Local guide and arranged road transport",
+  "route": [
+   [
+    "Uruapan",
+    "orientation"
+   ],
+   [
+    "Angahuan with local guide",
+    "lava-field church"
+   ],
+   [
+    "Guided volcano landscape day if access suitable",
+    "rest"
+   ]
+  ],
+  "why": "A volcano born within living memory.",
+  "source": "https://visitmexico.com/",
+  "id": "d105",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Everest Region",
+  "country": "Nepal",
+  "region": "Asia",
+  "lat": 27.99,
+  "lon": 86.93,
+  "category": "Nature",
+  "season": "Mar–May, Oct–Nov",
+  "nights": 16,
+  "base": "Kathmandu and staged trekking lodges",
+  "arrival": "Fly Kathmandu; onward weather-dependent mountain flights",
+  "transport": "Licensed guide; slow acclimatisation and evacuation planning",
+  "route": [
+   [
+    "Kathmandu",
+    "permits and preparation"
+   ],
+   [
+    "Weather-dependent gateway transfer",
+    "short first stage"
+   ],
+   [
+    "Staged ascent",
+    "acclimatisation stop"
+   ],
+   [
+    "Gentle acclimatisation walk",
+    "rest"
+   ],
+   [
+    "Continue only with appropriate acclimatisation",
+    "lodge"
+   ],
+   [
+    "Return stages with flight buffers",
+    "recovery"
+   ]
+  ],
+  "why": "Himalayan scale best approached slowly and humbly.",
+  "source": "https://ntb.gov.np/",
+  "id": "d106",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Northern Lights in Tromsø",
+  "country": "Norway",
+  "region": "Europe",
+  "lat": 69.65,
+  "lon": 18.96,
+  "category": "Nature",
+  "season": "Sep–Mar for dark skies",
+  "nights": 6,
+  "base": "Tromsø",
+  "arrival": "Fly Tromsø",
+  "transport": "City buses and licensed aurora operators",
+  "route": [
+   [
+    "Tromsø",
+    "Polar Museum"
+   ],
+   [
+    "City and fjord views",
+    "first aurora attempt"
+   ],
+   [
+    "Guided winter landscape trip",
+    "rest"
+   ],
+   [
+    "Second aurora opportunity",
+    "local culture"
+   ],
+   [
+    "Weather buffer",
+    "quiet city day"
+   ]
+  ],
+  "why": "A chance to see the sky move above an Arctic landscape.",
+  "source": "https://www.visittromso.no/",
+  "id": "d107",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "name": "Rio Harbour",
+  "country": "Brazil",
+  "region": "South America",
+  "lat": -22.94,
+  "lon": -43.16,
+  "category": "Nature",
+  "season": "Apr–Jun, Sep–Oct",
+  "nights": 4,
+  "base": "Rio de Janeiro",
+  "arrival": "Fly Rio",
+  "transport": "Trusted transfers and licensed boat operators",
+  "route": [
+   [
+    "Urca",
+    "harbour views"
+   ],
+   [
+    "Sugarloaf",
+    "coastal walk"
+   ],
+   [
+    "Authorised bay cruise",
+    "city museums"
+   ]
+  ],
+  "why": "Granite peaks framing a vast tropical harbour.",
+  "source": "https://visitbrasil.com/en/",
+  "id": "d108",
+  "status": "Want to go",
+  "priority": "Explore",
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it."
+ },
+ {
+  "id": "forty-02",
+  "name": "South Georgia",
+  "country": "South Atlantic",
+  "region": "South Atlantic",
+  "lat": -54.28,
+  "lon": -36.5,
+  "category": "Wildlife",
+  "why": "King-penguin colonies, glaciers and remote-island wildlife.",
+  "source": "https://gov.gs/how-to-visit/",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "King-penguin colonies, glaciers and remote-island wildlife."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-03",
+  "name": "Patagonia: Torres del Paine & El Chaltén",
+  "country": "Chile / Argentina",
+  "region": "South America",
+  "lat": -50.5,
+  "lon": -73,
+  "category": "Nature",
+  "why": "A substantial walking journey beneath extraordinary mountain walls.",
+  "source": "https://www.chile.travel/",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "A substantial walking journey beneath extraordinary mountain walls."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-06",
+  "name": "Icelandic Highlands",
+  "country": "Iceland",
+  "region": "Europe",
+  "lat": 64,
+  "lon": -19.1,
+  "category": "Nature",
+  "why": "Volcanic wilderness and a properly paced hiking adventure.",
+  "source": "https://www.visiticeland.com/",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Volcanic wilderness and a properly paced hiking adventure."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-08",
+  "name": "Annapurna Sanctuary",
+  "country": "Nepal",
+  "region": "Asia",
+  "lat": 28.53,
+  "lon": 83.88,
+  "category": "Expedition",
+  "why": "A Himalayan trek with adequate acclimatisation and recovery time.",
+  "source": "https://ntb.gov.np/",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "A Himalayan trek with adequate acclimatisation and recovery time."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-09",
+  "name": "Song-Köl & surrounding mountains",
+  "country": "Kyrgyzstan",
+  "region": "Asia",
+  "lat": 41.85,
+  "lon": 75.15,
+  "category": "Nature",
+  "why": "Guided horse trekking, yurts and time with local hosts.",
+  "source": "https://www.smartraveller.gov.au/destinations/asia/kyrgyz-republic",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Guided horse trekking, yurts and time with local hosts."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-10",
+  "name": "Mongolian Altai",
+  "country": "Mongolia",
+  "region": "Asia",
+  "lat": 48.6,
+  "lon": 89.5,
+  "category": "Expedition",
+  "why": "Mountain travel with local guides and Kazakh hosts.",
+  "source": "https://www.smartraveller.gov.au/destinations/asia/mongolia",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Mountain travel with local guides and Kazakh hosts."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-13",
+  "name": "Volcanoes National Park",
+  "country": "Rwanda",
+  "region": "Africa",
+  "lat": -1.48,
+  "lon": 29.5,
+  "category": "Wildlife",
+  "why": "Permitted mountain-gorilla trekking and time learning Rwanda's history.",
+  "source": "https://visitrwanda.com/destinations/volcanoes-national-park/",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Permitted mountain-gorilla trekking and time learning Rwanda's history."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-15",
+  "name": "Tambopata, Peruvian Amazon",
+  "country": "Peru",
+  "region": "South America",
+  "lat": -12.85,
+  "lon": -69.3,
+  "category": "Wildlife",
+  "why": "Forest-lodge stay with excellent local guiding and river exploration.",
+  "source": "https://visitaareasnaturales.sernanp.gob.pe/en/anps/tambopata-national-reserve/",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Forest-lodge stay with excellent local guiding and river exploration."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-17",
+  "name": "Moorea",
+  "country": "French Polynesia",
+  "region": "Oceania",
+  "lat": -17.54,
+  "lon": -149.83,
+  "category": "Islands",
+  "why": "Lagoon exploration, mountain walks and relaxed time together.",
+  "source": "https://www.smartraveller.gov.au/destinations/pacific/french-polynesia",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Lagoon exploration, mountain walks and relaxed time together."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-36",
+  "name": "Tsingy de Bemaraha",
+  "country": "Madagascar",
+  "region": "Africa",
+  "lat": -18.65,
+  "lon": 44.75,
+  "category": "Nature",
+  "why": "Guided exploration of limestone formations and forest.",
+  "source": "https://parcs-madagascar.com/en/parc/tsingy-de-bemaraha-2/",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Guided exploration of limestone formations and forest."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-37",
+  "name": "Ningaloo Reef",
+  "country": "Australia",
+  "region": "Oceania",
+  "lat": -22.7,
+  "lon": 113.7,
+  "category": "Wildlife",
+  "why": "Licensed whale-shark excursion where conditions allow, plus reef and Cape Range.",
+  "source": "https://www.australia.com/en/places/perth-and-surrounds/guide-to-ningaloo-reef.html",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Licensed whale-shark excursion where conditions allow, plus reef and Cape Range."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-38",
+  "name": "Canadian Rockies: Banff & Yoho",
+  "country": "Canada",
+  "region": "North America",
+  "lat": 51.3,
+  "lon": -116.5,
+  "category": "Nature",
+  "why": "A proper mountain walking journey beyond roadside viewpoints.",
+  "source": "https://parks.canada.ca/pn-np/bc/yoho",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "A proper mountain walking journey beyond roadside viewpoints."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "forty-la-digue",
+  "name": "La Digue",
+  "country": "Seychelles",
+  "region": "Africa",
+  "lat": -4.35,
+  "lon": 55.83,
+  "category": "Islands",
+  "why": "A relaxed island addition or substitution for Moorea.",
+  "source": "https://www.smartraveller.gov.au/destinations/africa/seychelles",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "A relaxed island addition or substitution for Moorea."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "reserve-iran",
+  "name": "Iran",
+  "country": "Iran",
+  "region": "Asia",
+  "lat": 32.4,
+  "lon": 53.7,
+  "category": "Expedition",
+  "why": "Only when safe to do so. Existing trip remains on hold.",
+  "source": "https://www.smartraveller.gov.au/",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Only when safe to do so. Existing trip remains on hold."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ },
+ {
+  "id": "reserve-russia",
+  "name": "Russia & the Trans-Siberian",
+  "country": "Russia",
+  "region": "Asia",
+  "lat": 56.8,
+  "lon": 100,
+  "category": "Expedition",
+  "why": "Only when safe to do so. Existing trip remains on hold.",
+  "source": "https://www.smartraveller.gov.au/",
+  "status": "Want to go",
+  "priority": "High",
+  "season": "To research for your dates",
+  "nights": 5,
+  "base": "Choose after route research",
+  "arrival": "Research gateways, seasonal services and access for your dates",
+  "transport": "Choose local transport and guides after date-specific research",
+  "route": [
+   [
+    "Define your journey",
+    "Only when safe to do so. Existing trip remains on hold."
+   ],
+   [
+    "Research practical details",
+    "Confirm entry, access, permits, transport, weather and suitable guides before adding dated activities."
+   ]
+  ],
+  "notes": "",
+  "provenance": "Starter idea from the template; keep, edit or delete it.",
+  "researchOutline": true
+ }
+]

@@ -7,8 +7,11 @@
   "page": "https://commons.wikimedia.org/wiki/File:Moskenes_Reinebringen_lub_2025-07-21_img09_Aussicht.jpg",
   "license": "CC BY 4.0 · resized and cropped",
   "width": 800,
-  "height": 533,
-  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  "height": 534,
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "hd": "/images/d001.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d002": {
   "id": "d002",
@@ -20,8 +23,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "src": "/images/d002.webp",
-  "width": 700,
-  "height": 525
+  "width": 800,
+  "height": 600,
+  "hd": "/images/d002.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1440
  },
  "d003": {
   "id": "d003",
@@ -33,8 +39,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d003.webp",
-  "width": 700,
-  "height": 438
+  "width": 800,
+  "height": 500,
+  "hd": "/images/d003.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1200
  },
  "d004": {
   "id": "d004",
@@ -46,8 +55,11 @@
   "license": "CC BY 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "src": "/images/d004.webp",
-  "width": 700,
-  "height": 466
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d004.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "d005": {
   "id": "d005",
@@ -57,7 +69,10 @@
   "page": "https://unsplash.com/photos/GrdSBw1dAGU",
   "license": "Unsplash License",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d005.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d006": {
   "id": "d006",
@@ -69,8 +84,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d006.webp",
-  "width": 700,
-  "height": 462
+  "width": 800,
+  "height": 528,
+  "hd": "/images/d006.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1268
  },
  "d007": {
   "id": "d007",
@@ -82,8 +100,11 @@
   "license": "CC BY 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "src": "/images/d007.webp",
-  "width": 700,
-  "height": 467
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d007.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d008": {
   "id": "d008",
@@ -93,7 +114,10 @@
   "page": "https://unsplash.com/photos/CQsQd7RmvnQ",
   "license": "Unsplash License",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d008.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d009": {
   "id": "d009",
@@ -105,21 +129,25 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d009.webp",
-  "width": 700,
-  "height": 522
+  "width": 800,
+  "height": 596,
+  "hd": "/images/d009.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1432
  },
  "d010": {
   "id": "d010",
-  "title": "Deià",
-  "filename": "Deia_(part_of)_majorca_spain_arp.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Deia_%28part_of%29_majorca_spain_arp.jpg/330px-Deia_%28part_of%29_majorca_spain_arp.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Deia_(part_of)_majorca_spain_arp.jpg",
-  "credit": "Photographed by Adrian Pingstone",
-  "license": "Public domain · resized and cropped",
-  "licenseUrl": "",
+  "title": "Deià, Serra de Tramuntana, Mallorca",
   "src": "/images/d010.webp",
-  "width": 700,
-  "height": 525
+  "credit": "Pom' from France, European Union / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Dei%C3%A0,_Serra_de_Tramuntana,_Mallorca_-_Flickr_-_pom%27..jpg",
+  "license": "CC BY-SA 2.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "hd": "/images/d010.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d011": {
   "id": "d011",
@@ -131,8 +159,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d011.webp",
-  "width": 700,
-  "height": 373
+  "width": 800,
+  "height": 427,
+  "hd": "/images/d011.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1024
  },
  "d012": {
   "id": "d012",
@@ -144,8 +175,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d012.webp",
-  "width": 700,
-  "height": 484
+  "width": 800,
+  "height": 553,
+  "hd": "/images/d012.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1327
  },
  "d013": {
   "id": "d013",
@@ -157,8 +191,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d013.webp",
-  "width": 700,
-  "height": 470
+  "width": 800,
+  "height": 538,
+  "hd": "/images/d013.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1291
  },
  "d014": {
   "id": "d014",
@@ -170,8 +207,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d014.webp",
-  "width": 700,
-  "height": 467
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d014.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d016": {
   "id": "d016",
@@ -183,8 +223,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d016.webp",
-  "width": 493,
-  "height": 700
+  "width": 564,
+  "height": 800,
+  "hd": "/images/d016.hd.webp",
+  "hdWidth": 1353,
+  "hdHeight": 1920
  },
  "d018": {
   "id": "d018",
@@ -196,8 +239,11 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "src": "/images/d018.webp",
-  "width": 700,
-  "height": 467
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d018.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d019": {
   "id": "d019",
@@ -209,8 +255,11 @@
   "license": "CC0 · resized and cropped",
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "src": "/images/d019.webp",
-  "width": 700,
-  "height": 338
+  "width": 800,
+  "height": 387,
+  "hd": "/images/d019.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 928
  },
  "d020": {
   "id": "d020",
@@ -222,8 +271,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d020.webp",
-  "width": 700,
-  "height": 491
+  "width": 800,
+  "height": 560,
+  "hd": "/images/d020.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1345
  },
  "d021": {
   "id": "d021",
@@ -235,8 +287,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d021.webp",
-  "width": 700,
-  "height": 467
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d021.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d022": {
   "id": "d022",
@@ -248,8 +303,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d022.webp",
-  "width": 700,
-  "height": 465
+  "width": 800,
+  "height": 531,
+  "hd": "/images/d022.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1275
  },
  "d023": {
   "id": "d023",
@@ -261,8 +319,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d023.webp",
-  "width": 700,
-  "height": 460
+  "width": 800,
+  "height": 526,
+  "hd": "/images/d023.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1262
  },
  "d024": {
   "id": "d024",
@@ -274,8 +335,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d024.webp",
-  "width": 700,
-  "height": 467
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d024.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d025": {
   "id": "d025",
@@ -287,8 +351,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d025.webp",
-  "width": 700,
-  "height": 373
+  "width": 800,
+  "height": 425,
+  "hd": "/images/d025.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1021
  },
  "d026": {
   "id": "d026",
@@ -300,8 +367,11 @@
   "license": "CC BY-SA 3.0 de · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
   "src": "/images/d026.webp",
-  "width": 467,
-  "height": 700
+  "width": 534,
+  "height": 800,
+  "hd": "/images/d026.hd.webp",
+  "hdWidth": 1280,
+  "hdHeight": 1920
  },
  "d027": {
   "id": "d027",
@@ -313,8 +383,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d027.webp",
-  "width": 700,
-  "height": 292
+  "width": 800,
+  "height": 333,
+  "hd": "/images/d027.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 800
  },
  "d028": {
   "id": "d028",
@@ -326,8 +399,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d028.webp",
-  "width": 700,
-  "height": 475
+  "width": 800,
+  "height": 544,
+  "hd": "/images/d028.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1305
  },
  "d029": {
   "id": "d029",
@@ -339,34 +415,39 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d029.webp",
-  "width": 700,
-  "height": 462
+  "width": 800,
+  "height": 528,
+  "hd": "/images/d029.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1268
  },
  "d030": {
   "id": "d030",
-  "title": "Registan",
-  "filename": "RegistanSquare_Samarkand.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/RegistanSquare_Samarkand.jpg/330px-RegistanSquare_Samarkand.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:RegistanSquare_Samarkand.jpg",
-  "credit": "Registan_-_Gusjer.jpg: Gustavo Jeronimo from Aranjuez, Spain\nderivative work: MrPanyGoff",
-  "license": "CC BY 2.0 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "title": "Registan, Samarkand",
   "src": "/images/d030.webp",
-  "width": 700,
-  "height": 525
+  "credit": "Bernard Gagnon / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Registan_01.jpg",
+  "license": "CC0 · resized and cropped",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "hd": "/images/d030.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d031": {
   "id": "d031",
-  "title": "Issyk-Kul",
-  "filename": "Issykkul_plyag.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Issykkul_plyag.jpg/330px-Issykkul_plyag.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Issykkul_plyag.jpg",
-  "credit": "Қайырқан Әсем",
+  "title": "Ala Archa National Park, Kyrgyzstan",
+  "src": "/images/d031.webp",
+  "credit": "Nikolai Bulykin / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%BB%D0%B0-%D0%90%D1%80%D1%87%D0%B0_%D1%81%D0%B2%D0%B5%D1%80%D1%85%D1%83_(3).jpg",
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "src": "/images/d031.webp",
-  "width": 330,
-  "height": 169
+  "hd": "/images/d031.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d033": {
   "id": "d033",
@@ -378,8 +459,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d033.webp",
-  "width": 330,
-  "height": 231
+  "width": 800,
+  "height": 561,
+  "hd": "/images/d033.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1347
  },
  "d034": {
   "id": "d034",
@@ -391,21 +475,25 @@
   "license": "Public domain · resized and cropped",
   "licenseUrl": "",
   "src": "/images/d034.webp",
-  "width": 330,
-  "height": 247
+  "width": 800,
+  "height": 600,
+  "hd": "/images/d034.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1440
  },
  "d035": {
   "id": "d035",
-  "title": "Tràng An",
-  "filename": "Muaxuantamcoc.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Muaxuantamcoc.jpg/330px-Muaxuantamcoc.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Muaxuantamcoc.jpg",
-  "credit": "Kien1980v (thảo luận)",
-  "license": "Public domain · resized and cropped",
-  "licenseUrl": "",
+  "title": "Tràng An, Ninh Bình",
   "src": "/images/d035.webp",
-  "width": 330,
-  "height": 215
+  "credit": "Jakub Hałun / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Trang_An_Landscape_Complex,_Ninh_Binh_Province,_Vietnam,_20240202_1433_5283.jpg",
+  "license": "CC BY 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "hd": "/images/d035.hd.webp",
+  "width": 800,
+  "height": 534,
+  "hdWidth": 1920,
+  "hdHeight": 1282
  },
  "d036": {
   "id": "d036",
@@ -417,21 +505,25 @@
   "license": "CC0 · resized and cropped",
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "src": "/images/d036.webp",
-  "width": 330,
-  "height": 176
+  "width": 800,
+  "height": 427,
+  "hd": "/images/d036.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1025
  },
  "d037": {
   "id": "d037",
-  "title": "Komodo National Park",
-  "filename": "Komodo_dragon_at_Komodo_National_Park.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Komodo_dragon_at_Komodo_National_Park.jpg/330px-Komodo_dragon_at_Komodo_National_Park.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Komodo_dragon_at_Komodo_National_Park.jpg",
-  "credit": "Adhi Rachdian from Indonesia",
-  "license": "CC BY 2.0 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "title": "Padar Island, Komodo National Park",
   "src": "/images/d037.webp",
-  "width": 330,
-  "height": 220
+  "credit": "Jakub Hałun / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Padar_Island,_Komodo_National_Park,_Indonesia,_20250822_0929_2659.jpg",
+  "license": "CC BY 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "hd": "/images/d037.hd.webp",
+  "width": 800,
+  "height": 534,
+  "hdWidth": 1920,
+  "hdHeight": 1282
  },
  "d038": {
   "id": "d038",
@@ -443,21 +535,25 @@
   "license": "CC BY-SA 3.0 igo · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/igo/deed.en",
   "src": "/images/d038.webp",
-  "width": 330,
-  "height": 219
+  "width": 800,
+  "height": 532,
+  "hd": "/images/d038.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1277
  },
  "d039": {
   "id": "d039",
-  "title": "Jeju Island",
-  "filename": "Jeju_Island.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Jeju_Island.jpg/330px-Jeju_Island.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Jeju_Island.jpg",
-  "credit": "Robert Simmon, using Landsat data provided by the United States Geological Survey.",
-  "license": "Public domain · resized and cropped",
-  "licenseUrl": "",
+  "title": "Seongsan Ilchulbong, Jeju",
   "src": "/images/d039.webp",
-  "width": 330,
-  "height": 220
+  "credit": "Korea.net / Korean Culture and Information Service / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Seongsan_Ilchulbong_from_the_air.jpg",
+  "license": "CC BY-SA 2.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "hd": "/images/d039.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d040": {
   "id": "d040",
@@ -469,21 +565,25 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "src": "/images/d040.webp",
-  "width": 330,
-  "height": 216
+  "width": 800,
+  "height": 523,
+  "hd": "/images/d040.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1256
  },
  "d041": {
   "id": "d041",
-  "title": "Iguazu Falls",
-  "filename": "Aerial_Foz_de_Iguaçu_26_Nov_2005.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg/330px-Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Aerial_Foz_de_Iguaçu_26_Nov_2005.jpg",
-  "credit": "Mariordo (Mario Roberto Durán Ortiz)",
+  "title": "Iguazú Falls from the air",
+  "src": "/images/d041.webp",
+  "credit": "Bernard Gagnon / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Iguaz%C3%BA_Falls_01.jpg",
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-  "src": "/images/d041.webp",
-  "width": 330,
-  "height": 203
+  "hd": "/images/d041.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d042": {
   "id": "d042",
@@ -495,8 +595,11 @@
   "license": "CC BY-SA 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "src": "/images/d042.webp",
-  "width": 330,
-  "height": 219
+  "width": 800,
+  "height": 531,
+  "hd": "/images/d042.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1275
  },
  "d043": {
   "id": "d043",
@@ -508,21 +611,25 @@
   "license": "CC BY 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "src": "/images/d043.webp",
-  "width": 330,
-  "height": 212
+  "width": 800,
+  "height": 514,
+  "hd": "/images/d043.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1233
  },
  "d044": {
   "id": "d044",
-  "title": "Great Barrier Reef",
-  "filename": "ISS-45_StoryOfWater,_Great_Barrier_Reef,_Australia.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg/330px-ISS-45_StoryOfWater%2C_Great_Barrier_Reef%2C_Australia.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:ISS-45_StoryOfWater,_Great_Barrier_Reef,_Australia.jpg",
-  "credit": "NASA/Kjell Lindgren",
-  "license": "Public domain · resized and cropped",
-  "licenseUrl": "",
+  "title": "Great Barrier Reef from the air",
   "src": "/images/d044.webp",
-  "width": 330,
-  "height": 220
+  "credit": "Ank Kumar / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Great_Barrier_Reef_(Ank_Kumar)_05.jpg",
+  "license": "CC BY-SA 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/d044.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d045": {
   "id": "d045",
@@ -534,8 +641,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d045.webp",
-  "width": 330,
-  "height": 247
+  "width": 800,
+  "height": 600,
+  "hd": "/images/d045.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1440
  },
  "d046": {
   "id": "d046",
@@ -547,8 +657,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d046.webp",
-  "width": 330,
-  "height": 513
+  "width": 515,
+  "height": 800,
+  "hd": "/images/d046.hd.webp",
+  "hdWidth": 1236,
+  "hdHeight": 1920
  },
  "d047": {
   "id": "d047",
@@ -560,8 +673,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d047.webp",
-  "width": 330,
-  "height": 190
+  "width": 800,
+  "height": 461,
+  "hd": "/images/d047.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1106
  },
  "d048": {
   "id": "d048",
@@ -573,21 +689,25 @@
   "license": "CC BY-SA 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "src": "/images/d048.webp",
-  "width": 330,
-  "height": 219
+  "width": 800,
+  "height": 532,
+  "hd": "/images/d048.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1277
  },
  "d050": {
   "id": "d050",
-  "title": "Mountain gorilla",
-  "filename": "Susa_group,_mountain_gorilla.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Susa_group%2C_mountain_gorilla.jpg/330px-Susa_group%2C_mountain_gorilla.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Susa_group,_mountain_gorilla.jpg",
-  "credit": "https://www.flickr.com/photos/deepphoto/ d_proffer",
-  "license": "CC BY 2.0 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "title": "Mountain gorilla, Bwindi",
   "src": "/images/d050.webp",
-  "width": 330,
-  "height": 347
+  "credit": "Diego Delso / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Gorila_de_monta%C3%B1a_(Gorilla_beringei_beringei),_parque_nacional_de_la_Selva_Impenetrable_de_Bwindi,_Uganda,_2024-02-02,_DD_80.jpg",
+  "license": "CC BY-SA 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/d050.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d051": {
   "id": "d051",
@@ -599,8 +719,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d051.webp",
-  "width": 330,
-  "height": 207
+  "width": 800,
+  "height": 503,
+  "hd": "/images/d051.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1207
  },
  "d052": {
   "id": "d052",
@@ -612,21 +735,25 @@
   "license": "CC BY 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "src": "/images/d052.webp",
-  "width": 330,
-  "height": 286
+  "width": 800,
+  "height": 693,
+  "hd": "/images/d052.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1664
  },
  "d053": {
   "id": "d053",
-  "title": "Torres del Paine National Park",
-  "filename": "Torres_del_Paine_y_cuernos_del_Paine,_montaje.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Torres_del_Paine_y_cuernos_del_Paine%2C_montaje.jpg/330px-Torres_del_Paine_y_cuernos_del_Paine%2C_montaje.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Torres_del_Paine_y_cuernos_del_Paine,_montaje.jpg",
-  "credit": "Karen Chan 16 y Miguel.v ( local | logs | global ) (originales), y Jorge Morales Piderit (montaje).",
-  "license": "CC BY 4.0 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "title": "Towers of Paine, Torres del Paine",
   "src": "/images/d053.webp",
-  "width": 330,
-  "height": 418
+  "credit": "Thomas Fuhrmann / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Towers_of_Paine_-_Torres_del_Paine_National_Park_13.jpg",
+  "license": "CC BY-SA 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/d053.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d054": {
   "id": "d054",
@@ -638,8 +765,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d054.webp",
-  "width": 330,
-  "height": 141
+  "width": 800,
+  "height": 343,
+  "hd": "/images/d054.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 823
  },
  "d057": {
   "id": "d057",
@@ -651,8 +781,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d057.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d057.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d058": {
   "id": "d058",
@@ -664,8 +797,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d058.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d058.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d060": {
   "id": "d060",
@@ -677,8 +813,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d060.webp",
-  "width": 330,
-  "height": 234
+  "width": 800,
+  "height": 567,
+  "hd": "/images/d060.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1360
  },
  "d061": {
   "id": "d061",
@@ -690,21 +829,25 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d061.webp",
-  "width": 330,
-  "height": 215
+  "width": 800,
+  "height": 522,
+  "hd": "/images/d061.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1253
  },
  "d062": {
   "id": "d062",
-  "title": "Zion National Park",
-  "filename": "Zion_angels_landing_view.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Zion_angels_landing_view.jpg/330px-Zion_angels_landing_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Zion_angels_landing_view.jpg",
-  "credit": "Diliff",
+  "title": "Zion National Park, Utah",
+  "src": "/images/d062.webp",
+  "credit": "“Jon Zander(digon3)” / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Mountains_in_Zion_National_Park,_Utah.jpg",
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-  "src": "/images/d062.webp",
-  "width": 330,
-  "height": 338
+  "hd": "/images/d062.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d063": {
   "id": "d063",
@@ -716,21 +859,25 @@
   "license": "Public domain · resized and cropped",
   "licenseUrl": "",
   "src": "/images/d063.webp",
-  "width": 330,
-  "height": 247
+  "width": 800,
+  "height": 600,
+  "hd": "/images/d063.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1440
  },
  "d064": {
   "id": "d064",
-  "title": "Kenai Fjords National Park",
-  "filename": "Kenai_Fjords_coast.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Kenai_Fjords_coast.jpg/330px-Kenai_Fjords_coast.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Kenai_Fjords_coast.jpg",
-  "credit": "NPS",
-  "license": "Public domain · resized and cropped",
-  "licenseUrl": "",
+  "title": "Kenai Fjords National Park, Alaska",
   "src": "/images/d064.webp",
-  "width": 330,
-  "height": 247
+  "credit": "Ovedc / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:By_ovedc_-_Kenai_Fjords_National_Park_-_2.jpg",
+  "license": "CC BY-SA 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/d064.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d066": {
   "id": "d066",
@@ -742,8 +889,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
   "src": "/images/d066.webp",
-  "width": 330,
-  "height": 119
+  "width": 800,
+  "height": 290,
+  "hd": "/images/d066.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 695
  },
  "d069": {
   "id": "d069",
@@ -755,8 +905,11 @@
   "license": "Public domain · resized and cropped",
   "licenseUrl": "",
   "src": "/images/d069.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d069.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d070": {
   "id": "d070",
@@ -768,21 +921,25 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d070.webp",
-  "width": 330,
-  "height": 247
+  "width": 800,
+  "height": 600,
+  "hd": "/images/d070.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1440
  },
  "d072": {
   "id": "d072",
-  "title": "Bora Bora",
-  "filename": "Bora_Bora_ISS006.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Bora_Bora_ISS006.jpg/330px-Bora_Bora_ISS006.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Bora_Bora_ISS006.jpg",
-  "credit": "NASA Johnson Space Center",
-  "license": "Public domain · resized and cropped",
-  "licenseUrl": "",
+  "title": "Bora Bora and Mount Otemanu",
   "src": "/images/d072.webp",
-  "width": 330,
-  "height": 264
+  "credit": "The TerraMar Project / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Bora_Bora_(16542797633).jpg",
+  "license": "CC BY 2.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "hd": "/images/d072.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d073": {
   "id": "d073",
@@ -794,21 +951,25 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d073.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d073.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d074": {
   "id": "d074",
-  "title": "Raja Ampat Islands",
-  "filename": "Raja_Ampat_Islands_-_journal.pbio.1001457.g001.png",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Raja_Ampat_Islands_-_journal.pbio.1001457.g001.png/330px-Raja_Ampat_Islands_-_journal.pbio.1001457.g001.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Raja_Ampat_Islands_-_journal.pbio.1001457.g001.png",
-  "credit": "Jonathan Chase",
-  "license": "CC BY 2.5 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+  "title": "Piaynemo, Raja Ampat",
   "src": "/images/d074.webp",
-  "width": 330,
-  "height": 219
+  "credit": "Rolandandika / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Piaynemo_Raja_Ampat.jpg",
+  "license": "CC BY-SA 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/d074.hd.webp",
+  "width": 800,
+  "height": 534,
+  "hdWidth": 1920,
+  "hdHeight": 1282
  },
  "d075": {
   "id": "d075",
@@ -820,8 +981,11 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "src": "/images/d075.webp",
-  "width": 330,
-  "height": 216
+  "width": 800,
+  "height": 524,
+  "hd": "/images/d075.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1257
  },
  "d076": {
   "id": "d076",
@@ -833,8 +997,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d076.webp",
-  "width": 330,
-  "height": 247
+  "width": 800,
+  "height": 600,
+  "hd": "/images/d076.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1440
  },
  "d077": {
   "id": "d077",
@@ -846,8 +1013,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d077.webp",
-  "width": 330,
-  "height": 165
+  "width": 800,
+  "height": 400,
+  "hd": "/images/d077.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 959
  },
  "d078": {
   "id": "d078",
@@ -859,21 +1029,25 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "src": "/images/d078.webp",
-  "width": 330,
-  "height": 193
+  "width": 800,
+  "height": 468,
+  "hd": "/images/d078.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1123
  },
  "d079": {
   "id": "d079",
-  "title": "Bagan",
-  "filename": "Bagan,_Burma.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Bagan%2C_Burma.jpg/330px-Bagan%2C_Burma.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Bagan,_Burma.jpg",
-  "credit": "Corto Maltese 1999",
-  "license": "CC BY 2.0 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "title": "Temples of Old Bagan",
   "src": "/images/d079.webp",
-  "width": 330,
-  "height": 216
+  "credit": "Vyacheslav Argenberg / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Old_Bagan,_Myanmar,_Landscape_of_ancient_Bagan_city.jpg",
+  "license": "CC BY 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "hd": "/images/d079.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d080": {
   "id": "d080",
@@ -885,8 +1059,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d080.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d080.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d081": {
   "id": "d081",
@@ -898,21 +1075,25 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d081.webp",
-  "width": 330,
-  "height": 219
+  "width": 800,
+  "height": 532,
+  "hd": "/images/d081.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1277
  },
  "d083": {
   "id": "d083",
-  "title": "Socotra",
-  "filename": "Socotra_satview.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Socotra_satview.jpg/330px-Socotra_satview.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Socotra_satview.jpg",
-  "credit": "Wikimedia Commons",
-  "license": "Public domain · resized and cropped",
-  "licenseUrl": "",
+  "title": "Dragon’s blood trees, Socotra",
   "src": "/images/d083.webp",
-  "width": 330,
-  "height": 244
+  "credit": "Rod Waddington / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Dragon%27s_Blood_Tree,_Socotra_Is.jpg",
+  "license": "CC BY-SA 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/d083.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d084": {
   "id": "d084",
@@ -924,21 +1105,25 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "src": "/images/d084.webp",
-  "width": 330,
-  "height": 185
+  "width": 800,
+  "height": 449,
+  "hd": "/images/d084.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1078
  },
  "d085": {
   "id": "d085",
-  "title": "Avenue of the Baobabs",
-  "filename": "Adansonia_grandidieri_Pat_Hooper.jpg",
-  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Adansonia_grandidieri_Pat_Hooper.jpg/330px-Adansonia_grandidieri_Pat_Hooper.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-  "page": "https://commons.wikimedia.org/wiki/File:Adansonia_grandidieri_Pat_Hooper.jpg",
-  "credit": "Pat Hooper from Chicago, IL, USA",
-  "license": "CC BY-SA 2.0 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "title": "Avenue of the Baobabs, Morondava",
   "src": "/images/d085.webp",
-  "width": 330,
-  "height": 156
+  "credit": "Frank Vassen / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:All%C3%A9e_des_Baobabs_near_Morondava,_Madagascar_2.jpg",
+  "license": "CC BY 2.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "hd": "/images/d085.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d086": {
   "id": "d086",
@@ -950,8 +1135,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d086.webp",
-  "width": 330,
-  "height": 438
+  "width": 602,
+  "height": 800,
+  "hd": "/images/d086.hd.webp",
+  "hdWidth": 1446,
+  "hdHeight": 1920
  },
  "d087": {
   "id": "d087",
@@ -963,8 +1151,11 @@
   "license": "CC BY-SA 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "src": "/images/d087.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d087.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d090": {
   "id": "d090",
@@ -976,8 +1167,11 @@
   "license": "Public domain · resized and cropped",
   "licenseUrl": "",
   "src": "/images/d090.webp",
-  "width": 330,
-  "height": 221
+  "width": 800,
+  "height": 536,
+  "hd": "/images/d090.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1286
  },
  "d091": {
   "id": "d091",
@@ -989,8 +1183,11 @@
   "license": "CC BY-SA 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "src": "/images/d091.webp",
-  "width": 330,
-  "height": 206
+  "width": 800,
+  "height": 500,
+  "hd": "/images/d091.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1200
  },
  "d092": {
   "id": "d092",
@@ -1002,8 +1199,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d092.webp",
-  "width": 330,
-  "height": 185
+  "width": 800,
+  "height": 448,
+  "hd": "/images/d092.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1074
  },
  "d093": {
   "id": "d093",
@@ -1015,8 +1215,11 @@
   "license": "CC BY 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "src": "/images/d093.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 534,
+  "hd": "/images/d093.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1282
  },
  "d094": {
   "id": "d094",
@@ -1028,8 +1231,11 @@
   "license": "CC0 · resized and cropped",
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "src": "/images/d094.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 532,
+  "hd": "/images/d094.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1278
  },
  "d095": {
   "id": "d095",
@@ -1041,8 +1247,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d095.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d095.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d096": {
   "id": "d096",
@@ -1054,8 +1263,11 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "src": "/images/d096.webp",
-  "width": 330,
-  "height": 247
+  "width": 800,
+  "height": 600,
+  "hd": "/images/d096.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1440
  },
  "d097": {
   "id": "d097",
@@ -1067,8 +1279,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d097.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d097.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d098": {
   "id": "d098",
@@ -1080,8 +1295,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d098.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d098.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d099": {
   "id": "d099",
@@ -1093,8 +1311,11 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "src": "/images/d099.webp",
-  "width": 330,
-  "height": 165
+  "width": 800,
+  "height": 400,
+  "hd": "/images/d099.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 960
  },
  "d100": {
   "id": "d100",
@@ -1106,8 +1327,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d100.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d100.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d101": {
   "id": "d101",
@@ -1119,8 +1343,11 @@
   "license": "CC0 · resized and cropped",
   "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
   "src": "/images/d101.webp",
-  "width": 330,
-  "height": 249
+  "width": 800,
+  "height": 605,
+  "hd": "/images/d101.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1452
  },
  "d102": {
   "id": "d102",
@@ -1132,8 +1359,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d102.webp",
-  "width": 330,
-  "height": 247
+  "width": 800,
+  "height": 600,
+  "hd": "/images/d102.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1440
  },
  "d104": {
   "id": "d104",
@@ -1145,8 +1375,11 @@
   "license": "CC BY 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "src": "/images/d104.webp",
-  "width": 330,
-  "height": 236
+  "width": 800,
+  "height": 571,
+  "hd": "/images/d104.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1371
  },
  "d105": {
   "id": "d105",
@@ -1158,8 +1391,11 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "src": "/images/d105.webp",
-  "width": 330,
-  "height": 214
+  "width": 800,
+  "height": 519,
+  "hd": "/images/d105.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1245
  },
  "d106": {
   "id": "d106",
@@ -1171,8 +1407,11 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "src": "/images/d106.webp",
-  "width": 330,
-  "height": 220
+  "width": 800,
+  "height": 533,
+  "hd": "/images/d106.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d107": {
   "id": "d107",
@@ -1184,8 +1423,11 @@
   "license": "Public domain · resized and cropped",
   "licenseUrl": "",
   "src": "/images/d107.webp",
-  "width": 330,
-  "height": 215
+  "width": 800,
+  "height": 521,
+  "hd": "/images/d107.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1251
  },
  "d015": {
   "id": "d015",
@@ -1196,7 +1438,10 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d015.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d017": {
   "id": "d017",
@@ -1207,18 +1452,24 @@
   "license": "CC BY 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d017.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "d032": {
   "id": "d032",
-  "title": "Pamir Highway Route",
+  "title": "Pamir Highway beside the Panj River",
   "src": "/images/d032.webp",
-  "credit": "Derived from CIA map by Bantman at en.wikipedia, transferred to Commons by User:Man77 using CommonsHelper. / Wikimedia Commons",
-  "page": "https://commons.wikimedia.org/wiki/File:Pamir_Highway_Route.jpg",
-  "license": "Public domain · resized and cropped",
-  "licenseUrl": "",
+  "credit": "Kondephy / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Pamir_Highway_and_Panj_1.jpg",
+  "license": "CC BY-SA 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/d032.hd.webp",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d049": {
   "id": "d049",
@@ -1229,29 +1480,38 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d049.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "d055": {
   "id": "d055",
-  "title": "Reserva Eduardo Avaroa (Eduardo Avaroa Andean Fauna National Reserve)",
+  "title": "Salar de Uyuni",
   "src": "/images/d055.webp",
-  "credit": "Oscar Murillo Mallea / Wikimedia Commons",
-  "page": "https://commons.wikimedia.org/wiki/File:Reserva_Eduardo_Avaroa.jpg",
+  "credit": "Diego Delso / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Salar_de_Uyuni,_Bolivia,_2016-02-04,_DD_44.JPG",
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/d055.hd.webp",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d056": {
   "id": "d056",
-  "title": "Valle della Luna 01 (Valle de la Luna (Chile))",
+  "title": "Valle de la Luna, San Pedro de Atacama",
   "src": "/images/d056.webp",
-  "credit": "Davide guallini / Wikimedia Commons",
-  "page": "https://commons.wikimedia.org/wiki/File:Valle_della_Luna_01.jpg",
-  "license": "CC BY-SA 3.0 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "credit": "Diego Delso / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Anfiteatro,_Valle_de_la_Luna,_San_Pedro_de_Atacama,_Chile,_2016-02-01,_DD_149.JPG",
+  "license": "CC BY-SA 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/d056.hd.webp",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d067": {
   "id": "d067",
@@ -1262,7 +1522,10 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "width": 800,
-  "height": 533
+  "height": 534,
+  "hd": "/images/d067.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d068": {
   "id": "d068",
@@ -1273,7 +1536,10 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "width": 800,
-  "height": 533
+  "height": 534,
+  "hd": "/images/d068.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1281
  },
  "d089": {
   "id": "d089",
@@ -1284,7 +1550,10 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d089.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "d108": {
   "id": "d108",
@@ -1295,7 +1564,10 @@
   "license": "CC BY-SA 3.0 de · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d108.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "forty-02": {
   "id": "forty-02",
@@ -1306,18 +1578,24 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/forty-02.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "forty-03": {
   "id": "forty-03",
-  "title": "Torres del Paine y cuernos del Paine, montaje (Torres del Paine National Park)",
+  "title": "Fitz Roy at sunrise, El Chaltén",
   "src": "/images/forty-03.webp",
-  "credit": "Karen Chan 16 y Miguel.v ( local | logs | global ) (originales), y Jorge Morales Piderit (montaje). / Wikimedia Commons",
-  "page": "https://commons.wikimedia.org/wiki/File:Torres_del_Paine_y_cuernos_del_Paine,_montaje.jpg",
-  "license": "CC BY 4.0 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "credit": "Almonroth / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Fitz_Roy_El_Chalten_sunrise-5.jpg",
+  "license": "CC BY-SA 3.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "hd": "/images/forty-03.hd.webp",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "forty-08": {
   "id": "forty-08",
@@ -1328,7 +1606,10 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/forty-08.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "forty-09": {
   "id": "forty-09",
@@ -1339,7 +1620,10 @@
   "license": "CC BY 2.5 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/forty-09.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "forty-15": {
   "id": "forty-15",
@@ -1350,7 +1634,10 @@
   "license": "CC BY 2.5 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/forty-15.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "forty-17": {
   "id": "forty-17",
@@ -1361,7 +1648,10 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/forty-17.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "forty-38": {
   "id": "forty-38",
@@ -1372,7 +1662,10 @@
   "license": "Public domain · resized and cropped",
   "licenseUrl": "",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/forty-38.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "forty-la-digue": {
   "id": "forty-la-digue",
@@ -1383,7 +1676,10 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/forty-la-digue.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "reserve-iran": {
   "id": "reserve-iran",
@@ -1394,7 +1690,10 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "width": 800,
-  "height": 533
+  "height": 534,
+  "hd": "/images/reserve-iran.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1282
  },
  "d059": {
   "id": "d059",
@@ -1405,7 +1704,10 @@
   "license": "CC BY-SA 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d059.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d065": {
   "id": "d065",
@@ -1416,7 +1718,10 @@
   "license": "CC BY 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d065.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d082": {
   "id": "d082",
@@ -1427,7 +1732,10 @@
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d082.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d088": {
   "id": "d088",
@@ -1438,7 +1746,10 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d088.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "d103": {
   "id": "d103",
@@ -1449,7 +1760,10 @@
   "license": "CC BY 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "width": 800,
-  "height": 533
+  "height": 532,
+  "hd": "/images/d103.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1276
  },
  "forty-06": {
   "id": "forty-06",
@@ -1460,18 +1774,24 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "width": 800,
-  "height": 533
+  "height": 534,
+  "hd": "/images/forty-06.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1282
  },
  "forty-13": {
   "id": "forty-13",
-  "title": "Susa group, mountain gorilla",
+  "title": "Virunga volcanoes, Volcanoes National Park",
   "src": "/images/forty-13.webp",
-  "credit": "https://www.flickr.com/photos/deepphoto/ d_proffer / Wikimedia Commons",
-  "page": "https://commons.wikimedia.org/wiki/File:Susa_group,_mountain_gorilla.jpg",
+  "credit": "Nina R from Africa / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Volcanoes_National_Park_(45593389614).jpg",
   "license": "CC BY 2.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "hd": "/images/forty-13.hd.webp",
   "width": 800,
-  "height": 533
+  "height": 501,
+  "hdWidth": 1920,
+  "hdHeight": 1202
  },
  "forty-36": {
   "id": "forty-36",
@@ -1482,7 +1802,10 @@
   "license": "Public domain · resized and cropped",
   "licenseUrl": "",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/forty-36.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "reserve-russia": {
   "id": "reserve-russia",
@@ -1493,7 +1816,10 @@
   "license": "CC BY 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
   "width": 800,
-  "height": 533
+  "height": 532,
+  "hd": "/images/reserve-russia.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1276
  },
  "d071": {
   "id": "d071",
@@ -1504,18 +1830,24 @@
   "license": "Public domain · resized and cropped",
   "licenseUrl": "",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/d071.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "forty-10": {
   "id": "forty-10",
-  "title": "Ukok Plateau 2 (Khüiten Peak)",
+  "title": "Tavan Bogd, Mongolian Altai",
   "src": "/images/forty-10.webp",
-  "credit": "Original uploader was Kobsev at ru.wikipedia / Wikimedia Commons",
-  "page": "https://commons.wikimedia.org/wiki/File:Ukok_Plateau_2.jpg",
-  "license": "CC BY 2.5 · resized and cropped",
-  "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+  "credit": "Altaihunters / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:Camping_in_Tavan_Bogd.jpg",
+  "license": "CC BY-SA 3.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "hd": "/images/forty-10.hd.webp",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  },
  "egypt-aswan": {
   "id": "egypt-aswan",
@@ -1526,7 +1858,10 @@
   "license": "CC BY 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/egypt-aswan.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "egypt-nile": {
   "id": "egypt-nile",
@@ -1537,7 +1872,10 @@
   "license": "CC BY-SA 3.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/egypt-nile.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
  },
  "egypt-luxor": {
   "id": "egypt-luxor",
@@ -1548,6 +1886,23 @@
   "license": "CC BY-SA 4.0 · resized and cropped",
   "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
   "width": 800,
-  "height": 533
+  "height": 533,
+  "hd": "/images/egypt-luxor.hd.webp",
+  "hdWidth": 1920,
+  "hdHeight": 1279
+ },
+ "forty-37": {
+  "id": "forty-37",
+  "title": "Ningaloo Reef coast, Western Australia",
+  "src": "/images/forty-37.webp",
+  "credit": "W. Bulach / Wikimedia Commons",
+  "page": "https://commons.wikimedia.org/wiki/File:00_1870_Ningaloo_Reef_-_Westaustralien.jpg",
+  "license": "CC BY-SA 4.0 · resized and cropped",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "hd": "/images/forty-37.hd.webp",
+  "width": 800,
+  "height": 533,
+  "hdWidth": 1920,
+  "hdHeight": 1280
  }
 }

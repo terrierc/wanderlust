@@ -21,7 +21,8 @@ function card(p, ctx) {
 const row = p => '<li><a class="row-item" href="/place/' + esc(p.id) + '"><span class="dot" style="background:' + PIN(p.status) + '"></span><span><strong>' + esc(p.name) + '</strong><small>' + esc(p.country) + ' · ' + esc(STATUS_LABEL(p.status || 'Unconfirmed')) + '</small></span>' + icon('arrow') + '</a></li>';
 
 const daysTo = t => Math.max(0, Math.round((new Date(t.windowStart + '-01') - new Date(todayISO())) / 864e5));
-const bg = (ctx, id) => ctx.PHOTOS[id] ? ' style="--img:url(' + esc(ctx.PHOTOS[id].src) + ')"' : '';
+const bgSmall = (ctx, id) => ctx.PHOTOS[id] ? ' style="--img:url(' + esc(ctx.PHOTOS[id].src) + ')"' : '';
+const bg = (ctx, id) => ctx.PHOTOS[id] ? ' style="--img:url(' + esc(ctx.PHOTOS[id].hd || ctx.PHOTOS[id].src) + ')"' : '';
 // The home dashboard: big photographic doorways into each part of the app, then the trips coming up.
 function dashboard(ctx, f, planTrips, upNext, visited) {
   const ring = (f.done / 40 * 100).toFixed(1), mosaic = f.selection.map(id => f.entries.find(e => e.id === id)).filter(Boolean);
@@ -29,7 +30,7 @@ function dashboard(ctx, f, planTrips, upNext, visited) {
   const tile = (href, cls, img, eyebrow, title, body) => '<li class="reveal"><a class="door ' + cls + '" href="' + href + '"' + img + '><span class="door-in"><span class="eyebrow">' + eyebrow + '</span><strong>' + title + '</strong>' + (body ? '<span class="door-body">' + body + '</span>' : '') + '</span>' + icon('arrow') + '</a></li>';
   return '<section class="page wide dash"><div class="section-head reveal"><div><p class="eyebrow">Where to next</p><h2>Your world, <em>at a glance.</em></h2></div></div><ul class="doors">' +
     (upNext ? tile('/journeys/' + upNext.id, 'big', bg(ctx, coverId(ctx, upNext)), 'Next adventure · ' + esc(windowLabel(upNext.windowStart, upNext.windowEnd)), esc(upNext.name.replace(/^.*?: /, '')), esc(upNext.scope || '')) : '') +
-    '<li class="reveal"><a class="door forty-door" href="/forty"><span class="door-in"><span class="eyebrow">The forty</span><strong><span data-count="' + f.done + '">' + f.done + '</span> of 40</strong><span class="mini-mosaic" aria-hidden="true">' + mosaic.map(e => '<i class="' + (fortyDoneIds.has(e.id) ? 'done' : '') + '"' + bg(ctx, e.photoId) + '></i>').join('') + '</span></span>' + icon('arrow') + '</a></li>' +
+    '<li class="reveal"><a class="door forty-door" href="/forty"><span class="door-in"><span class="eyebrow">The forty</span><strong><span data-count="' + f.done + '">' + f.done + '</span> of 40</strong><span class="mini-mosaic" aria-hidden="true">' + mosaic.map(e => '<i class="' + (fortyDoneIds.has(e.id) ? 'done' : '') + '"' + bgSmall(ctx, e.photoId) + '></i>').join('') + '</span></span>' + icon('arrow') + '</a></li>' +
     tile('/plan', 'plan-door', '', 'Your plan', planTrips.length ? planTrips.length + ' trips planned' : 'Plan your next trips', '<span class="mini-bars" aria-hidden="true">' + planTrips.map(t => '<i style="--x:' + ((+t.windowStart.slice(0, 4) - 2026) * 12 + +t.windowStart.slice(5, 7) - 11) / 66 * 100 + '%"></i>').join('') + '</span>') +
     tile('/story', 'story-door', bg(ctx, 'd029'), 'Travel story', visited + ' countries', 'And every memory you keep') +
     tile('/today', 'today-door', '', 'Today', 'Your day, offline', 'Plans, bookings, contacts') +

@@ -43,7 +43,13 @@ self.addEventListener('fetch', event => {
   if (url.pathname.startsWith('/images/')) {
     event.respondWith((async () => {
       const hit = await caches.match(req); if (hit) return hit;
-      const res = await fetch(req);
+      let res;
+      try { res = await fetch(req); }
+      catch (e) { // offline: an HD photo falls back to the small version saved for offline use
+        const m = url.pathname.match(/^\/images\/(.+)\.hd-[0-9a-f]+\.webp$/); if (!m) throw e;
+        const c = await caches.open(PHOTOS), key = (await c.keys()).find(k => new URL(k.url).pathname.startsWith('/images/' + m[1] + '-'));
+        if (key) return c.match(key); throw e;
+      }
       if (res.ok && (res.headers.get('Content-Type') || '').startsWith('image/')) { const c = await caches.open(PHOTOS); await c.put(req, res.clone()); }
       return res;
     })());

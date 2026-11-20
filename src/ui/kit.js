@@ -57,7 +57,8 @@ export function formValues(form) {
 // ---------- photographs (only bundled photos with licence metadata) ----------
 export function photo(PHOTOS, id, { cls = '', eager = false, alt, caption = false, illustrative = false } = {}) {
   const p = PHOTOS[id]; if (!p) return '';
-  return '<figure class="photo ' + cls + '"><img src="' + esc(p.src) + '" alt="' + esc(alt ?? p.title) + '" width="' + (p.width || 800) + '" height="' + (p.height || 533) + '"' + (eager ? ' fetchpriority="high"' : ' loading="lazy"') + ' decoding="async">' + (caption ? '<figcaption>' + (illustrative ? '<strong>Regional imagery</strong> · ' : '') + esc(p.title) + ' · ' + esc(p.credit) + '</figcaption>' : '') + '</figure>';
+  const set = p.hd ? ' srcset="' + esc(p.src) + ' ' + (p.width || 800) + 'w, ' + esc(p.hd) + ' ' + (p.hdWidth || 1920) + 'w" sizes="' + (cls.includes('card') ? '(max-width: 700px) 100vw, 420px' : '100vw') + '"' : '';
+  return '<figure class="photo ' + cls + '"><img src="' + esc(p.src) + '"' + set + ' alt="' + esc(alt ?? p.title) + '" width="' + (p.width || 800) + '" height="' + (p.height || 533) + '"' + (eager ? ' fetchpriority="high"' : ' loading="lazy"') + ' decoding="async">' + (caption ? '<figcaption>' + (illustrative ? '<strong>Regional imagery</strong> · ' : '') + esc(p.title) + ' · ' + esc(p.credit) + '</figcaption>' : '') + '</figure>';
 }
 
 // ---------- feedback ----------

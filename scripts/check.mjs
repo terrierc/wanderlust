@@ -162,7 +162,17 @@ const catalogue = JSON.parse(await fs.readFile('destinations.json', 'utf8')), FO
   const nin = FORTY.entries.find(e => e.name === 'Ningaloo Reef'); assert.equal(catalogue.find(p => p.id === nin.placeId).name, 'Ningaloo Reef'); assert.notEqual(nin.placeId, 'd044');
   const moo = FORTY.entries.find(e => e.name === 'Moorea'); assert.equal(catalogue.find(p => p.id === moo.placeId).name, 'Moorea'); assert.notEqual(catalogue.find(p => p.id === moo.placeId).name, 'Bora Bora');
   for (const n of ['Petra', 'Wadi Rum']) assert(FORTY.entries.find(e => e.name.startsWith(n)).conditional);
-  ok('All 48 collection entries linked; Ningaloo ≠ Great Barrier Reef; Moorea ≠ Bora Bora; Petra and Wadi Rum conditional');
+  // photos: every one has a small and an HD (long edge >= 1920) file, and every collection entry shows a real photo
+  const PH = JSON.parse(await fs.readFile('photos-ready.json', 'utf8'));
+  const webpSize = b => b.toString('ascii', 12, 16) === 'VP8X' ? [1 + b.readUIntLE(24, 3), 1 + b.readUIntLE(27, 3)] : b.toString('ascii', 12, 16) === 'VP8L' ? [(b.readUInt32LE(21) & 0x3fff) + 1, ((b.readUInt32LE(21) >> 14) & 0x3fff) + 1] : [b.readUInt16LE(26) & 0x3fff, b.readUInt16LE(28) & 0x3fff];
+  for (const [id, p] of Object.entries(PH)) {
+    assert(p.hd && p.credit && p.page && p.license, id + ' has HD file and credit');
+    const [w, h] = webpSize(await fs.readFile('assets/web/' + p.hd.split('/').pop()));
+    assert(Math.max(w, h) >= 1920, id + ' HD is at least 1920px (' + w + 'x' + h + ')');
+    await fs.access('assets/web/' + p.src.split('/').pop());
+  }
+  for (const e of FORTY.entries) assert(PH[e.photoId], e.id + ' shows a photo');
+  ok('Every photo HD with credit; all 48 collection entries linked and photographed; Ningaloo ≠ Great Barrier Reef; Moorea ≠ Bora Bora; Petra and Wadi Rum conditional');
 }
 
 // ---------- client store, domain rules and exports (in-memory) ----------

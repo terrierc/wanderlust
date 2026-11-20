@@ -20,14 +20,15 @@ const plan = JSON.parse(await read('plan/forty-plan.json'));
 
 // ---------- photographs (immutable, content-hashed) ----------
 const images = {}; const imagePath = {};
-const neededImages = new Set([...Object.values(photos).map(p => p.src.split('/').pop()), 'hero-lofoten.webp', 'hero-iceland.webp', 'hero-sardinia.webp']);
+// Each photo has a small card/offline version (<id>.webp, long edge 800) and an HD version (<id>.hd.webp, long edge 1920).
+const neededImages = new Set([...Object.values(photos).flatMap(p => [p.src, p.hd].filter(Boolean).map(s => s.split('/').pop())), 'hero-lofoten.webp', 'hero-iceland.webp', 'hero-sardinia.webp']);
 for (const name of (await fs.readdir('assets/web')).sort()) {
   if (!neededImages.has(name)) continue;
   const bytes = await fs.readFile('assets/web/' + name);
   const p = '/images/' + name.replace('.webp', '-' + hash(bytes).slice(0, 10) + '.webp');
   images[p] = bytes; imagePath['/images/' + name] = p;
 }
-for (const p of Object.values(photos)) { p.bytes = images[imagePath[p.src]]?.length || null; p.src = imagePath[p.src]; }
+for (const p of Object.values(photos)) { p.bytes = images[imagePath[p.src]]?.length || null; p.src = imagePath[p.src]; if (p.hd) { if (!imagePath[p.hd]) throw new Error('Missing HD image ' + p.hd); p.hd = imagePath[p.hd]; } }
 const sceneCredit = id => photos[id] ? photos[id].credit + ' · ' + photos[id].license : '';
 const scenes = [
   { src: imagePath['/images/hero-lofoten.webp'], alt: 'Mountains and fjords seen from Reinebringen in Lofoten, Norway', place: 'Lofoten Islands, Norway', credit: sceneCredit('d001') },

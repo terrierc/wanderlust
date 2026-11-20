@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0
+- **HD photographs.** Every destination photo now has a 1920 px HD version beside its 800 px card version. Pages load the HD one on large and high-density screens. "Prepare for offline" still saves the small ones, and an HD photo falls back to its small copy when there's no connection. The three full-screen scenes are 1920 px too.
+- **More accurate photos.** Replaced images that were maps, satellite views, collages or the wrong place (for example, the Pamir Highway map, Issyk-Kul for the Kyrgyz mountains, and a lagoon for Salar de Uyuni). Also replaced every source too small for HD. Replacements are Wikimedia Commons photos with free licences, credited on the Credits page.
+- **Collection entries use their own photo.** Eleven places that showed a "regional" stand-in now show their own photo, and Ningaloo Reef has one for the first time. Only Gulf of Orosei is still labelled regional imagery.
+- **Fix:** the header no longer pushes the page sideways on mid-size screens.
+
 ## 1.1.0
 - **Desert Dawn and Desert Midnight themes.** Desert Dawn (light): warm sand, violet ink and sunrise orange. Desert Midnight (dark): black sky, midnight blue, violet haze and ember orange. Both share a night-sky header with a sunrise horizon line.
 - **Theme switch and labelled Menu.** The header's Menu button opens Appearance (Auto, Light or Dark, remembered on each device), Trips & money, Your data and App, each item with a one-line description.

@@ -394,3 +394,7 @@ dialog.sheet::backdrop{background:rgb(8 6 22 / .6);backdrop-filter:blur(4px)}
 .ec-nums{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:0 0 12px}.ec-nums div{background:var(--tint-bad);border-radius:12px;padding:10px 12px}.ec-nums dt{font-size:.8rem;color:var(--muted)}.ec-nums dd{margin:0;font:600 1.25rem var(--sans)}.ec-nums a{color:var(--ink);text-decoration:none}
 .ec-mission{padding:10px 0;border-bottom:1px solid var(--line2)}
 @media print{.ec .panel{break-inside:avoid;border:1px solid #999}.trip-head,.tabs{display:none!important}}
+
+/* Mid-width header: the Flight deals, sync and Menu labels collapse to icons (still read by screen readers)
+   so the header never pushes the page wider than the window. */
+@media (max-width:1240px){.dealbtn span,.syncchip span,.menubtn span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
